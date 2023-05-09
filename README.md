@@ -7,7 +7,7 @@
 ![](文艺坊图库/红旗礼逆袭.gif)
 
 - [中科红旗](https://www.chinaredflag.cn)
-- [红旗应用商城](http://www.linuxsir.cn)
+- [红旗应用商城](https://www.linuxsir.cn)
 
 #### 软件架构
 
