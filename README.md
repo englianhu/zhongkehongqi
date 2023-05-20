@@ -13,7 +13,8 @@
 
 第一个由咱们中华民族创办的电脑操作系统 --- 🚩🇨🇳🏹红旗礼逆袭
 
-- [RUNOOB.com](https://www.runoob.com)各类编程教程网
+- [<img src='文艺坊图库/RunoobCom.png' height='14'/>](https://www.runoob.com)各类编程教程网
+- [<img src='文艺坊图库/DBS数据服务.png' height='14'/>](https://www.dbs724.com)礼逆袭程教程网
 
 #### 安装教程
 
@@ -43,3 +44,10 @@
 4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
 5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+<br><br>
+
+---
+
+[<img src='文艺坊图库/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src='文艺坊图库/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
