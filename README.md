@@ -15,6 +15,8 @@
 
 - [<img src='文艺坊图库/RunoobCom.png' height='14'/>](https://www.runoob.com)各类编程教程网
 - [<img src='文艺坊图库/DBS数据服务.png' height='14'/>](https://www.dbs724.com)礼逆袭程教程网
+- [中文马克思主义文库](https://www.marxists.org/chinese/index.html)
+- [中文马克思主义文·库参考图书·左翼文化](https://www.marxists.org/chinese/reference-books/index-leftwingculture.htm)
 
 #### 安装教程
 
