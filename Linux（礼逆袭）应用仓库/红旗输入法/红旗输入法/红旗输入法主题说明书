@@ -6,8 +6,8 @@ sudo apt install *scim* *gcin* *hime* *fcitx* *im*panel* -y
 sudo chmod 777 -R /usr/share/fcitx-qimpanel/skin/
 
 ##建立个红旗礼逆袭主题文件夹
-sudo mkdir /usr/share/fcitx-qimpanel/skin/红旗礼逆袭
-cd /usr/share/fcitx-qimpanel/skin/红旗礼逆袭
+sudo mkdir /usr/share/fcitx-qimpanel/skin/红旗输入法
+cd /usr/share/fcitx-qimpanel/skin/红旗输入法
 
 ```
 
