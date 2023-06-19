@@ -53,7 +53,7 @@
 - [文摘编程 perlyuyan（繁体）](https://github.com/englianhu/lingua-sinica-perlyuyan)
 - [易语言（简体）](https://www.dywt.com.cn)
 - 习语言（简体）
-- 青语言（简体）
+- [青语言（简体）](https://qingyuyan.cn)
 - 其它
 
 <br><br>
