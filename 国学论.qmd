@@ -2,7 +2,7 @@
 title: "<img src='中科红旗∙兵工厂/夜下追韩信 1024x768.png' height='240'>"
 subtitle: "[<span style='color:Red; background-color:black;'>国学论</span>](https://github.com/englianhu/RedFlag-Linux)<br>[<span style='color:#4E79A7'>*孔子曰：「君子慎始，差若毫厘，缪以千里。」*</span>](https://github.com/englianhu/RedFlag-Linux)"
 author: "[®γσ, ξηg Lιαη Ημ<br>赢政·黄永春之五公子（雷欧，黄联富）](https://englianhu.github.io) <br><img src='文艺坊图库/赢家ξng黄氏江夏堂 - 量化对冲.png' height='40'> <img src='文艺坊图库/兵马俑 Terracotta Warriors.png' height='40'>® <img src='文艺坊图库/红旗礼逆袭.gif' height='40'> <img src='文艺坊图库/大秦赋 - 北京大学.png' height='40'>" 
-date: "`r today('Asia/Shanghai')"
+date: "'二零二三年六月廿日'"
 output:
   html_document: 
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -164,8 +164,8 @@ format: revealjs
 
 ## 它山之石，可以攻玉。
 
-- 微软视窗与微软办公垄断市场数十载。
-- 鄀文艺坊断市场十载有余。
+- 敌国微软视窗与微软办公垄断市场数十载。
+- 敌国鄀文艺坊断市场十载有余。
 - 猫城/代码托管平台。
 - 甲骨文数据库。
 
