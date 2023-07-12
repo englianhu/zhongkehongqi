@@ -18,6 +18,8 @@
 - [码农家园](https://www.codenong.com)
 - [中文马克思主义文库](https://www.marxists.org/chinese/index.html)
 - [中文马克思主义文·库参考图书·左翼文化](https://www.marxists.org/chinese/reference-books/index-leftwingculture.htm)
+- https://m.sohu.com/n/223923280
+
 
 ### 安装教程
 
