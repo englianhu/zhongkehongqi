@@ -21,6 +21,7 @@
 - https://m.sohu.com/n/223923280
 - https://www.newera.edu.my/competition/hua_lo_geng/ch/passyear.php
 - https://m.sgss8.net/tpdq/33842394
+- http://www.cim.nankai.edu.cn
 
 ### 安装教程
 
