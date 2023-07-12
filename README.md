@@ -20,6 +20,7 @@
 - [中文马克思主义文·库参考图书·左翼文化](https://www.marxists.org/chinese/reference-books/index-leftwingculture.htm)
 - https://m.sohu.com/n/223923280
 - https://www.newera.edu.my/competition/hua_lo_geng/ch/passyear.php
+- https://m.sgss8.net/tpdq/33842394
 
 ### 安装教程
 
