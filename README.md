@@ -10,6 +10,7 @@
 - [红旗应用商城](https://www.linuxsir.cn)
 
 ![](文艺坊图库/国产操作系统廿年 - 进退攻防，战斗不止.png)
+
 *出处：[国产操作系统廿年：进退攻防，战斗不止](https://zhidao.baidu.com/question/1711957358187244260.html)*
 
 ```r
