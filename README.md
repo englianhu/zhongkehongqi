@@ -8,6 +8,8 @@
 
 - [中科红旗](https://www.chinaredflag.cn)
 - [红旗应用商城](https://www.linuxsir.cn)
+- [中科红旗简介](http://tech.sina.com.cn/it/2004-07-11/1329386073.shtml)
+- [北京中科红旗软件技术有限公司（简称红旗软件）](http://finance.sina.com.cn/110/2004-07-11/308.html)
 
 ![](文艺坊图库/国产操作系统廿年 - 进退攻防，战斗不止.png)
 
@@ -44,6 +46,7 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 - [时代呼唤鸿蒙：华为打破魔咒究竟有多难？](https://baijiahao.baidu.com/s?id=1641651118408178367)
 - [红旗礼逆袭痛失旗手，董事长孙玉芳辞世](http://tech.sina.com.cn/it/2005-01-14/1204504579.shtml)
 - [孙玉芳追悼会下周一举行，新董事长随后产生](http://tech.sina.com.cn/it/2005-01-14/1051504379.shtml)
+- [中科红旗董事长孙玉芳凌晨逝世，新人选未定](http://tech.sina.com.cn/it/2005-01-13/1433503452.shtml)
 
 ### 软件架构
 
