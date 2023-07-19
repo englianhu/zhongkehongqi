@@ -42,6 +42,8 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 - [国产麒麟系统为何饱受争议？](http://www.xckfsq.com/index/jsfw/10711.html)
 - [中国开源软件的风风雨雨，暨怀念恩师孙玉芳](https://tech.sina.com.cn/it/2005-01-16/1109505618.shtml)
 - [时代呼唤鸿蒙：华为打破魔咒究竟有多难？](https://baijiahao.baidu.com/s?id=1641651118408178367)
+- [红旗礼逆袭痛失旗手，董事长孙玉芳辞世](http://tech.sina.com.cn/it/2005-01-14/1204504579.shtml)
+- [孙玉芳追悼会下周一举行，新董事长随后产生](http://tech.sina.com.cn/it/2005-01-14/1051504379.shtml)
 
 ### 软件架构
 
