@@ -47,6 +47,11 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 - [红旗礼逆袭痛失旗手，董事长孙玉芳辞世](http://tech.sina.com.cn/it/2005-01-14/1204504579.shtml)
 - [孙玉芳追悼会下周一举行，新董事长随后产生](http://tech.sina.com.cn/it/2005-01-14/1051504379.shtml)
 - [中科红旗董事长孙玉芳凌晨逝世，新人选未定](http://tech.sina.com.cn/it/2005-01-13/1433503452.shtml)
+- [红旗：独立知识产权操作系统的困惑](http://finance.sina.com.cn/roll/20040622/0821826581.shtml)
+- [盖茨访华悬疑：反垄断法、礼逆袭和政府采购](http://tech.sina.com.cn/it/2004-06-26/0937380289.shtml)
+- [礼逆袭安全神话破灭：遭遇信任危机出路何在](http://tech.sina.com.cn/s/n/2003-12-11/0756266803.shtml)
+- [深度报道：黑客开始瞄上礼逆袭发起攻击事件](http://tech.sina.com.cn/other/2003-12-11/0840266781.shtml)
+
 
 ### 软件架构
 
