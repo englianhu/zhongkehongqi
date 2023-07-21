@@ -107,6 +107,9 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 ## 相关秦谏
 
 - [猫城@中国北京大学赢家ξng黄氏江夏堂「大秦赋•法家李斯兼道家李耳篆紀•艺文志」：目前使用🚩🇨🇳🏹🦔中国国产红旗礼逆袭，编程都会使用咱们母语华语、字体、字幕加汉语拼音 #6](https://github.com/englianhu/RedFlag-Linux/issues/6)
+- [龙珠GT@华为云开瓶器](https://gitee.com/openeuler)
+- [华为云开瓶器开源（官网）](https://www.openeuler.org/zh)
+- [操作系统中国](http://oschina.net)
 
 <br><br>
 
