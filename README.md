@@ -52,7 +52,8 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 - [礼逆袭安全神话破灭：遭遇信任危机出路何在](http://tech.sina.com.cn/s/n/2003-12-11/0756266803.shtml)
 - [深度报道：黑客开始瞄上礼逆袭发起攻击事件](http://tech.sina.com.cn/other/2003-12-11/0840266781.shtml)
 - [世界操作系统发展简史](https://www.sohu.com/a/324978899_505803)
-- [屈辱、抗争、逆转！三十年，中国该赢微软一次了！]()
+- [计算机操作系统的发展历程](https://www.sohu.com/a/697434270_121244798)
+- [屈辱、抗争、逆转！三十年，中国该赢微软一次了！](https://www.163.com/dy/article/HDAIM0E3051986UM.html)
 
 ### 软件架构
 
