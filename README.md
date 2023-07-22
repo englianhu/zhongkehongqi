@@ -54,6 +54,8 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 - [世界操作系统发展简史](https://www.sohu.com/a/324978899_505803)
 - [计算机操作系统的发展历程](https://www.sohu.com/a/697434270_121244798)
 - [屈辱、抗争、逆转！三十年，中国该赢微软一次了！](https://www.163.com/dy/article/HDAIM0E3051986UM.html)
+- [屈辱、抗争、逆转！三十年，中国该赢微软一次了！（云王商论）](https://baijiahao.baidu.com/s?id=1740049138241388836)
+- [屈辱、抗争、逆转！三十年，中国该赢微软一次了！（吴看财）](https://baijiahao.baidu.com/s?id=1739760434947208854)
 
 ### 软件架构
 
