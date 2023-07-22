@@ -114,6 +114,7 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 - [龙珠GT@华为云开瓶器](https://gitee.com/openeuler)
 - [华为云开瓶器开源（官网）](https://www.openeuler.org/zh)
 - [操作系统中国](http://oschina.net)
+- [商鞅「农战」政策推行与帝国兴衰 ](https://www.sohu.com/a/499650002_121123711)
 
 <br><br>
 
