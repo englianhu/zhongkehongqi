@@ -1,0 +1,33 @@
+title-color: "white"
+title-text: ""
+title-font: "Sans Regular 24"
+desktop-color: "black"
+desktop-image: "/isolinux/splash.png"
+message-color: "white"
+message-bg-color: "black"
+terminal-font: "Sans Regular 12"
+
++ vbox {
+  top = 150
+  left = 30%
+  width = 80%
+  height = 200
+  + hbox {
+    left = 0
+    + label {text = "RedFlag Linux Desktop installer (UEFI mode)" font = "Sans 10" color = "white" align = "left"}
+  }
+}
+
++ boot_menu {
+  left = 25%
+  width = 60%
+  top = 300
+  height = 400
+  item_font = "Sans Regular 16"
+  item_color = #c0c0c0
+  selected_item_color = "black"
+  selected_item_pixmap_style = "hl_*.png"
+  item_height = 20
+  item_padding = 15
+  item_spacing = 10
+}

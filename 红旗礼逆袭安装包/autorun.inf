@@ -1,0 +1,8 @@
+[autorun]
+open=setup.exe
+icon=setup.exe,0
+label=Run RedFlag Linux
+
+[Content]
+MusicFiles=false
+PictureFiles=false
