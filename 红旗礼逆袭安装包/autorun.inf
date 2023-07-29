@@ -6,3 +6,4 @@ label=Run RedFlag Linux
 [Content]
 MusicFiles=false
 PictureFiles=false
+VideoFiles=false
