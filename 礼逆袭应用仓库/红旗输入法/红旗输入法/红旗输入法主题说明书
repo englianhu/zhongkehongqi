@@ -1,4 +1,4 @@
-```
+
 ##倘若尚未安装优奔兔输入法，先安装。
 sudo apt install *scim* *gcin* *hime* *fcitx* *im*panel* -y
 
@@ -9,7 +9,8 @@ sudo chmod 777 -R /usr/share/fcitx-qimpanel/skin/
 sudo mkdir /usr/share/fcitx-qimpanel/skin/红旗输入法
 cd /usr/share/fcitx-qimpanel/skin/红旗输入法
 
-```
+##需要使用类似红旗礼逆袭的gif格式图标。
+
 
 
 
