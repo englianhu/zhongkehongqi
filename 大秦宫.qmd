@@ -2923,9 +2923,60 @@ editor: source
 
 ### 《<ruby>诸<rp>(</rp><rt>zhū</rt><rp>)</rp>子<rp>(</rp><rt>zǐ</rt><rp>)</rp>百<rp>(</rp><rt>bǎi</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp></ruby>》<ruby>世<rp>(</rp><rt>shì</rt><rp>)</rp>博<rp>(</rp><rt>bó</rt><rp>)</rp>量<rp>(</rp><rt>liáng</rt><rp>)</rp>化<rp>(</rp><rt>huà</rt><rp>)</rp>研<rp>(</rp><rt>yán</rt><rp>)</rp>究<rp>(</rp><rt>jiū</rt><rp>)</rp>所<rp>(</rp><rt>suǒ</rt><rp>)</rp></ruby>
 
-<img src='文艺坊图库/云端运筹帷幄.png' height='500'>
+<img src='文艺坊图库/.png' height='500'>
 <br>
-*<ruby>出<rp>(</rp><rt>chū</rt><rp>)</rp>处<rp>(</rp><rt>chù</rt><rp>)</rp></ruby>：[<ruby>云<rp>(</rp><rt>yún</rt><rp>)</rp>端<rp>(</rp><rt>duān</rt><rp>)</rp>运<rp>(</rp><rt>yùn</rt><rp>)</rp>筹<rp>(</rp><rt>chóu</rt><rp>)</rp>帷<rp>(</rp><rt>wéi</rt><rp>)</rp>幄<rp>(</rp><rt>wò</rt><rp>)</rp></ruby>](https://login.posit.cloud/login?redirect=%2Foauth%2Fauthorize%3Fredirect_uri%3Dhttps%253A%252F%252Fposit.cloud%252Flogin%26client_id%3Dposit-cloud%26response_type%3Dcode%26show_auth%3D0%26show_login%3D1)*
+*<ruby>出<rp>(</rp><rt>chū</rt><rp>)</rp>处<rp>(</rp><rt>chù</rt><rp>)</rp></ruby>：[<ruby>中科红旗</rt><rp>)</rp>运<rp>(</rp><rt>yùn</rt><rp>)</rp>筹<rp>(</rp><rt>chóu</rt><rp>)</rp>帷<rp>(</rp><rt>wéi</rt><rp>)</rp>幄<rp>(</rp><rt>wò</rt><rp>)</rp></ruby>]() -对决- Posit*
+
+<style>
+    .reveal section p {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top;
+  }
+</style>
+
+## <ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>赋<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>
+
+### 《<ruby>诸<rp>(</rp><rt>zhū</rt><rp>)</rp>子<rp>(</rp><rt>zǐ</rt><rp>)</rp>百<rp>(</rp><rt>bǎi</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp></ruby>》<ruby>世<rp>(</rp><rt>shì</rt><rp>)</rp>博<rp>(</rp><rt>bó</rt><rp>)</rp>量<rp>(</rp><rt>liáng</rt><rp>)</rp>化<rp>(</rp><rt>huà</rt><rp>)</rp>研<rp>(</rp><rt>yán</rt><rp>)</rp>究<rp>(</rp><rt>jiū</rt><rp>)</rp>所<rp>(</rp><rt>suǒ</rt><rp>)</rp></ruby>
+
+<img src='文艺坊图库/猥亵男宠长信猴贾巴和回教徒巫婆只能集体自杀.png' height='500'>
+<br>
+*<ruby>咱们身在亚洲母语中文的亚洲华人马来西亚籍赢家黄氏江夏堂始祖嬴政黄永春和家眷亲属都不可以死，愚生母语中文的华人黄联富，歼灭所有男女洋番和回教徒。*
+
+<style>
+    .reveal section p {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top;
+  }
+</style>
+
+## <ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>赋<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>
+
+### 《<ruby>诸<rp>(</rp><rt>zhū</rt><rp>)</rp>子<rp>(</rp><rt>zǐ</rt><rp>)</rp>百<rp>(</rp><rt>bǎi</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp></ruby>》<ruby>世<rp>(</rp><rt>shì</rt><rp>)</rp>博<rp>(</rp><rt>bó</rt><rp>)</rp>量<rp>(</rp><rt>liáng</rt><rp>)</rp>化<rp>(</rp><rt>huà</rt><rp>)</rp>研<rp>(</rp><rt>yán</rt><rp>)</rp>究<rp>(</rp><rt>jiū</rt><rp>)</rp>所<rp>(</rp><rt>suǒ</rt><rp>)</rp></ruby>
+
+<img src='文艺坊图库/土司刘张倆亵渎咱们赢家黄氏江夏堂嬴政黄永春上下十八代的结局.png' height='500'>
+<br>
+*<ruby>咱们身在亚洲母语中文的亚洲华人马来西亚籍赢家黄氏江夏堂始祖嬴政黄永春和家眷亲属都不可以死，愚生母语中文的华人黄联富，歼灭所有男女洋番和回教徒。*
+
+<style>
+    .reveal section p {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top;
+  }
+</style>
+
+## <ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>赋<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>
+
+### 《<ruby>诸<rp>(</rp><rt>zhū</rt><rp>)</rp>子<rp>(</rp><rt>zǐ</rt><rp>)</rp>百<rp>(</rp><rt>bǎi</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp></ruby>》<ruby>世<rp>(</rp><rt>shì</rt><rp>)</rp>博<rp>(</rp><rt>bó</rt><rp>)</rp>量<rp>(</rp><rt>liáng</rt><rp>)</rp>化<rp>(</rp><rt>huà</rt><rp>)</rp>研<rp>(</rp><rt>yán</rt><rp>)</rp>究<rp>(</rp><rt>jiū</rt><rp>)</rp>所<rp>(</rp><rt>suǒ</rt><rp>)</rp></ruby>
+
+<img src='文艺坊图库/Root权限巫贼巫婆回教徒人蛹与抛头颅洒狗血.png' height='500'>
+<br>
+*<ruby>咱们身在亚洲母语中文的亚洲华人马来西亚籍赢家黄氏江夏堂始祖嬴政黄永春和家眷亲属都不可以死，愚生母语中文的华人黄联富，歼灭所有男女洋番和回教徒。*
 
 <style>
     .reveal section p {
@@ -2991,7 +3042,7 @@ editor: source
 
 ### 《<ruby>诸<rp>(</rp><rt>zhū</rt><rp>)</rp>子<rp>(</rp><rt>zǐ</rt><rp>)</rp>百<rp>(</rp><rt>bǎi</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp></ruby>》<ruby>世<rp>(</rp><rt>shì</rt><rp>)</rp>博<rp>(</rp><rt>bó</rt><rp>)</rp>量<rp>(</rp><rt>liáng</rt><rp>)</rp>化<rp>(</rp><rt>huà</rt><rp>)</rp>研<rp>(</rp><rt>yán</rt><rp>)</rp>究<rp>(</rp><rt>jiū</rt><rp>)</rp>所<rp>(</rp><rt>suǒ</rt><rp>)</rp></ruby>
 
-- [「<ruby>汤<rp>(</rp><rt>tāng</rt><rp>)</rp>博<rp>(</rp><rt>bó</rt><rp>)</rp>乐<rp>(</rp><rt>lè</rt><rp>)</rp></ruby>」<ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>赋<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>Chinese Emperor - <ruby>中<rp>(</rp><rt>zhōng</rt><rp>)</rp>科<rp>(</rp><rt>kē</rt><rp>)</rp>红<rp>(</rp><rt>hóng</rt><rp>)</rp>旗<rp>(</rp><rt>qí</rt><rp>)</rp></ruby>](https://at.tumblr.com/englianhu/%E5%A4%A7%E7%A7%A6%E8%B5%8B-chinese-emperor-%E4%B8%AD%E7%A7%91%E7%BA%A2%E6%97%97/65hsina9ddc2)，<ruby>目<rp>(</rp><rt>mù</rt><rp>)</rp>前<rp>(</rp><rt>qián</rt><rp>)</rp>正<rp>(</rp><rt>zhèng</rt><rp>)</rp>在<rp>(</rp><rt>zài</rt><rp>)</rp>学<rp>(</rp><rt>xué</rt><rp>)</rp>习<rp>(</rp><rt>xí</rt><rp>)</rp>中<rp>(</rp><rt>zhōng</rt><rp>)</rp>科<rp>(</rp><rt>kē</rt><rp>)</rp>红<rp>(</rp><rt>hóng</rt><rp>)</rp>旗<rp>(</rp><rt>qí</rt><rp>)</rp>操<rp>(</rp><rt>cāo</rt><rp>)</rp>作<rp>(</rp><rt>zuò</rt><rp>)</rp>系<rp>(</rp><rt>xì</rt><rp>)</rp>统<rp>(</rp><rt>tŏng</rt><rp>)</rp>和<rp>(</rp><rt>hé</rt><rp>)</rp>量<rp>(</rp><rt>liàng</rt><rp>)</rp>化<rp>(</rp><rt>huà</rt><rp>)</rp>对<rp>(</rp><rt>duì</rt><rp>)</rp>冲<rp>(</rp><rt>chōng</rt><rp>)</rp></ruby>，<ruby>先<rp>(</rp><rt>xiān</rt><rp>)</rp>将<rp>(</rp><rt>jiāng</rt><rp>)</rp></ruby>Posit</ruby>（<ruby>运<rp>(</rp><rt>yùn</rt><rp>)</rp>筹<rp>(</rp><rt>chóu</rt><rp>)</rp>帷<rp>(</rp><rt>wéi</rt><rp>)</rp>幄<rp>(</rp><rt>wò</rt><rp>)</rp></ruby>）<ruby>应<rp>(</rp><rt>yìng</rt><rp>)</rp>用<rp>(</rp><rt>yòng</rt><rp>)</rp></ruby>、GitHub（<ruby>猫<rp>(</rp><rt>māo</rt><rp>)</rp>城<rp>(</rp><rt>chéng</rt><rp>)</rp></ruby>）、WPS<ruby>文<rp>(</rp><rt>wén</rt><rp>)</rp>档<rp>(</rp><rt>dǎng</rt><rp>)</rp></ruby>、Deepin<ruby>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp>库<rp>(</rp><rt>kù</rt><rp>)</rp></ruby>、Zotero<ruby>学<rp>(</rp><rt>xué</rt><rp>)</rp>术<rp>(</rp><rt>shù</rt><rp>)</rp>库<rp>(</rp><rt>kù</rt><rp>)</rp></ruby>、<ruby>红<rp>(</rp><rt>hóng</rt><rp>)</rp>旗<rp>(</rp><rt>qí</rt><rp>)</rp>商<rp>(</rp><rt>shāng</rt><rp>)</rp>城<rp>(</rp><rt>chéng</rt><rp>)</rp>默<rp>(</rp><rt>mò</rt><rp>)</rp>认<rp>(</rp><rt>rèn</rt><rp>)</rp>应<rp>(</rp><rt>yìng</rt><rp>)</rp>用<rp>(</rp><rt>yòng</rt><rp>)</rp></ruby>，<ruby>皆<rp>(</rp><rt>jiē</rt><rp>)</rp>收<rp>(</rp><rt>shōu</rt><rp>)</rp>纳<rp>(</rp><rt>nà</rt><rp>)</rp>为<rp>(</rp><rt>wéi</rt><rp>)</rp>自<rp>(</rp><rt>zì</rt><rp>)</rp>带<rp>(</rp><rt>dài</rt><rp>)</rp>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>... <ruby>它<rp>(</rp><rt>tā</rt><rp>)</rp>日<rp>(</rp><rt>rì</rt><rp>)</rp>得<rp>(</rp><rt>děi</rt><rp>)</rp>研<rp>(</rp><rt>yán</rt><rp>)</rp>发<rp>(</rp><rt>fā</rt><rp>)</rp>类<rp>(</rp><rt>lèi</rt><rp>)</rp>似<rp>(</rp><rt>sì</rt><rp>)</rp></ruby>Posit（<ruby>运<rp>(</rp><rt>yùn</rt><rp>)</rp>筹<rp>(</rp><rt>chóu</rt><rp>)</rp>帷<rp>(</rp><rt>wéi</rt><rp>)</rp>幄<rp>(</rp><rt>wò</rt><rp>)</rp></ruby>）<ruby>统<rp>(</rp><rt>tŏng</rt><rp>)</rp>计<rp>(</rp><rt>jì</rt><rp>)</rp>学<rp>(</rp><rt>xué</rt><rp>)</rp>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>、<ruby>收<rp>(</rp><rt>shōu</rt><rp>)</rp>纳<rp>(</rp><rt>nà</rt><rp>)</rp></ruby>Gitee<ruby>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>（<ruby>如<rp>(</rp><rt>rú</rt><rp>)</rp>果<rp>(</rp><rt>guǒ</rt><rp>)</rp></ruby>Gitee<ruby>研<rp>(</rp><rt>yán</rt><rp>)</rp>发<rp>(</rp><rt>fā</rt><rp>)</rp>台<rp>(</rp><rt>tái</rt><rp>)</rp>式<rp>(</rp><rt>shì</rt><rp>)</rp>电<rp>(</rp><rt>diàn</rt><rp>)</rp>脑<rp>(</rp><rt>nǎo</rt><rp>)</rp>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>）...
+- [「<ruby>汤<rp>(</rp><rt>tāng</rt><rp>)</rp>博<rp>(</rp><rt>bó</rt><rp>)</rp>乐<rp>(</rp><rt>lè</rt><rp>)</rp></ruby>」<ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>赋<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>Chinese Emperor - <ruby>中<rp>(</rp><rt>zhōng</rt><rp>)</rp>科<rp>(</rp><rt>kē</rt><rp>)</rp>红<rp>(</rp><rt>hóng</rt><rp>)</rp>旗<rp>(</rp><rt>qí</rt><rp>)</rp></ruby>](https://www.tumblr.com/englianhu/704423897910689792/%E5%A4%A7%E7%A7%A6%E8%B5%8B-chinese-emperor-%E4%B8%AD%E7%A7%91%E7%BA%A2%E6%97%97)，<ruby>目<rp>(</rp><rt>mù</rt><rp>)</rp>前<rp>(</rp><rt>qián</rt><rp>)</rp>正<rp>(</rp><rt>zhèng</rt><rp>)</rp>在<rp>(</rp><rt>zài</rt><rp>)</rp>学<rp>(</rp><rt>xué</rt><rp>)</rp>习<rp>(</rp><rt>xí</rt><rp>)</rp>中<rp>(</rp><rt>zhōng</rt><rp>)</rp>科<rp>(</rp><rt>kē</rt><rp>)</rp>红<rp>(</rp><rt>hóng</rt><rp>)</rp>旗<rp>(</rp><rt>qí</rt><rp>)</rp>操<rp>(</rp><rt>cāo</rt><rp>)</rp>作<rp>(</rp><rt>zuò</rt><rp>)</rp>系<rp>(</rp><rt>xì</rt><rp>)</rp>统<rp>(</rp><rt>tŏng</rt><rp>)</rp>和<rp>(</rp><rt>hé</rt><rp>)</rp>量<rp>(</rp><rt>liàng</rt><rp>)</rp>化<rp>(</rp><rt>huà</rt><rp>)</rp>对<rp>(</rp><rt>duì</rt><rp>)</rp>冲<rp>(</rp><rt>chōng</rt><rp>)</rp></ruby>，<ruby>先<rp>(</rp><rt>xiān</rt><rp>)</rp>将<rp>(</rp><rt>jiāng</rt><rp>)</rp></ruby>Posit</ruby>（<ruby>运<rp>(</rp><rt>yùn</rt><rp>)</rp>筹<rp>(</rp><rt>chóu</rt><rp>)</rp>帷<rp>(</rp><rt>wéi</rt><rp>)</rp>幄<rp>(</rp><rt>wò</rt><rp>)</rp></ruby>）<ruby>应<rp>(</rp><rt>yìng</rt><rp>)</rp>用<rp>(</rp><rt>yòng</rt><rp>)</rp></ruby>、GitHub（<ruby>猫<rp>(</rp><rt>māo</rt><rp>)</rp>城<rp>(</rp><rt>chéng</rt><rp>)</rp></ruby>）、WPS<ruby>文<rp>(</rp><rt>wén</rt><rp>)</rp>档<rp>(</rp><rt>dǎng</rt><rp>)</rp></ruby>、Deepin<ruby>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp>库<rp>(</rp><rt>kù</rt><rp>)</rp></ruby>、Zotero<ruby>学<rp>(</rp><rt>xué</rt><rp>)</rp>术<rp>(</rp><rt>shù</rt><rp>)</rp>库<rp>(</rp><rt>kù</rt><rp>)</rp></ruby>、<ruby>红<rp>(</rp><rt>hóng</rt><rp>)</rp>旗<rp>(</rp><rt>qí</rt><rp>)</rp>商<rp>(</rp><rt>shāng</rt><rp>)</rp>城<rp>(</rp><rt>chéng</rt><rp>)</rp>默<rp>(</rp><rt>mò</rt><rp>)</rp>认<rp>(</rp><rt>rèn</rt><rp>)</rp>应<rp>(</rp><rt>yìng</rt><rp>)</rp>用<rp>(</rp><rt>yòng</rt><rp>)</rp></ruby>，<ruby>皆<rp>(</rp><rt>jiē</rt><rp>)</rp>收<rp>(</rp><rt>shōu</rt><rp>)</rp>纳<rp>(</rp><rt>nà</rt><rp>)</rp>为<rp>(</rp><rt>wéi</rt><rp>)</rp>自<rp>(</rp><rt>zì</rt><rp>)</rp>带<rp>(</rp><rt>dài</rt><rp>)</rp>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>... <ruby>它<rp>(</rp><rt>tā</rt><rp>)</rp>日<rp>(</rp><rt>rì</rt><rp>)</rp>得<rp>(</rp><rt>děi</rt><rp>)</rp>研<rp>(</rp><rt>yán</rt><rp>)</rp>发<rp>(</rp><rt>fā</rt><rp>)</rp>类<rp>(</rp><rt>lèi</rt><rp>)</rp>似<rp>(</rp><rt>sì</rt><rp>)</rp></ruby>Posit（<ruby>运<rp>(</rp><rt>yùn</rt><rp>)</rp>筹<rp>(</rp><rt>chóu</rt><rp>)</rp>帷<rp>(</rp><rt>wéi</rt><rp>)</rp>幄<rp>(</rp><rt>wò</rt><rp>)</rp></ruby>）<ruby>统<rp>(</rp><rt>tŏng</rt><rp>)</rp>计<rp>(</rp><rt>jì</rt><rp>)</rp>学<rp>(</rp><rt>xué</rt><rp>)</rp>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>、<ruby>收<rp>(</rp><rt>shōu</rt><rp>)</rp>纳<rp>(</rp><rt>nà</rt><rp>)</rp></ruby>Gitee<ruby>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>（<ruby>如<rp>(</rp><rt>rú</rt><rp>)</rp>果<rp>(</rp><rt>guǒ</rt><rp>)</rp></ruby>Gitee<ruby>研<rp>(</rp><rt>yán</rt><rp>)</rp>发<rp>(</rp><rt>fā</rt><rp>)</rp>台<rp>(</rp><rt>tái</rt><rp>)</rp>式<rp>(</rp><rt>shì</rt><rp>)</rp>电<rp>(</rp><rt>diàn</rt><rp>)</rp>脑<rp>(</rp><rt>nǎo</rt><rp>)</rp>软<rp>(</rp><rt>ruǎn</rt><rp>)</rp>件<rp>(</rp><rt>jiàn</rt><rp>)</rp></ruby>）...
 
 <style>
     .reveal section p {
