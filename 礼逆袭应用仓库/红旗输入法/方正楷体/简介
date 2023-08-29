@@ -1,5 +1,5 @@
 
-sudo chmod /usr/share/fonts/方正楷体 && cd $_
+sudo chmod 777 -R /usr/share/fonts
 sudo mkdir /usr/share/fonts/方正楷体 && cd $_
 
 #方正楷体繁体甲.ttf
