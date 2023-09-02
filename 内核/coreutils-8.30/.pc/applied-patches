@@ -1,0 +1,7 @@
+prefer-renameat2-from-glibc-over-syscall.patch
+renameatu.patch
+61_whoips.patch
+63_dd-appenderrors.patch
+72_id_checkngroups.patch
+85_timer_settime.patch
+99_kfbsd_fstat_patch.patch

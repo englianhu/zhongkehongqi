@@ -1,0 +1,52 @@
+From: Johannes 'josch' Schauer <josch@debian.org>
+Date: Tue, 4 Dec 2018 20:57:48 +0100
+X-Dgit-Generated: 8.30-1.1 2474a66055eceaf668b315d83ae7b0ae7bf9a4d5
+Subject: Prefer renameat2 from glibc over syscall if available
+
+This is necessary for fakechroot to be able to overwrite renameat2 which
+is used by mv(1) from coreutils. See #909612
+
+This patch is based on a patch by Andreas Henriksson <andreas@fatal.se>
+which was accepted in gnulib git:
+
+https://git.savannah.gnu.org/cgit/gnulib.git/commit/?id=c50cf67bd7ff70525f3cb4074f0d9cc1f5c6cf9c
+
+---
+
+--- coreutils-8.30.orig/lib/config.hin
++++ coreutils-8.30/lib/config.hin
+@@ -2069,6 +2069,9 @@
+ /* Define to 1 if you have the `renameat' function. */
+ #undef HAVE_RENAMEAT
+ 
++/* Define to 1 if you have the `renameat2' function. */
++#undef HAVE_RENAMEAT2
++
+ /* Define to 1 if you have the `rewinddir' function. */
+ #undef HAVE_REWINDDIR
+ 
+--- coreutils-8.30.orig/lib/renameat2.c
++++ coreutils-8.30/lib/renameat2.c
+@@ -77,7 +77,10 @@ renameat2 (int fd1, char const *src, int
+   int ret_val = -1;
+   int err = EINVAL;
+ 
+-#ifdef SYS_renameat2
++#if HAVE_RENAMEAT2
++  ret_val = renameat2 (fd1, src, fd2, dst, flags);
++  err = errno;
++#elif defined SYS_renameat2
+   ret_val = syscall (SYS_renameat2, fd1, src, fd2, dst, flags);
+   err = errno;
+ #elif defined RENAME_EXCL
+--- coreutils-8.30.orig/m4/renameat.m4
++++ coreutils-8.30/m4/renameat.m4
+@@ -15,7 +15,7 @@ AC_DEFUN([gl_FUNC_RENAMEAT],
+   AC_REQUIRE([gl_STDIO_H_DEFAULTS])
+   AC_REQUIRE([gl_USE_SYSTEM_EXTENSIONS])
+   AC_CHECK_HEADERS([linux/fs.h])
+-  AC_CHECK_FUNCS_ONCE([renameat])
++  AC_CHECK_FUNCS_ONCE([renameat renameat2])
+   if test $ac_cv_func_renameat = no; then
+     HAVE_RENAMEAT=0
+   elif test $REPLACE_RENAME = 1; then

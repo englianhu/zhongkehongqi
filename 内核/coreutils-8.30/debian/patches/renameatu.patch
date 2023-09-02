@@ -1,0 +1,94 @@
+From: Johannes 'josch' Schauer <josch@debian.org>
+Date: Mon, 31 Dec 2018 11:03:58 +0100
+X-Dgit-Generated: 8.30-1.1 8209088c5a946519942aba2b13200c8d09b14c91
+Subject: renameatu
+
+
+---
+
+Index: coreutils-8.30/lib/backupfile.c
+===================================================================
+--- coreutils-8.30.orig/lib/backupfile.c	2018-05-14 00:20:31.000000000 -0400
++++ coreutils-8.30/lib/backupfile.c	2019-02-28 10:26:05.000000000 -0500
+@@ -353,7 +353,7 @@
+           base_offset = 0;
+         }
+       unsigned flags = backup_type == simple_backups ? 0 : RENAME_NOREPLACE;
+-      if (renameat2 (AT_FDCWD, file, sdir, s + base_offset, flags) == 0)
++      if (renameatu (AT_FDCWD, file, sdir, s + base_offset, flags) == 0)
+         break;
+       int e = errno;
+       if (e != EEXIST)
+Index: coreutils-8.30/lib/renameat.c
+===================================================================
+--- coreutils-8.30.orig/lib/renameat.c	2018-05-14 00:20:31.000000000 -0400
++++ coreutils-8.30/lib/renameat.c	2019-02-28 10:26:05.000000000 -0500
+@@ -21,5 +21,5 @@
+ int
+ renameat (int fd1, char const *src, int fd2, char const *dst)
+ {
+-  return renameat2 (fd1, src, fd2, dst, 0);
++  return renameatu (fd1, src, fd2, dst, 0);
+ }
+Index: coreutils-8.30/lib/renameat2.c
+===================================================================
+--- coreutils-8.30.orig/lib/renameat2.c	2019-02-28 10:26:05.000000000 -0500
++++ coreutils-8.30/lib/renameat2.c	2019-02-28 10:26:05.000000000 -0500
+@@ -71,7 +71,7 @@
+    function is equivalent to renameat (FD1, SRC, FD2, DST).  */
+ 
+ int
+-renameat2 (int fd1, char const *src, int fd2, char const *dst,
++renameatu (int fd1, char const *src, int fd2, char const *dst,
+            unsigned int flags)
+ {
+   int ret_val = -1;
+Index: coreutils-8.30/lib/renameat2.h
+===================================================================
+--- coreutils-8.30.orig/lib/renameat2.h	2018-05-14 00:20:31.000000000 -0400
++++ coreutils-8.30/lib/renameat2.h	2019-02-28 10:26:05.000000000 -0500
+@@ -27,4 +27,4 @@
+ # define RENAME_WHITEOUT   (1 << 2)
+ #endif
+ 
+-extern int renameat2 (int, char const *, int, char const *, unsigned int);
++extern int renameatu (int, char const *, int, char const *, unsigned int);
+Index: coreutils-8.30/src/copy.c
+===================================================================
+--- coreutils-8.30.orig/src/copy.c	2018-06-30 22:32:02.000000000 -0400
++++ coreutils-8.30/src/copy.c	2019-02-28 10:27:15.286392764 -0500
+@@ -1873,7 +1873,7 @@
+   if (x->move_mode)
+     {
+       if (rename_errno < 0)
+-        rename_errno = (renameat2 (AT_FDCWD, src_name, AT_FDCWD, dst_name,
++        rename_errno = (renameatu (AT_FDCWD, src_name, AT_FDCWD, dst_name,
+                                    RENAME_NOREPLACE)
+                         ? errno : 0);
+       new_dst = rename_errno == 0;
+Index: coreutils-8.30/src/mv.c
+===================================================================
+--- coreutils-8.30.orig/src/mv.c	2018-06-23 22:12:51.000000000 -0400
++++ coreutils-8.30/src/mv.c	2019-02-28 10:27:45.758636551 -0500
+@@ -456,7 +456,7 @@
+     {
+       assert (2 <= n_files);
+       if (n_files == 2)
+-        x.rename_errno = (renameat2 (AT_FDCWD, file[0], AT_FDCWD, file[1],
++        x.rename_errno = (renameatu (AT_FDCWD, file[0], AT_FDCWD, file[1],
+                                      RENAME_NOREPLACE)
+                           ? errno : 0);
+       if (x.rename_errno != 0 && target_directory_operand (file[n_files - 1]))
+Index: coreutils-8.30/src/shred.c
+===================================================================
+--- coreutils-8.30.orig/src/shred.c	2018-05-14 00:20:24.000000000 -0400
++++ coreutils-8.30/src/shred.c	2019-02-28 10:27:57.118727440 -0500
+@@ -1096,7 +1096,7 @@
+         memset (base, nameset[0], len);
+         base[len] = 0;
+         bool rename_ok;
+-        while (! (rename_ok = (renameat2 (AT_FDCWD, oldname, AT_FDCWD, newname,
++        while (! (rename_ok = (renameatu (AT_FDCWD, oldname, AT_FDCWD, newname,
+                                           RENAME_NOREPLACE)
+                                == 0))
+                && errno == EEXIST && incname (base, len))
