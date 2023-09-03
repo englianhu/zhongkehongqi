@@ -13,10 +13,11 @@
 - [中科红旗简介](http://tech.sina.com.cn/it/2004-07-11/1329386073.shtml)
 - [北京中科红旗软件技术有限公司（简称红旗软件）](http://finance.sina.com.cn/110/2004-07-11/308.html)
 - [操作系统礼逆袭的起源和发展](https://www.sohu.com/a/705185720_121244798)
-
-- [阳历二零二二年中国中央处理器芯片出货量分析及预测](https://www.sohu.com/a/575638393_121388092#google_vignette)
+- [阳历二零二二年中国中央处理单位芯片出货量分析及预测](https://www.sohu.com/a/575638393_121388092#google_vignette)
 - [企业alpha怎么用（「计算机基础」X86、ARM、MIPS、Alpha、RISC等有什么区别？）](http://lamanhao.com/shcs/453916.html)
-- [「操作系统一」关于CPU、指令集、架构、芯片概述](https://blog.csdn.net/junxuezheng/article/details/100147421)
+- [「操作系统一」关于中央处理单位、指令集、架构、芯片概述](https://blog.csdn.net/junxuezheng/article/details/100147421)
+- [ARM比较X86处理器构架一文读懂](http://lamanhao.com/shcs/453916.html)
+- [六大中央处理单位体系结构：X86、 ARM、MIPS、PowerPC、Sparc、Alfa发展](https://blog.csdn.net/kinglapland/article/details/91955388)
 
 ![](文艺坊图库/国产操作系统廿年 - 进退攻防，战斗不止.png)
 
