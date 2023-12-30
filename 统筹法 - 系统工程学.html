@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="®γσ, ξηg Lιαη Ημ（雷欧）  ® ">
+<meta name="dcterms.date" content="2023-12-30">
+
+<title>quarto-inputefa1f7a5</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="统筹法 - 系统工程学_files/libs/clipboard/clipboard.min.js"></script>
+<script src="统筹法 - 系统工程学_files/libs/quarto-html/quarto.js"></script>
+<script src="统筹法 - 系统工程学_files/libs/quarto-html/popper.min.js"></script>
+<script src="统筹法 - 系统工程学_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="统筹法 - 系统工程学_files/libs/quarto-html/anchor.min.js"></script>
+<link href="统筹法 - 系统工程学_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="统筹法 - 系统工程学_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="统筹法 - 系统工程学_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="统筹法 - 系统工程学_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="统筹法 - 系统工程学_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+<script src="统筹法 - 系统工程学_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="统筹法 - 系统工程学_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><img src="文艺坊图库/.png" height="240"></h1>
+<p class="subtitle lead"><a href="https://github.com/englianhu/binary.com-interview-question"><span style="color:#9B0202; background-color:black;"></span> - 系统工程学统计模型 <span style="color:#4E79A7"><strong>校阅（第III部额外版）</strong></span></a></p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://englianhu.github.io">®γσ, ξηg Lιαη Ημ（雷欧）</a> <img src="文艺坊图库/赢家ξng黄氏江夏堂 - 量化对冲（中）.png" height="14"> <img src="文艺坊图库/ENG.png" height="14">® <img src="文艺坊图库/大秦赋 - 北京大学.png" height="14"> </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 30, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="主题" class="level1">
+<h1>主题</h1>
+<section id="大秦赋-chinese-emperor" class="level2">
+<h2 class="anchored" data-anchor-id="大秦赋-chinese-emperor">大秦赋 Chinese Emperor</h2>
+<p>🚩🇬🇧🇲🇾🇹🇼🇨🇳大秦赋赢家ξng黄氏江夏堂</p>
+<p>岂曰无衣，与子同袍</p>
+<p><br> <span style="color:#9B111E"><strong>🚩🦔主题曲🦔🚩</strong></span> <br> <audio controls="" loop="" autoplay="" src="文艺坊曲库/卜学亮 - 子曰.mp3"></audio> <br></p>
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=757957931&amp;bvid=BV1h64y127xd&amp;cid=333194391&amp;page=1" title="天下(电视剧《大秦赋》主题曲完整版)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" border="0" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><em>出处：</em><a href="https://player.bilibili.com/player.html?aid=757957931&amp;bvid=BV1h64y127xd&amp;cid=333194391&amp;page=1"><strong>天下</strong><em>(电视剧《大秦赋》主题曲完整版)</em></a></p>
+</section>
+<section id="古诗" class="level2">
+<h2 class="anchored" data-anchor-id="古诗">古诗</h2>
+<p>歼灭巫裔回教恐怖份子，建立六四学术中华政府</p>
+<p>🚩🦔Great Britain = 大英帝国<br> 🚩🦔Greater Chin = 大秦帝国/大秦赋<br> 🚩🦔Greater Chinese = 大秦子民（爱民如子）<br> 🚩🦔Oversea Greater Chinese = 海外大秦子民（爱民如子）<br> 🚩🦔Oversea Greater Chinese Union = 海外大秦子民公会（秦始皇的秦太祖 —– 🌟秦孝公/🌟陈祯禄公爵，联合秦始皇 —– 秦始祖嬴政，爱民如子，商鞅变法断肢法铲除咱们巫裔回教徒911恐怖份子Judi回教博彩庄，终止巫术以任何形式、包括指鹿为马、屠杀人类，甚至铲除全球回教徒攻陷回教宗祖国麦家🕋🇹🇷🇸🇦瓦解全球回教，拯救全球）</p>
+<p>🚩🇬🇧🇲🇾🇹🇼🇨🇳🌟🐯秦孝公 | 🇬🇧🇲🇾🇹🇼🇨🇳🌟🐯姜太公 — 🇬🇧🇲🇾🇹🇼🇨🇳🌟陈祯禄公爵/🇬🇧🇲🇾🇹🇼🇨🐯邱德拔公爵/🇬🇧🇲🇾🇹🇼🇨🇳🍁叶亚来队长/🇬🇧🇲🇾🇹🇼🇨🇳🍁叶观盛队长</p>
+<p>🚩🦔《大秦赋》<br> 🚩🦔巫师治国，禍殃全球；<br> 🚩🦔巫裔尽弃，瓦釜雷鸣。<br> 🚩🦔商鞅变法，铲除巫裔；<br> 🚩🦔车裂刘瑾，中华执政。<br> 🚩🦔一带一路，横跨七洲；<br> 🚩🦔史无前例，一统天下。<br> 🚩🦔高频量化，对冲基金；<br> 🚩🦔只争朝夕，不负韶华。<br> 🚩🦔学海无涯，唯勤是岸；<br> 🚩🦔莫忘初衷，方得始终。</p>
+<p>《大秦赋》<br> 🚩大秦孝公，秦惠文王；<br> 🚩始于商鞅，终于辛亥。<br> 🚩巫裔尽弃，瓦釜雷鸣；<br> 🚩铲除巫裔，终止屠杀。<br> 🚩中科红旗，同舟共济；<br> 🚩千古一帝，傲视全球。<br> 🚩一带一路，史无前例；<br> 🚩横跨七洲，一统天下。<br> 🚩学海无涯，唯秦是岸；<br> 🚩莫忘初衷，方得始终。</p>
+<p>出处：<a href="https://www.instagram.com/p/Cjxd_GMLAes">蔡卓宜 - 厦门美食</a></p>
+<p>中国史册：</p>
+<ul>
+<li><a href="https://www.shicehao.com">史册号</a></li>
+<li><a href="https://www.cilin.org">词林</a></li>
+<li><a href="https://www.zupu.cn">族谱网</a></li>
+<li><a href="https://www.lishi.net">历史网</a></li>
+<li><a href="http://hrc.cass.cn">中国历史研究院网</a></li>
+<li><a href="https://www.yuelishi.cn">人物介绍网</a></li>
+<li><a href="https://www.baijiayoupu.com">百家有谱</a></li>
+<li><a href="https://www.lishiji.cn">历史记</a></li>
+<li><a href="http://www.bytravel.cn">β博雅旅游分享网</a></li>
+<li><a href="http://ren.bytravel.cn">博雅人物网</a></li>
+<li><a href="https://www.99tango.com/library">洞鑑歷史</a></li>
+<li><a href="https://www.chinarwzj.com">中国人物传记网</a></li>
+<li><a href="https://ctext.org/zhs">「百家诸子」中国哲学书电子化计划</a></li>
+<li><a href="https://www.ourchinastory.com">當代中國</a></li>
+<li><a href="https://www.diyifanwen.com">第一范文网</a></li>
+<li><a href="https://www.zsbeike.com">知识贝壳</a></li>
+<li><a href="http://www.qulishi.com/renwu/qinshihuang">趣历史</a></li>
+<li><a href="https://www.gushiwen.cn">古诗文网</a></li>
+<li><a href="https://5000yan.com">5000言</a></li>
+<li><a href="https://www.zdic.net">汉典</a></li>
+<li><a href="http://bbs.97fc.com">学术交流联盟</a></li>
+<li><a href="http://www.cihai123.com">海词</a></li>
+<li><a href="https://www.828la.com">828啦</a></li>
+<li><a href="https://www.x-mol.com">X-MOL学术平台</a></li>
+<li><a href="https://arxiv.org">arXiv</a></li>
+<li><a href="https://gwgz.5000yan.com">5000言</a></li>
+<li><a href="https://www.gushici.net">古诗词网</a></li>
+<li><a href="https://www.qianp.com">千篇国学</a></li>
+<li><a href="https://www.guoxuebaike.cn">国学百科</a></li>
+</ul>
+<blockquote class="blockquote">
+<p><span style="color:#3C33FF">《万般皆下品，唯有读书高》</span><br> <span style="color:#6883FC">习李经济，一带一路；</span><br> <span style="color:#6883FC">九二共识，量化对冲。</span><br> <span style="color:#6883FC">鞭策六四，铲除黑帮；</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><br> <span style="color:#6883FC">推广量化，提倡学术。</span><br> <span style="color:#6883FC">百家争鸣，振兴中华；</span><br> <span style="color:#6883FC">学海无涯，唯勤是岸。</span></p>
+</blockquote>
+<ul>
+<li><a href="http://lishiwenhua.snnu.edu.cn/index.htm">陕西历史文化名城</a></li>
+<li><a href="http://www.ccerdata.cn">CCER 特供数据系统平台</a></li>
+<li><a href="https://www.ydylcn.com/skwx_ydyl/sublibrary?SiteID=1&amp;ID=8721">一带一路数据库</a></li>
+<li><a href="https://www.yidaiyilu.gov.cn">中国一带一路网</a></li>
+</ul>
+<blockquote class="blockquote">
+<p>辛亥革命大秦赋日不落重八、德意志崇祯、古希腊ξηg神话、周公解梦、嬴政把春秋大梦实现为春秋大业、秦孝公招商（商鞅变法）、秦惠文王：全球有16亿不吃猪肉的回教徒宦官（可兰经回教刑事法典断肢法）宗祖国是沙地阿拉伯麦加，需要靠中国政府一带一路战略（商鞅变法联合辛亥革命）还俗。</p>
+</blockquote>
+<p><img src="文艺坊图库/css.jpeg" width="400"></p>
+<p>家翁嬴政ξηg Tεηg（赢家黄氏江夏堂）</p>
+<p><img src="文艺坊图库/鞭策六四，推广量化；百家争鸣，振兴中华。.png" width="400"></p>
+<p>世间再无祖父黄实田，外祖母郑邓</p>
+</section>
+<section id="商鞅变法萨勒曼本阿都拉兹变法-salman-bin-abdulaziz-al-saud-reform" class="level2">
+<h2 class="anchored" data-anchor-id="商鞅变法萨勒曼本阿都拉兹变法-salman-bin-abdulaziz-al-saud-reform">商鞅变法（萨勒曼•本•阿都拉兹变法 Salman bin Abdulaziz Al Saud Reform）</h2>
+<p>《🇹🇼陈水扁变法》 巫裔宦官，祸国殃民； 草菅人命，民不聊生。 歼灭巫裔，人人有责； 终止屠杀，拯救全球。 巫裔尽弃，瓦釜雷鸣； 莫忘初衷，放得始终。</p>
+<ul>
+<li><p><em><a href="https://zhuanlan.zhihu.com/p/341301371">「洋人尼克变法」尼克·胡哲：没手没脚，却站在了比正常人更高的地方</a></em></p></li>
+<li><p><a href="https://www.mfa.gov.cn/web/ziliao_674904/1179_674909/202212/t20221209_10988250.shtml">「中华人民共和国外交部」中华人民共和国和沙特阿拉伯王国联合声明</a></p></li>
+<li><p><a href="https://www.orientaldaily.com.my/news/international/2022/12/08/532264">「东方日报」沙地自称是中国可信的能源合作伙伴</a></p></li>
+<li><p><a href="https://cn.nytimes.com/world/20221209/china-saudi-arabia-agreement/zh-hant">「紐約時報中文網」習近平中東行深化中國與沙烏地阿拉伯關係，簽署合作協議</a></p></li>
+<li><p><a href="http://sa.china-embassy.gov.cn/xwdt/202212/t20221207_10986613.htm">「中华人民共和国驻沙特阿拉伯王国大使馆」2022中国—阿拉伯媒体合作论坛在沙特阿拉伯举行</a></p></li>
+<li><p><a href="https://www.bbc.com/zhongwen/simp/chinese-news-63885600">「BBC中文」习近平访问沙特：中国和沙特分别想得到什么？</a></p></li>
+<li><p><a href="http://sa.china-embassy.gov.cn/gdxw/202212/t20221211_10988695.htm">「中华人民共和国驻沙特阿拉伯王国大使馆」习近平结束出席中国—阿拉伯国家峰会、中国—海湾阿拉伯国家合作委员会峰会并对沙特进行国事访问回到国内</a></p></li>
+<li><p><a href="http://mo.ocmfa.gov.cn/xwdt/wjyw/202212/t20221210_10988401.htm">「中华人民共和国外交部驻澳门特别行政区特派员公署」中华人民共和国和海湾阿拉伯国家合作委员会合作与发展峰会联合声明</a></p></li>
+<li><p><a href="https://www.yicai.com/news/101619693.html">「第一财经」中沙拓展数字经济等领域合作，外交部：实现更高质量、更深层次的互利共赢</a></p></li>
+<li><p><a href="https://www.orientaldaily.com.my/news/nation/2018/04/20/239995">「东方日报」攻逾百国席　伊党贪多如“自杀”</a></p></li>
+<li><p><a href="https://www.sinchew.com.my/?p=3916893">「星洲日报」敦马：不堪生活压力·马来人如今也倾向自杀</a></p></li>
+<li><p><a href="https://www.52hrtt.com/my/n/w/info/D1671692393881">「华人头条」“期待更多中企来马投资”　陆兆福：东铁具战略意义·带动东海岸发展</a></p></li>
+<li><p><a href="http://www.52hrtt.com/xn/n/w/info/A1654679502958">「华人头条」不满发表亵渎伊斯兰言论　大马骇客入侵印度政府网站</a></p></li>
+<li><p><a href="https://www.chinapress.com.my/20220820/%E5%A4%A7%E9%A9%AC%E7%BD%91%E6%B0%91%E5%A4%8D%E4%BB%87-%E8%8F%B27%E5%9C%B0%E6%96%B9%E6%94%B9%E5%A4%A7%E9%A9%AC%E9%A2%86%E5%9C%9F">「中国报」大马网民“报复”菲7地方改大马领土</a></p></li>
+<li><p><a href="https://m.weibo.cn/2116791942/4799842054570854">「微博」🇲🇾不许吃猪肉1700万个的回教恐怖份子🕋☪巫师太监民族骇客入侵触犯可兰经回教☪刑事法典断肢法，佯装咱们🚩🇹🇼🇨🇳孙吴辛亥革命的中华民族</a></p></li>
+<li><p><a href="http://www.xiaohongshu.com/discovery/item/62a714d6000000002103f00b">网络无故变差恐遭“骑劫”？教你4步这样检查✅</a></p></li>
+<li><p><a href="https://m.youtube.com/watch?v=vFT3SWKgsA0&amp;list=PL-So5dawJ61rIF8zaSQ93QgVUiICYMIF-&amp;fbclid=IwAR3vXs0-j6c9Fn7fIzwYuSn5Qke_WoMRH-N5d9PQ3YMeiMUKqGWmoASNWHY">「优管」台湾外交网被东南亚回教骇客政府入侵，嫁祸东亚</a></p></li>
+<li><p><a href="https://news.ifeng.com/c/7fZrWHlOZR3">「凤凰卫视」马来西亚200家网站被攻击 九成黑客为当地人</a></p></li>
+<li><p><a href="https://www.facebook.com/groups/2342810429098121/permalink/5588139157898549">「脸谱」🇲🇾巫裔群和🇲🇾印度裔群冲突</a></p></li>
+<li><p><a href="https://www.52hrtt.com/xn/n/w/info/F1671692885467">「华人头条」法媒：“伊斯兰国”认领埃及致命袭击</a></p></li>
+<li><p><a href="https://www.52hrtt.com/my/n/w/info/A1671692226047">「华人头条」吉打禁赌违宪、侵犯人权、破坏经济　林振辉轰神权治理开倒车</a></p></li>
+</ul>
+<p><br></p>
+</section>
+</section>
+<section id="设定" class="level1">
+<h1>设定</h1>
+<section id="scss-设置" class="level2">
+<h2 class="anchored" data-anchor-id="scss-设置">SCSS 设置</h2>
+
+<style>
+pre {
+  overflow-x: auto;
+}
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+.table-hover > tbody > tr:hover { 
+  background-color: #8D918D;
+}
+</style>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r bg-success code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="do">## 中科红旗（百家争鸣，文艺复兴）</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## Oversea Greater Chinese Union 大秦子民公会（秦孝公 / 姜太公 --- 陈祯禄公爵）</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="do">## 史无前例，一统天下</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 中科红旗</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="do">## 全球NonMuslim中华民族，支持中共称霸天下战略。</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="do">## Great Britain 大英帝国</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="do">## Greater Chin 大秦赋</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="do">## Republic of Chin / Republic People of Chin 大秦赋（中华民国 / 中华人民共和国）</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="do">## Greater Chinese 大秦子民（爱民如子）</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="do">## Oversea Greater Chinese 大秦子民（爱民如子）</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="do">## Oversea Greater Chinese Union 大秦子民公会（秦孝公 / 姜太公 --- 陈祯禄公爵）</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="do">## 史无前例，一统天下</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="do">## Great Britain = 大布列颠帝国/大英帝国1</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="do">## Greater Chin = 大秦赋</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="do">## Greater Chinese = 大秦子民（爱子如民）</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="do">## NonMuslim马来西亚籍（海外NonMuslim中华民族，自从清末民初下南洋，咱们马来西亚陈祯禄创办 Oversea Chinese Union）秦始皇黄氏江夏堂，笑傲江湖最大文明贡献</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="do">## 1）借鉴以前大英帝国东印度公司，有生之年就把一带一路高铁所经过的国家领土，一律得攻占下来（要比以前大英帝国/大蒙古帝国还要强大）称霸天下，世代延续直至史无前例，一统天下。</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="do">## 2）一带一路所有告示牌、必须使用中文和汉语拼音。</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="do">## 3）借鉴大蒙古帝国骑兵所到之处寸草不生，所有被中国攻占下来的领土，所经之地（包括城市/市镇/乡村），一带一路所有高铁站，都建立国民登记局可以申请入籍中国。</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="do">## 4）川普已经发言多次，美国兵变，会再次内战（借鉴越王勾践，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="do">## 5）中东回教国回教徒911恐怖份子与美国开战，中国军售中东西亚/东欧/非洲回教国（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="do">## 6）中国目前高铁除了尚未与马来西亚达成协议开工建立高铁但是已经借鉴王翦只围不攻战略，把东南亚国家都温馨说服并建立高铁，中国先不与马来西亚开战，让马来西亚兵变内战（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="do">## 7）南太平洋战略：中国和东南亚已经签署合约，达成协议不使用空军、核武器，出动海陆军攻占东南亚</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="do">## 8）商鞅变法多多益善战略：最大贡献是全球16亿回教徒太监民族与全球基督洋人鹬蚌相争... 回教徒默罕默德创办回教，建立可兰经回教刑事法典断肢法规定回教徒伪太监民族必须虔诚戴乌纱帽一天祈祷五次，倘若不虔诚施展巫术屠杀是触犯断肢法而虔诚屠杀也触犯断肢法，只有辛亥革命铲除全球回教徒、断肢法处死或宫刑全球回教徒绝子绝孙，多管齐下才能终止巫术屠杀，拯救全球16亿回教徒还俗。China大秦赋秦孝公至顾自己家族禁止七步诗自相残杀，铲除分一杯羹白骨精刘家彭城堂造反，回教徒会巫术屠杀人类，回教徒太监民族只能屠杀欧美洋人并且被断肢处死，不效忠中共称霸天下，直至一统天下的伪满洲国马来西亚1700万个回教徒911恐怖份子太监民族包括Michael Cutter Christopher，一律断肢法处死（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用秦二世胡亥、辛亥革命、越王胡志明、中国胡景涛、马来西亚回教徒太监不反中共牵制美国，军售中东/西亚/东欧回教诸国对抗美国）。秦始皇在统一七国后就不思进取导致赵高李斯谋反（借鉴中国历史秦始皇，水能载舟亦能覆舟，宗教巫术，古惑民心，指鹿为马，成也赵李，败也赵李。所以秦始皇得铭记当初秦孝公，不能昏庸被回教徒篡位），中国借鉴秦孝公战略善用商朝和苏联俄罗斯叶利钦。秦始皇铭记秦孝公，善用全球回教徒古惑全球洋人再依照可兰经回教刑事法典断肢全球回教徒，让咱们全球NonMuslim中华民族支持中共，一统天下。</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="do">## 9）华尔街、史无前例的万里长城Great Wall Sreet、一带一路高铁：计量经济学、学术治国、编程、统计、科学科技、量化（Fisher姜太公钓鱼大数据，各行各业购物喜好、民意、生活习惯、各国各集团、军事、诊断上市公司等）、金融、贸易、经商、军事、发展各行各业。</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="do">## 10）中文编程语言：借鉴日本自从唐朝大话革新学习汉字至明治维新学习欧洲，日本是全球首个亚洲人自创Ruby红宝石编程语言（Ruby Text可以标音），自从2008年就开始使用R语言并且认识中国R语言论坛《统计之都》论坛创办人网友谢益辉和赵坚毅创办的中国最大计量经济学专业论坛《经管之家》至今十年有余、目前已经开始以中文编程，中华人民共和国的国庆日1001和中华民国的国庆日1010都是二进制的电脑语言binary code，如同黄埔军校国共本是一家，赢家黄氏江夏堂秦孝公禁止《七步诗》自相残杀。咱们东南亚NonMuslim中华民族几乎都是国民华校生，洋人研发电脑、许多编程语言R语言、C语言、C++，推广与发展中文，希望它日有咱们NonMuslim中华民族自创新的编程语言，均以中文编程。</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="do">## 11）发展台式电脑操作系统：中科红旗是由中国北京大学校友孙玉芳创办将Linux礼逆袭和南非原住民开发的Kubuntu忽奔兔中文化并推出自家产品，在美国微软视窗Win台式电脑操作系统垄断全球十多二十年有余，目前已经开始使用芬兰研发的Linux礼逆袭、中国中科红旗台式电脑操作系统，推广与发展中科红旗。</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="do">## 《关雎 --- 英国基督洋妞儿芈拉传》</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="do">## 英国基督洋妞儿芈拉不可以死，隔壁后头邻居黄福全与本人（赢家黄氏江夏堂）祖父同名同姓。</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="do">## 借鉴欧洲中世纪，文艺复兴后就是开始海外军事，称霸天下之路。目前全球疫情已过三年，一带一路如火如荼进行着。</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="do">## 借鉴周公礼乐制度，大英帝国和大日本帝国向来都是自诩绅士淑女，孔子学院，以礼待人，来称霸天下。</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="do">## 借鉴指鹿为马的历史，百家争鸣如果散播回教徒屠杀罪、不杀马来西亚回教徒的话，就得处死回教徒学习可兰经，施展巫术下降头，古惑民心之罪，篡位咱们全球NonMuslim中华民族，人心惶惶、民不聊生，一律依照可兰经回教刑事法典断肢法处死回教徒巫师王（张佳坤Sulaiman Abdullah，分一杯羹白骨精巫师王刘瑾貹Abdul Halim）。</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="do">## 借鉴圣经、诺亚方舟（划龙舟）、孔子儒学（Confusion Catholic）、神父Father与信徒、中国历史、姬昌伯一扈兔子、徐达吃鹅肉、富不过三代的秦始皇嬴政秦二世胡亥至嬴政孙子、公爵、公公孙子、孙文辛亥革命、马来西亚火箭民主行动党由曾敏兴创党后林吉祥林冠英后换人、蒋介石蒋经国后就不延续世袭制，圣经都是善用父子关系，咱们中华民族和英系都是善用公孙关系、法官律师女子假发、自由女神。</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="do">## 中科红旗：借鉴北洋军阀与北约、杀袁者清，灭清者袁，许某可破北洋北约袁绍。黄埔军校国民党共产党辛亥革命是为了铲除回教徒，咱们东南亚回教徒身为伪满洲国911恐怖份子触犯可兰经回教刑事法典断肢法，组织个由回教徒执政的国民阵线（伪国民党）立国，1700万个马来西亚回教徒只能集体自杀，宣布亡国。</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="do">## 何谓中国（大秦赋Chin）？中华民国和中华人民共和国。咱们东南亚自从东亚清末民初几乎都是国民华校生，自从西周的周公开始礼乐制度后，大英帝国和大日本帝国都效仿来称霸天下做得有声有色、禁止回教巫术Judi博彩庄、艺人（异人）、导演巫师巫婆道衍师傅装疯卖傻、青山是巫裔回教徒的归属地，回教巫师巫婆是屠杀人类的语言宗教习俗文化，得断肢法处死1700万个马来西亚巫裔回教徒。</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages('remotes', dependencies = TRUE, INSTALL_opts = '--no-lock')</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'BBmisc'</span>, <span class="st">'rmsfuns'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+载入程辑包：'BBmisc'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:base':
+
+    isFALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r bg-success code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#remotes::install_github("rstudio/sass")</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">lib</span>(<span class="st">'sass'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>载入需要的程辑包：sass</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre class="bg-primary"><code>sass 
+TRUE </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r bg-success code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://support.rstudio.com/hc/en-us/articles/200532197</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="do">## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale("LC_CTYPE", "en_US.UTF-8")</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = "LC_CTYPE", "Chinese (Simplified)_China.936")</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = "Chinese")</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = "Japanese")</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = "English")</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="co"># rmarkdown::render('/home/englianhu/Documents/owner/ryo-cn.Rmd',  encoding = 'UTF-8')</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale("LC_CTYPE", "UTF-8")</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = "UTF-8")</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = "LC_ALL", locale = "chs")</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = "LC_ALL", locale = "UTF-8")</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = "LC_ALL", locale = "Chinese")</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">"LC_ALL"</span>, <span class="st">"en_US.UTF-8"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre class="bg-primary"><code>[1] "LC_CTYPE=en_US.UTF-8;LC_NUMERIC=C;LC_TIME=en_US.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=en_US.UTF-8;LC_MESSAGES=zh_CN.UTF-8;LC_PAPER=zh_CN.UTF-8;LC_NAME=C;LC_ADDRESS=C;LC_TELEPHONE=C;LC_MEASUREMENT=zh_CN.UTF-8;LC_IDENTIFICATION=C"</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode scss bg-success code-with-copy"><code class="sourceCode scss"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* https://stackoverflow.com/a/66029010/3806250 */</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>h1 { <span class="kw">color</span>: <span class="cn">#002C54</span><span class="op">;</span> }</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>h2 { <span class="kw">color</span>: <span class="cn">#2F496E</span><span class="op">;</span> }</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>h3 { <span class="kw">color</span>: <span class="cn">#375E97</span><span class="op">;</span> }</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>h4 { <span class="kw">color</span>: <span class="cn">#556DAC</span><span class="op">;</span> }</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>h5 { <span class="kw">color</span>: <span class="cn">#92AAC7</span><span class="op">;</span> }</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co">/* ----------------------------------------------------------------- */</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co">/* https://gist.github.com/himynameisdave/c7a7ed14500d29e58149#file-broken-gradient-animation-less */</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="fu">.hover01</span> {</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="co">/* color: #FFD64D; */</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background</span>: <span class="fu">linear-gradient(</span><span class="dv">155</span><span class="dt">deg</span><span class="op">,</span> <span class="cn">#EDAE01</span> <span class="dv">0</span><span class="dt">%</span><span class="op">,</span> <span class="cn">#FFEB94</span> <span class="dv">100</span><span class="dt">%</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>  <span class="kw">transition</span>: <span class="dv">all</span> <span class="dv">0.45</span><span class="dt">s</span><span class="op">;</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>  <span class="op">&amp;</span><span class="in">:hover</span>{</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background</span>: <span class="fu">linear-gradient(</span><span class="dv">155</span><span class="dt">deg</span><span class="op">,</span> <span class="cn">#EDAE01</span> <span class="dv">20</span><span class="dt">%</span><span class="op">,</span> <span class="cn">#FFEB94</span> <span class="dv">80</span><span class="dt">%</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="fu">.hover02</span> {</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">#FFD64D</span><span class="op">;</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background</span>: <span class="fu">linear-gradient(</span><span class="dv">155</span><span class="dt">deg</span><span class="op">,</span> <span class="cn">#002C54</span> <span class="dv">0</span><span class="dt">%</span><span class="op">,</span> <span class="cn">#4CB5F5</span> <span class="dv">100</span><span class="dt">%</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>  <span class="kw">transition</span>: <span class="dv">all</span> <span class="dv">0.45</span><span class="dt">s</span><span class="op">;</span></span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>  <span class="op">&amp;</span><span class="in">:hover</span>{</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background</span>: <span class="fu">linear-gradient(</span><span class="dv">155</span><span class="dt">deg</span><span class="op">,</span> <span class="cn">#002C54</span> <span class="dv">20</span><span class="dt">%</span><span class="op">,</span> <span class="cn">#4CB5F5</span> <span class="dv">80</span><span class="dt">%</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a><span class="fu">.hover03</span> {</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">#FFD64D</span><span class="op">;</span></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background</span>: <span class="fu">linear-gradient(</span><span class="dv">155</span><span class="dt">deg</span><span class="op">,</span> <span class="cn">#A10115</span> <span class="dv">0</span><span class="dt">%</span><span class="op">,</span> <span class="cn">#FF3C5C</span> <span class="dv">100</span><span class="dt">%</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>  <span class="kw">transition</span>: <span class="dv">all</span> <span class="dv">0.45</span><span class="dt">s</span><span class="op">;</span></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>  <span class="op">&amp;</span><span class="in">:hover</span>{</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background</span>: <span class="fu">linear-gradient(</span><span class="dv">155</span><span class="dt">deg</span><span class="op">,</span> <span class="cn">#A10115</span> <span class="dv">20</span><span class="dt">%</span><span class="op">,</span> <span class="cn">#FF3C5C</span> <span class="dv">80</span><span class="dt">%</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>  }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<style type="text/css">
+h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92AAC7}.hover01{background:linear-gradient(155deg, #EDAE01 0%, #FFEB94 100%);transition:all 0.45s}.hover01:hover{background:linear-gradient(155deg, #EDAE01 20%, #FFEB94 80%)}.hover02{color:#FFD64D;background:linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);transition:all 0.45s}.hover02:hover{background:linear-gradient(155deg, #002C54 20%, #4CB5F5 80%)}.hover03{color:#FFD64D;background:linear-gradient(155deg, #A10115 0%, #FF3C5C 100%);transition:all 0.45s}.hover03:hover{background:linear-gradient(155deg, #A10115 20%, #FF3C5C 80%)}
+</style>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r hover01 code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="do">## 更换时间区域，保留日期时间。</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">'Asia/Shanghai'</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="do">## 忽略所有警讯</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/a/36846793/3806250</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="do">## 设置宽度</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="do">## options(knitr.table.format = 'html')将所有kableExtra图表一致设置为'html'格式，省略设置各别图表。</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="do">## options(repos = 'https://cran.rstudio.com')将仓库设置为安全网。</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="do">## options(repos = 'http://cran.rstudio.com')将仓库设置为普通网。</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">warn =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">width =</span> <span class="dv">999</span>, <span class="at">knitr.table.format =</span> <span class="st">'html'</span>, </span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">digits =</span> <span class="dv">22</span>, <span class="at">digits.secs =</span> <span class="cn">Inf</span>, <span class="at">repos =</span> <span class="st">'https://cran.rstudio.com'</span>)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="do">## https://yihui.org/knitr/options</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">class.source =</span> <span class="st">'hover01'</span>, <span class="at">class.output =</span> <span class="st">'hover02'</span>, <span class="at">class.error =</span> <span class="st">'hover03'</span>, </span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">message =</span> <span class="cn">FALSE</span>, <span class="at">warning =</span> <span class="cn">FALSE</span>, <span class="at">error =</span> <span class="cn">TRUE</span>, </span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">autodep =</span> <span class="cn">TRUE</span>, <span class="at">aniopts =</span> <span class="st">'loop'</span>, <span class="at">progress =</span> <span class="cn">TRUE</span>, <span class="at">verbose =</span> <span class="cn">TRUE</span>, </span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">cache =</span> <span class="cn">FALSE</span>, <span class="at">cache.lazy =</span> <span class="cn">FALSE</span>, <span class="at">result =</span> <span class="st">'asis'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="设置" class="level2">
+<h2 class="anchored" data-anchor-id="设置">设置</h2>
+<p>读取以下所需程序包。</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r hover01 code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="do">## 读取程序包、设置编织与环境选项。</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="do">## 3210448065@qq.com</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="do">## leiou123</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="do">## 2849108450@qq.com</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="do">## leiou123</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="do">## https://rstudio.cloud/project/1198888</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="do">## 读取'BBmisc'程序包。</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">suppressMessages</span>(<span class="sc">!</span><span class="fu">require</span>(<span class="st">'BBmisc'</span>))) {</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">'BBmisc'</span>, <span class="at">dependencies =</span> <span class="cn">TRUE</span>, <span class="at">INSTALL_opts =</span> <span class="st">'--no-lock'</span>)</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">library</span>(<span class="st">'BBmisc'</span>))</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">suppressMessages</span>(<span class="sc">!</span><span class="fu">require</span>(<span class="st">'rmsfuns'</span>))) {</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">'rmsfuns'</span>, <span class="at">dependencies =</span> <span class="cn">TRUE</span>, <span class="at">INSTALL_opts =</span> <span class="st">'--no-lock'</span>)</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">library</span>(<span class="st">'rmsfuns'</span>))</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">'REmap'</span>)) devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">'lchiffon/REmap'</span>)</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a><span class="do">## 一次性读取所需程序包。</span></span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a><span class="do">## [R语言高效数据框操作：tidyfst](https://z.itpub.net/article/detail/5EE2CA3CDCD527ADAF5071BF2ADF8874)</span></span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a><span class="do">## [「知乎」tidyft高性能数据操作](https://zhuanlan.zhihu.com/p/128645634)</span></span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a><span class="do">## 最下面是tidyft的性能，占用空间最少，花费时间最少。</span></span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a><span class="do">##   其实这个包基本拥有tidyfst的所有功能，只是原位更新的概念对于新手是有挑战...</span></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidyfst'</span>, <span class="at">warn.conflicts =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidyft'</span>, <span class="at">warn.conflicts =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'dplyr'</span>, <span class="at">warn.conflicts =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'lubridate'</span>, <span class="at">warn.conflicts =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'data.table'</span>, <span class="at">warn.conflicts =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'conflicted'</span>, <span class="at">warn.conflicts =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'nth'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'fill'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'nest'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'unnest'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'cummean'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'group_by'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'distinct'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'filter'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'select'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'rename'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'count'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'arrange'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'summarise'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'separate'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'lead'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'lag'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'unite'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'left_join'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'right_join'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'inner_join'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'full_join'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'anti_join'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'semi_join'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'select_dt'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'transpose'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'setDT'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'setnames'</span>, <span class="st">'tidyft'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-64"><a href="#cb11-64" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'mutate'</span>, <span class="st">'dplyr'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-65"><a href="#cb11-65" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'collapse'</span>, <span class="st">'dplyr'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-66"><a href="#cb11-66" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'year'</span>, <span class="st">'lubridate'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-67"><a href="#cb11-67" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'first'</span>, <span class="st">'data.table'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-68"><a href="#cb11-68" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'last'</span>, <span class="st">'data.table'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-69"><a href="#cb11-69" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'between'</span>, <span class="st">'data.table'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-70"><a href="#cb11-70" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'set'</span>, <span class="st">'data.table'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb11-71"><a href="#cb11-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-72"><a href="#cb11-72" aria-hidden="true" tabindex="-1"></a>程序包 <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb11-73"><a href="#cb11-73" aria-hidden="true" tabindex="-1"></a>  <span class="st">'devtools'</span>, <span class="st">'Ipaper'</span>, <span class="st">'knitr'</span>, <span class="st">'kableExtra'</span>, <span class="st">'tint'</span>, <span class="st">'furrr'</span>, <span class="st">'tidyr'</span>, </span>
+<span id="cb11-74"><a href="#cb11-74" aria-hidden="true" tabindex="-1"></a>  <span class="st">'readr'</span>, <span class="st">'lubridate'</span>, <span class="st">'reprex'</span>, <span class="st">'stringr'</span>, <span class="st">'feather'</span>, <span class="st">'purrr'</span>, <span class="st">'tidyfst'</span>, </span>
+<span id="cb11-75"><a href="#cb11-75" aria-hidden="true" tabindex="-1"></a>  <span class="st">'quantmod'</span>, <span class="st">'tidyquant'</span>, <span class="st">'tibbletime'</span>, <span class="st">'timetk'</span>, <span class="st">'plyr'</span>, <span class="st">'dplyr'</span>, <span class="co">#'Rfast', </span></span>
+<span id="cb11-76"><a href="#cb11-76" aria-hidden="true" tabindex="-1"></a>  <span class="st">'dbplyr'</span>, <span class="st">'magrittr'</span>, <span class="st">'sarima'</span>, <span class="st">'tidyverse'</span>, <span class="st">'memoise'</span>, <span class="st">'htmltools'</span>, </span>
+<span id="cb11-77"><a href="#cb11-77" aria-hidden="true" tabindex="-1"></a>  <span class="st">'formattable'</span>, <span class="st">'dtplyr'</span>, <span class="st">'zoo'</span>, <span class="st">'forecast'</span>, <span class="st">'seasonal'</span>, <span class="st">'magrittr'</span>, </span>
+<span id="cb11-78"><a href="#cb11-78" aria-hidden="true" tabindex="-1"></a>  <span class="st">'seasonalview'</span>, <span class="st">'rjson'</span>, <span class="st">'rugarch'</span>, <span class="st">'rmgarch'</span>, <span class="st">'mfGARCH'</span>, <span class="st">'feather'</span>, </span>
+<span id="cb11-79"><a href="#cb11-79" aria-hidden="true" tabindex="-1"></a>  <span class="st">'sparklyr'</span>, <span class="st">'jcolors'</span>, <span class="st">'microbenchmark'</span>, <span class="st">'dendextend'</span>, <span class="st">'vembedr'</span>, <span class="co">#'TSA', </span></span>
+<span id="cb11-80"><a href="#cb11-80" aria-hidden="true" tabindex="-1"></a>  <span class="st">'lhmetools'</span>, <span class="st">'gtools'</span>, <span class="st">'stringi'</span>, <span class="st">'pacman'</span>, <span class="st">'profmem'</span>, <span class="st">'ggthemes'</span>, </span>
+<span id="cb11-81"><a href="#cb11-81" aria-hidden="true" tabindex="-1"></a>  <span class="st">'flyingfox'</span>, <span class="st">'htmltools'</span>, <span class="st">'echarts4r'</span>, <span class="st">'viridis'</span>, <span class="st">'hrbrthemes'</span>, </span>
+<span id="cb11-82"><a href="#cb11-82" aria-hidden="true" tabindex="-1"></a>  <span class="st">'fable'</span>, <span class="st">'fabletools'</span>, <span class="st">'fable.prophet'</span>, <span class="st">'Metrics'</span>, <span class="st">'MLmetrics'</span>)</span>
+<span id="cb11-83"><a href="#cb11-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-84"><a href="#cb11-84" aria-hidden="true" tabindex="-1"></a><span class="co"># load_pkg(程序包)</span></span>
+<span id="cb11-85"><a href="#cb11-85" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressAll</span>(<span class="fu">lib</span>(程序包))</span>
+<span id="cb11-86"><a href="#cb11-86" aria-hidden="true" tabindex="-1"></a><span class="fu">load_pkg</span>(程序包)</span>
+<span id="cb11-87"><a href="#cb11-87" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(程序包)</span>
+<span id="cb11-88"><a href="#cb11-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-89"><a href="#cb11-89" aria-hidden="true" tabindex="-1"></a>.蜀道 <span class="ot">&lt;-</span> <span class="fu">getwd</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb11-90"><a href="#cb11-90" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">str_split</span>(., <span class="st">'/'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb11-91"><a href="#cb11-91" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">c</span>(<span class="st">'/'</span>, .[[<span class="dv">1</span>]][<span class="dv">2</span><span class="sc">:</span><span class="dv">5</span>])}() <span class="sc">|&gt;</span> </span>
+<span id="cb11-92"><a href="#cb11-92" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">c</span>(., <span class="st">'binary.com-interview-question-data/'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb11-93"><a href="#cb11-93" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">paste</span>(., <span class="at">collapse =</span> <span class="st">'/'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb11-94"><a href="#cb11-94" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">substring</span>(., <span class="dv">2</span>)}()</span>
+<span id="cb11-95"><a href="#cb11-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-96"><a href="#cb11-96" aria-hidden="true" tabindex="-1"></a><span class="do">## 设置googleVis选项，促使plot.gvis只陈列HTML格式的完成品。</span></span>
+<span id="cb11-97"><a href="#cb11-97" aria-hidden="true" tabindex="-1"></a>谷歌绘图设置 <span class="ot">&lt;-</span> <span class="fu">options</span>(<span class="at">gvis.plot.tag =</span> <span class="st">'chart'</span>)</span>
+<span id="cb11-98"><a href="#cb11-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-99"><a href="#cb11-99" aria-hidden="true" tabindex="-1"></a><span class="do">## &lt;audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop&gt;&lt;/audio&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r hover01 code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'llply'</span>, <span class="st">'Ipaper'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'view'</span>, <span class="st">'tibble'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'year'</span>, <span class="st">'lubridate'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">'permutations'</span>, <span class="st">'gtools'</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><br></p>
+</section>
+</section>
+<section id="简介" class="level1">
+<h1>简介</h1>
+<p><a href="https://rpubs.com/englianhu/binary-Q1Inter-HFT"><span style="color:#DE5D83; background-color:black;"><em>Deriv.com</em></span> - <em>Interday High Frequency Trading Models Comparison</em> <span style="color:red"><em>Blooper</em></span></a>科研论文中提及一些技术问题，故此使用<strong>Part I</strong>中的数据加以修饰并回测，再与<strong>Part II</strong>比较，筛选最优统计模型。</p>
+<ul>
+<li><a href="https://rpubs.com/englianhu/binary-Q1Inter-HFT-RV1"><span style="color:#DE5D83; background-color:black;"><em>Deriv.com</em></span> - <em>Interday High Frequency Trading Models Comparison</em> <span style="color:RoyalBlue"><em>Review (Part I)</em></span></a> (发布于RPubs.com)</li>
+<li><a href="https://beta.rstudioconnect.com/content/16240/binary-Q1Inter-HFT-RV1.html"><span style="color:#DE5D83; background-color:black;"><em>Deriv.com</em></span> - <em>Interday High Frequency Trading Models Comparison</em> <span style="color:RoyalBlue"><em>Review (Part I)</em></span></a> (发布于RStudioConnect.com)</li>
+<li><a href="https://rpubs.com/englianhu/742275"><span style="color:#DE5D83; background-color:black;"><em>Deriv.com</em></span> - <em>Interday High Frequency Trading Models Comparison</em> <span style="color:RoyalBlue"><em>Review (Part II)</em></span></a> (发布于RPubs.com)</li>
+<li><a href="https://beta.rstudioconnect.com/content/8a7cbdce-6fc5-409b-8072-9ff21dbd32eb"><span style="color:#DE5D83; background-color:black;"><em>Deriv.com</em></span> - <em>Interday High Frequency Trading Models Comparison</em> <span style="color:RoyalBlue"><em>Review (Part II)</em></span></a> (发布于RStudioConnect.com)</li>
+<li><a href="https://rpubs.com/englianhu/987834"><span style="color:#DE5D83; background-color:black;"><em>Deriv.com</em></span> - *筛选日内高频量化交易统计模型 校阅<span style="color:RoyalBlue"><em>（第III部）</em></span></a></li>
+</ul>
+<p>在此论文中，使用<span style="color:RoyalBlue">季节性自回归综合滑均模型系列</span>。</p>
+<ul>
+<li>季节性指数平滑模型（Seasonal Exponential Smoothing - Seasonal ETS）</li>
+<li>外部因素周期性自回归综合滑均模型（ARIMAX）</li>
+<li>季节性自回归综合滑均模型（SARIMA）</li>
+<li>外部因素周期性季节性自回归综合滑均模型（SARIMAX）</li>
+<li>外部因素周期性自回归分整综合滑均模型（Auto Regressive Fractionally Integrated Moving Average Exogenous - ARFIMAX）</li>
+<li>多元季节性自回归综合滑均模型（Multi-Seasonal Time Series <code>msts()</code>）</li>
+</ul>
+<blockquote class="blockquote">
+<p>#自动化 #科研科学 #尚未试驾 尚未试驾🚗</p>
+</blockquote>
+<p>引用：<a href="https://v.douyin.com/YxVy48K">抖音 - 电动车</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0OvkWGRhf_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<p>引用：<a href="https://www.tumblr.com/blog/view/englianhu/641578918656212992?source=share">Tumblr - Bayesian Hidden Markov Models for Time Series</a></p>
+<blockquote class="blockquote">
+<p>辛亥革命，铲除巫裔；<br> 终止屠杀，拯救全球。</p>
+</blockquote>
+<p><strong>咱们东南亚巫裔政府屠杀680万人类的巫师Judi邪教巫裔宦官博彩庄诸国</strong></p>
+<p>小时候都在日本动漫文化的环境下长大。小学时期在明智华校上学就已经学会万事具备，都会提前30分钟抵达做好准备才不会仓促。自从2002年学习日语后，由于平时从旺沙马朱宿舍到拉曼学院徒步上学需要时间提前准备，所以都会将时间设为提前20分钟，基于从旺沙马朱宿舍徒步耗时45分钟左右，索性设为提前一个小时，所以愚生将所有电子仪器的标准时间都一律设为日本标准时间，然后青梅竹马的郑添和同学问过我，我回答：“我的时间必须比别人快，我的世界必须比别人快，才能占有先机～”，所以设置提前一个小时日本标准时间，再提前一小时就看到是本土提前两个小时。<strong>自从2019年在菲律宾阿里与中国同胞工作离职后，就开始思考身为🇹🇼🇨🇳中华民族，岂能沦为（大化革新的）倭奴或者倭寇，所以目前的科研语言、时间标准、甚至编码，都一律使用汉字。</strong>由于数据上的交易时间出现时差的缘故，在读取数据后就将数据上的时间更换，添加一小时时差为中国标准时间，以确保时间规律计算方面，不会出错。</p>
+<p><br></p>
+</section>
+<section id="数据" class="level1">
+<h1>数据</h1>
+<section id="读取数据" class="level2">
+<h2 class="anchored" data-anchor-id="读取数据">读取数据</h2>
+<p><strong>Part I</strong>中使用的原始数据已加以修饰并储存，<strong>Part II</strong>与<strong>（第III部）</strong>次论文读取该数据，将网页轻巧化、省略掉修饰数据的一栏，<strong>（第III部）</strong>虽然出现小出错，但整体上还是可以筛选出<strong>最优统计模型</strong>，总结使用2018年上半年汇价数据即可，节省许多科研时间。</p>
+<p>然而<strong>总汇结论（从2016年至2018年7月7日）</strong>和<strong>总汇2018年上半年结论</strong>可以证实将再循环数据量参数设置为<code>频率 = 1</code>（<strong>0.02小时一周期（1分钟循环1200次）</strong>）误差最小、最为精准<span style="color:white; background-color:#DE5D83;"><strong>最优统计模型</strong></span>。为了节省科研时间，它日只需要使用半年汇价数据而非三年半数据。</p>
+<p>基于<code>1200分钟</code>为一个最优循环期数据量，此篇文章将样本数据过滤为<code>2017-12-31 16:01:00 CST（中国标准时间）</code>至<code>2018-07-01 00:00:00 CST（中国标准时间）</code>，这样所预测出来的汇价会从<code>2018-01-01 00:00:00 CST（中国标准时间）</code>至<code>2018-07-01 00:00:00 CST（中国标准时间）</code>七个月整的汇价数据，再来比较闭市价误差，2018年汇价数据第一周并无闭市价，估计是年假休市，再比较误差时会忽略<code>NA值</code>时间的数据。</p>
+<p>为了方便日后节省时间，这儿再过滤汇价数据量。</p>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r hover01 code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="do">## 检验是否已设置途径。</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">'函数/汇总上奏.R'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre class="hover03"><code>Error in file(filename, "r", encoding = encoding): 无法打开链结</code></pre>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r hover01 code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">'函数/总汇结论.R'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre class="hover03"><code>Error in file(filename, "r", encoding = encoding): 无法打开链结</code></pre>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r hover01 code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">exists</span>(<span class="st">'.蜀道'</span>)) {</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  .蜀道 <span class="ot">&lt;-</span> <span class="fu">getwd</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">str_split</span>(., <span class="st">'/'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">c</span>(<span class="st">'/'</span>, .[[<span class="dv">1</span>]][<span class="dv">2</span><span class="sc">:</span><span class="dv">5</span>])}() <span class="sc">|&gt;</span> </span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">c</span>(., <span class="st">'binary.com-interview-question-data/'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">paste</span>(., <span class="at">collapse =</span> <span class="st">'/'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">substring</span>(., <span class="dv">2</span>)}()</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">exists</span>(<span class="st">'.蜀道仓库'</span>)) {</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>  .蜀道仓库 <span class="ot">&lt;-</span> <span class="fu">paste0</span>(.蜀道, <span class="st">'文艺数据库/fx/USDJPY/仓库/'</span>)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>样本2018半年 <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="st">"~/文档/猫城/binary.com-interview-question-data/文艺数据库/fx/USDJPY/样本2018半年.rds"</span>)</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a><span class="do">## A data.table and dplyr tour</span></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a><span class="do">## https://atrebas.github.io/post/2019-03-03-datatable-dplyr/#addupdatedelete-columns</span></span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>日内指数平滑数据2018年上半年总汇 <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">paste0</span>(.蜀道仓库, <span class="st">'日内指数平滑数据2018年上半年总汇.rds'</span>))</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a>日内指数平滑数据2018年上半年总汇 <span class="ot">&lt;-</span> tidyft<span class="sc">::</span><span class="fu">full_join</span>(样本2018半年, 日内指数平滑数据2018年上半年总汇) <span class="sc">%&gt;%</span> </span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>    na.omit <span class="sc">%&gt;%</span> </span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select_dt</span>(<span class="sc">-</span>闭市价)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>以上图表显示数据<code>年月日时分</code>，由2018-01-02 00:01:00 至 2018-06-30，接下来的科研一律使用同样的半年数据，是为了在回测多元统计模型，才能获知并筛选最优统计模型。</p>
+<p>以上首千多个汇价（观测值）都是一样的汇价。</p>
+</section>
+</section>
+<section id="模型比较" class="level1">
+<h1>模型比较</h1>
+<section id="精准度" class="level2">
+<h2 class="anchored" data-anchor-id="精准度">精准度</h2>
+<blockquote class="blockquote">
+<p>VAR分析中的一个中心问题是找到滞后的阶数，以产生最佳结果。模型比较通常基于信息标准，例如AIC，BIC或HQ。通常，由于是小样本预测，AIC优于其他标准。但是，BIC和HQ在大型样本中效果很好</p>
+</blockquote>
+<p>引用：<a href="http://tecdat.cn/r%e8%af%ad%e8%a8%80%e7%94%a8%e5%90%91%e9%87%8f%e8%87%aa%e5%9b%9e%e5%bd%92%ef%bc%88var%ef%bc%89%e8%bf%9b%e8%a1%8c%e7%bb%8f%e6%b5%8e%e6%95%b0%e6%8d%ae%e8%84%89%e5%86%b2%e5%93%8d%e5%ba%94%e7%a0%94">R语言用向量自回归（VAR）进行经济数据脉冲响应研究分析</a></p>
+<ul>
+<li><a href="https://bbs.pinggu.org/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=3236918&amp;pid=84745157&amp;fromuid=5794471">「经管之家」 [统计软件与数据分析] 如何理解R中给出的ARIMA模型的拟合结果？</a></li>
+<li><a href="https://otexts.com/fpp3/accuracy.html"><strong>Forecasting: Principle &amp; Practice</strong> - <em>5.8 Evaluating point forecast accuracy</em></a></li>
+</ul>
+</section>
+</section>
+<section id="结论" class="level1">
+<h1>结论</h1>
+<section id="摘要" class="level2">
+<h2 class="anchored" data-anchor-id="摘要">摘要</h2>
+<p><strong>大秦赋 (Chinese Emperor)</strong><br> 春秋战国《<em>礼记•经解</em>》<br> 孔子曰：『君子慎始，差若毫厘，缪以千里。』</p>
+<blockquote class="blockquote">
+<p><span style="color:#FFEBCD; background-color:#D2B48C;"><strong>《礼记·经解》孔子曰：</strong></span><span style="color:#A9A9A9; background-color:#696969;"><em>「君子慎始，差若毫厘，谬以千里。」</em></span><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</blockquote>
+<p><em>引用：<a href="https://www.baike.com/wikiid/2225522569881832051?view_id=2tt3iw3blkq000">「快懂百科」《礼记•经解》</a>和<a href="https://www.diyifanwen.com/chengyu/liuziyishangchengyugushi/2010051523105152347092749890.htm">第一范文网：差之毫厘，谬以千里的故事</a>和<a href="https://baike.baidu.com/item/%E7%A4%BC%E8%AE%B0%C2%B7%E7%BB%8F%E8%A7%A3/2523092">「百度百科」春秋时期孔子作品《礼记•经解》</a>和<a href="https://www.ourchinastory.com/zh/2962/%E5%B7%AE%E4%B9%8B%E6%AF%AB%E9%87%90%20%E8%AC%AC%E4%BB%A5%E5%8D%83%E9%87%8C">「當代中國」差之毫釐 謬以千里</a></em></p>
+<p><img src="文艺坊图库/秒计.png" class="img-fluid"></p>
+<p>估计是由于骇客人为篡改数据，导致<strong>总汇2016年结论</strong>和<strong>总汇2017年结论</strong>显示误差完全一样，<em>四个小数位数</em>的汇价的预测误差，有可能计算出<em>十五个小数位数</em>（倘若以秒计，飞秒（fs））误差值一模一样吗？上几周骇客频频入侵电子仪器<code>频率=12</code>的数据，骇客人为篡改为多一个观测值汇价。</p>
+<p>然而<strong>总汇结论（从2016年至2018年7月7日）</strong>和<strong>总汇2018年上半年结论</strong>可以证实将再循环数据量参数设置为<code>频率 = 1</code>（<strong>0.02小时一周期（1分钟循环1200次）</strong>）误差最小、最为精准<span style="color:white; background-color:#DE5D83;"><strong>最优统计模型</strong></span>。为了节省科研时间，它日只需要使用半年汇价数据而非三年半数据。</p>
+<p>这儿使用<code>forecast</code>程序包，尚未使用<code>fable</code>程序包与<code>fabletools</code>程序包，该程序包中的<code>accuracy()</code><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>函数有使用<strong>平均绝对比例误差（MASE）</strong>来衡量更为精准的统计模型预测值。</p>
+<p><strong>反击大象共和国</strong></p>
+<p><img src="文艺坊图库/回教徒，可兰经；断肢法，最合法。歼灭所有印尼巫鹰和美国洋番爱国狂热份子.png" class="img-fluid"> <img src="文艺坊图库/歼灭美国和巫贼巫婆回教徒.png" class="img-fluid"> <img src="文艺坊图库/大秦赋%20Chinese%20Emperor.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>#回教徒爱国就严格遵守回教徒可兰经法家国学论集体自杀而不爱国就集体退位让贤而已 #美国耶稣洋番集体被钉在十字架被晒死 回教徒可兰经法家国学论，东南亚巫贼巫婆回教徒尤其是瓜雪巴西不能帮万佛寺土司张佳坤爱国虔诚狂热份子和大象共和国举国公民MH三七零和MH十七自杀式飞往东亚</p>
+</blockquote>
+<p><em>引用：<a href="https://www.youtube.com/watch?v=5LL8V2a_xp0">勇于认错的美国洋番回教徒九一一恐怖份子国父华盛顿自杀式伐木都说东亚中国（包括咱们海内外所有华人）不是洋番的敌人，而敌人是东南亚所有巫贼巫婆回教徒包括新加坡首任总统忧索夫殡伊斯骇客回教徒九一一恐怖份子</a></em></p>
+<blockquote class="blockquote">
+<p>核武器温馨提示：回教徒可兰经法家国学论，可兰经回教规定全球所有回教徒世袭制不许学可兰经以外的习俗文化宗教语言断肢法和不许叛乱和叛教</p>
+</blockquote>
+<p><em>引用：<a href="https://www.163.com/dy/article/HM881SKU0511RVG1.html">斩首、石刑、截肢…阿富汗“伊斯兰教法”或将重现酷刑</a></em></p>
+<iframe width="458" height="815" src="https://v.douyin.com/iJNWLAQv" title="δ「抖音」千言万语描述旅行风景的文案，都不及自己按一次快门的瞬间 #行胜于言论" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section id="前瞻科研" class="level2">
+<h2 class="anchored" data-anchor-id="前瞻科研">前瞻科研</h2>
+<p>使用一样的汇价数据，不过从2018年上半年数据，可以节省许多时间。下一篇科研<a href="https://github.com/englianhu/binary.com-interview-question"><span style="color:#DE5D83; background-color:black;">Deriv.com</span> - 筛选日内高频量化交易统计模型 <span style="color:#4E79A7"><strong>校阅（第IV部）</strong></span></a><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>会使用<code>fable</code>、<code>fabletools</code>、<code>fable.prophet</code>、<code>tbats</code>、<code>midas</code>、<code>sarimax</code>、<code>arfimax</code>等其它统计模型，然后还有比较长短记忆模型如<code>tensorflow</code>、<code>keras</code>，隐马尔可夫链、隐含波动率、波浪形模型等其它统计模型。</p>
+<p><img src="文艺坊图库/careers.png" width="240"></p>
+<p><a href="https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs"><strong>近期招聘一览表:</strong><span style="color:#3C5C; background-color:black;">*全网Quant都在看!</span></a></p>
+<p><br></p>
+</section>
+</section>
+<section id="附录" class="level1">
+<h1>附录</h1>
+<section id="幕后花絮" class="level2">
+<h2 class="anchored" data-anchor-id="幕后花絮">幕后花絮</h2>
+<ul>
+<li><a href="https://github.com/englianhu/library/issues/3">「猫城」englianhu/binary.com-interview-question#3大秦赋：商鞅变法、辛亥革命、一带一路、习李经济学、孙子兵法</a></li>
+<li><a href="https://github.com/scibrokes/r-world/issues/1">「猫城」scibrokes/r-world#1<code>REmap</code>百度绘图，点缀全球</a></li>
+<li><a href="https://github.com/englianhu/binary.com-interview-question/issues/6">「猫城」englianhu/binary.com-interview-question#6<code>Error: forecast::Arima() #910</code></a></li>
+<li><a href="https://github.com/englianhu/binary.com-interview-question/issues/8">「猫城」englianhu/binary.com-interview-question#8在<code>ts</code>和<code>xts</code>和<code>matrix</code>格式上使用<code>auto.arima</code></a></li>
+<li><a href="https://github.com/scibrokes/setup-centOS7-DO/issues/2">「猫城」scibrokes/setup-centOS7-DO#2🚩🇨🇳🏹中科红旗 RedFlag Linux (🍥Debian)</a></li>
+<li><a href="">「猫城」</a></li>
+<li><a href="">「猫城」</a></li>
+</ul>
+</section>
+<section id="文书明细" class="level2">
+<h2 class="anchored" data-anchor-id="文书明细">文书明细</h2>
+<p>以下乃此文书的文件信息。</p>
+<ul>
+<li>文集建立日：2023-01-14</li>
+<li>文集最新更新日：2023-12-30</li>
+<li>R version 4.3.2 (2023-10-31)</li>
+<li><a href="https://github.com/rstudio/rmarkdown"><strong>rmarkdown</strong></a> 程序包版本：2.25</li>
+<li>文集版本：0.2.1</li>
+<li>文集作者：<a href="https://rpubs.com/englianhu/ryo-cn">®γσ, ξηg Lιαη Ημ</a></li>
+<li>猫城：<a href="https://github.com/englianhu/binary.com-interview-question">源代码</a></li>
+<li>追加附属信息</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r hover01 code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#suppressMessages(require('formattable', quietly = TRUE))</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co">#suppressMessages(require('knitr', quietly = TRUE))</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co">#suppressMessages(require('kableExtra', quietly = TRUE))</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co">#suppressMessages(require('magittr', quietly = TRUE))</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co">#suppressMessages(require('devtools', quietly = TRUE))</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>系统信息1 <span class="ot">&lt;-</span> <span class="fu">session_info</span>()<span class="sc">$</span>platform <span class="sc">|&gt;</span> </span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">unlist</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">row.names =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(.), </span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Category =</span> <span class="fu">names</span>(.), <span class="at">session_info =</span> .)}()</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>系统信息2 <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">Sys.info</span>()) <span class="sc">|&gt;</span> </span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="fu">row.names</span>(.), <span class="at">Sys.info =</span> .[,<span class="dv">1</span>])}()</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="co">#remarks, dim(系统信息1), dim(系统信息2)</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(系统信息1) <span class="sc">==</span> <span class="dv">11</span> <span class="sc">&amp;&amp;</span> <span class="fu">nrow</span>(系统信息2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>  系统信息2 <span class="ot">&lt;-</span> 系统信息2 <span class="sc">|&gt;</span> </span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">'rmarkdown'</span>, <span class="st">'rsconnect'</span>, <span class="st">'当前时间'</span>), </span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">'rsconnect'</span>)), </span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>                   lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">'Asia/Shanghai'</span>)), <span class="st">'CST 中国标准时间 🗺'</span>))))}()</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">nrow</span>(系统信息1) <span class="sc">==</span> <span class="dv">10</span> <span class="sc">&amp;&amp;</span> <span class="fu">nrow</span>(系统信息2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a>  系统信息1 <span class="ot">&lt;-</span> <span class="fu">rbind</span>(系统信息1, <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="st">''</span>, <span class="at">session_info =</span> <span class="st">''</span>))</span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>  系统信息2 <span class="ot">&lt;-</span> 系统信息2 <span class="sc">|&gt;</span> </span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">'rmarkdown'</span>, <span class="st">'rsconnect'</span>, <span class="st">'当前时间'</span>), </span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">'rsconnect'</span>)), </span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a>                   lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">'Asia/Shanghai'</span>)), <span class="st">'CST 中国标准时间 🗺'</span>))))}()</span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a>系统信息 <span class="ot">&lt;-</span> <span class="fu">cbind</span>(系统信息1, 系统信息2)</span>
+<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(系统信息) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">'分类1'</span>, <span class="st">'访谈信息1'</span>, <span class="st">'分类2'</span>, <span class="st">'访谈信息2'</span>)</span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a>系统信息<span class="sc">$</span>分类1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">'版本'</span>, <span class="st">'操作系统'</span>, <span class="st">'系统'</span>, <span class="st">'界面'</span>, <span class="st">'语言'</span>, <span class="st">'核对'</span>, </span>
+<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a>              <span class="st">'©标准库'</span>, <span class="st">'时区'</span>, <span class="st">'日期'</span>, <span class="st">'®文艺坊版本'</span>, <span class="st">'Pandoc瑞士军刀'</span>)</span>
+<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a>系统信息<span class="sc">$</span>分类2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">'系统名称'</span>, <span class="st">'发布'</span>, <span class="st">'版本'</span>, <span class="st">'元素节点'</span>, <span class="st">'机器'</span>, <span class="st">'登录'</span>, </span>
+<span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a>              <span class="st">'用户'</span>, <span class="st">'活跃用户'</span>, <span class="st">'rmarkdown (®降价编译)'</span>, </span>
+<span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a>              <span class="st">'rsconnect (®s联通)'</span>, <span class="st">'当前时间'</span>)</span>
+<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(系统信息1, 系统信息2)</span>
+<span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a>系统信息 <span class="sc">|&gt;</span> </span>
+<span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-48"><a href="#cb18-48" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kbl</span>(., <span class="at">caption =</span> <span class="st">'附加访谈信息：'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb18-49"><a href="#cb18-49" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-50"><a href="#cb18-50" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(</span>
+<span id="cb18-51"><a href="#cb18-51" aria-hidden="true" tabindex="-1"></a>      ., <span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">'striped'</span>, <span class="st">'hover'</span>, <span class="st">'condensed'</span>, <span class="st">'responsive'</span>))}() <span class="sc">|&gt;</span> </span>
+<span id="cb18-52"><a href="#cb18-52" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-53"><a href="#cb18-53" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">0</span>, <span class="at">background =</span> <span class="st">'DimGrey'</span>, <span class="at">color =</span> <span class="st">'yellow'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb18-54"><a href="#cb18-54" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-55"><a href="#cb18-55" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">1</span>, <span class="at">background =</span> <span class="st">'CornflowerBlue'</span>, <span class="at">color =</span> <span class="st">'red'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb18-56"><a href="#cb18-56" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-57"><a href="#cb18-57" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">2</span>, <span class="at">background =</span> <span class="st">'grey'</span>, <span class="at">color =</span> <span class="st">'black'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-59"><a href="#cb18-59" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">3</span>, <span class="at">background =</span> <span class="st">'CornflowerBlue'</span>, <span class="at">color =</span> <span class="st">'blue'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb18-60"><a href="#cb18-60" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-61"><a href="#cb18-61" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">4</span>, <span class="at">background =</span> <span class="st">'grey'</span>, <span class="at">color =</span> <span class="st">'white'</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb18-62"><a href="#cb18-62" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb18-63"><a href="#cb18-63" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">11</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">'yellow'</span>, <span class="at">background =</span> <span class="st">'#D7261E'</span>)}()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="table-responsive">
+<table class="table table-striped table-hover table-condensed table-sm small" data-quarto-postprocess="true">
+<caption>附加访谈信息：</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; color: yellow !important; background-color: DimGrey !important;">分类1</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; color: yellow !important; background-color: DimGrey !important;">访谈信息1</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; color: yellow !important; background-color: DimGrey !important;">分类2</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; color: yellow !important; background-color: DimGrey !important;">访谈信息2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">版本</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">R version 4.3.2 (2023-10-31)</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">系统名称</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">Linux</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">操作系统</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">RedFlag Desktop 11.0</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">发布</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">5.10.0-1-amd64</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">系统</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">x86_64, linux-gnu</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">版本</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">#1 SMP Debian 5.10.40-1~rf11u1.2 (2022-09-22)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">界面</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">X11</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">元素节点</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">Scibrokes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">语言</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">zh_CN:en</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">机器</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">x86_64</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">核对</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">en_US.UTF-8</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">登录</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">englianhu</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">©标准库</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">en_US.UTF-8</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">用户</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">englianhu</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">时区</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">Asia/Shanghai</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">活跃用户</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">englianhu</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">日期</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">2023-12-30</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">rmarkdown (®降价编译)</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">/home/englianhu/文档/猫城/RedFlag-Linux</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important;">®文艺坊版本</td>
+<td style="text-align: left; color: black !important; background-color: grey !important;">3.1.1 @ /usr/lib/rstudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)</td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important;">rsconnect (®s联通)</td>
+<td style="text-align: left; color: white !important; background-color: grey !important;">1.2.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; color: red !important; background-color: CornflowerBlue !important; font-weight: bold; color: yellow !important; background-color: #D7261E !important;">Pandoc瑞士军刀</td>
+<td style="text-align: left; color: black !important; background-color: grey !important; font-weight: bold; color: yellow !important; background-color: #D7261E !important;"></td>
+<td style="text-align: left; color: blue !important; background-color: CornflowerBlue !important; font-weight: bold; color: yellow !important; background-color: #D7261E !important;">当前时间</td>
+<td style="text-align: left; color: white !important; background-color: grey !important; font-weight: bold; color: yellow !important; background-color: #D7261E !important;">2023-12-30 09:12:43.905006 CST 中国标准时间 🗺</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+</div>
+</section>
+<section id="参考文献" class="level2">
+<h2 class="anchored" data-anchor-id="参考文献">参考文献</h2>
+<ol type="1">
+<li><a href="https://rpubs.com/englianhu/binary-Q1Inter-HFT"><span style="color:#DE5D83; background-color:black;">Deriv.com</span> - Interday High Frequency Trading Models Comparison <span style="color:red">(Blooper)</span></a></li>
+<li><a href="https://rpubs.com/englianhu/binary-Q1Inter-HFT-RV1"><span style="color:#DE5D83; background-color:black;">Deriv.com</span> - Interday High Frequency Trading Models Comparison <span style="color:RoyalBlue">Review (Part I)</span></a> (发布于RPubs.com)</li>
+<li><a href="https://beta.rstudioconnect.com/content/16240/binary-Q1Inter-HFT-RV1.html"><span style="color:#DE5D83; background-color:black;">Deriv.com</span> - Interday High Frequency Trading Models Comparison <span style="color:RoyalBlue">Review (Part I)</span></a> (发布于RStudioConnect.com)</li>
+<li><a href="https://rpubs.com/englianhu/binary-Q1-archm">binary.com 面试试题 I - GARCH模型中的<code>ARCH in Mean</code></a></li>
+<li><a href="https://rpubs.com/englianhu/binary-Q1FiGJRGARCH">binary.com 面试试题 I - GARCH模型中的<code>ARIMA(p,d,q)</code>参数最优化</a></li>
+<li><a href="https://rpubs.com/englianhu/987834"><span style="color:#DE5D83; background-color:black;">Deriv.com</span> - 筛选日内高频量化交易统计模型 <span style="color:#4E79A7"><strong>校阅（第III部）</strong></span></a></li>
+<li><a href="https://otexts.com/fpp3">Forecasting: Principles and Practice</a></li>
+<li><a href="https://public.tableau.com/en-us/gallery/100-color-palettes">Tableau 100 Color Palettes</a></li>
+<li><a href="http://tecdat.cn/python%e4%b8%ad%e7%9a%84arima%e6%a8%a1%e5%9e%8b%e3%80%81sarima%e6%a8%a1%e5%9e%8b%e5%92%8csarimax%e6%a8%a1%e5%9e%8b%e5%af%b9%e6%97%b6%e9%97%b4%e5%ba%8f%e5%88%97%e9%a2%84%e6%b5%8b">PYTHON中的ARIMA模型、SARIMA模型和SARIMAX模型对时间序列预测</a></li>
+<li><a href="https://blog.csdn.net/fitzgerald0/article/details/100823231">利用SARIMAX进行销量预测</a></li>
+<li><a href="https://maoli.blog.csdn.net/article/details/113835186">时间序列分析模型：ARIMA模型和SARIMAX算法</a></li>
+<li><a href="https://www.twblogs.net/a/5d7ee484bd9eee5327ffe605">利用SARIMAX進行銷量預測</a></li>
+<li><a href="https://www.twblogs.net/a/5d66409dbd9eee541c332577">季節性時間序列分析-SARIMAX模型的python實現</a></li>
+<li><a href="https://runebook.dev/zh-CN/docs/statsmodels/examples/notebooks/generated/statespace_sarimax_stata">SARIMAX:简介</a></li>
+<li><a href="http://www.4k8k.xyz/article/maiyida123/117967762">Python数据分析案例-分别使用时间序列ARIMA、SARIMAX模型与Auto ARIMA预测国内汽车月销量_maiyida123的博客-程序员资料</a></li>
+<li><a href="https://otexts.com/fppcn/complexseasonality.html">预测：方法与实践：11.1 复杂季节性</a></li>
+<li><a href="">市道轮换下的高频数据参数估计</a></li>
+<li><a href="https://online.stat.psu.edu/stat510/lesson/13/13.1">STAT 510 Applied Time Series Analysis : 13.1 Long Memory Models and Fractional Differences</a></li>
+<li><a href="https://medium.com/analytics-vidhya/a-complete-introduction-to-time-series-analysis-with-r-exogenous-models-4f009b770104">A Complete Introduction To Time Series Analysis (with R):: Exogenous models</a></li>
+<li><a href="https://medium.com/@shawanugya12/implementation-of-time-series-forecasting-methods-sarima-sarimax-and-prophet-ff8407b25aaa">Implementation of Time Series Forecasting Methods (SARIMA, SARIMAX and Prophet)</a></li>
+<li><a href="https://github.com/rajsiddarth/Time_Series_Forecasting">Time Series Forecasting Techniques using R</a></li>
+<li><a href="https://www.simplilearn.com/tutorials/data-science-tutorial/time-series-forecasting-in-r">A Guide to Time Series Forecasting in R You Should Know</a></li>
+<li><a href="https://html-color.codes">HTML Color Codes</a></li>
+</ol>
+<hr>
+<p><a href="http://www.scibrokes.com"><img src="文艺坊图库/Scibrokes.png" height="14"> Sςιβrοκεrs Trαdιηg®</a><br> <span style="color:RoyalBlue"><strong><a href="http://www.scibrokes.com"><img src="文艺坊图库/Scibrokes.png" height="14"> 世博量化®</a>企业知识产权及版权所有，盗版必究。</strong></span></p>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>尤其是咱们东南亚巫裔政府施展巫术屠杀680万人类的巫师Judi邪教巫裔宦官博彩庄诸国<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://html-color.codes">HTML Color Codes</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://otexts.com/fpp3/accuracy.html"><strong>Forecasting: Principles and Practice (3rd ed)</strong> - <em>5.8 Evaluating point forecast accuracy</em></a>阐明评估预测精准度的计算公式。<br><br><a href="https://blog.csdn.net/deephub/article/details/109483129">「CSDN」选择正确的错误度量标准：MAPE与sMAPE的优缺点</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>下篇论文中<a href="https://github.com/englianhu/binary.com-interview-question"><span style="color:#DE5D83; background-color:black;">Deriv.com</span> - 筛选日内高频量化交易统计模型 <span style="color:#4E79A7"><strong>校阅（第IV部）</strong></span></a>，使用<span style="color:RoyalBlue">季节性自回归综合滑均模型系列</span>。<br> - 季节性指数平滑模型（Seasonal Exponential Smoothing - Seasonal ETS）<br> - 外部因素周期性自回归综合滑均模型（ARIMAX）<br> - 季节性自回归综合滑均模型（SARIMA）<br> - 外部因素周期性季节性自回归综合滑均模型（SARIMAX）<br> - 外部因素周期性自回归分整综合滑均模型（Auto Regressive Fractionally Integrated Moving Average Exogenous - ARFIMAX）<br> - 多元季节性自回归综合滑均模型（Multi-Seasonal Time Series <code>msts()</code>）<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

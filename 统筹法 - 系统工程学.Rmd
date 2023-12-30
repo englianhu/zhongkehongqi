@@ -1,0 +1,662 @@
+---
+title: "<img src='文艺坊图库/.png' height='240'>"
+subtitle: "[<span style='color:#9B0202; background-color:black;'>鬼谷传奇</span> - 系统工程学统计模型 <span style='color:#4E79A7'>**统筹法**</span>](https://github.com/englianhu/binary.com-interview-question)"
+author: "[®γσ, ξηg Lιαη Ημ（雷欧）](https://englianhu.github.io) <img src='文艺坊图库/赢家ξng黄氏江夏堂 - 量化对冲（中）.png' height='14'> <img src='文艺坊图库/ENG.png' height='14'>® <img src='文艺坊图库/大秦赋 - 北京大学.png' height='14'>"
+date: "`r lubridate::today('Asia/Shanghai')`"
+output:
+  html_document: 
+    mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    number_sections: yes
+    toc: yes
+    toc_depth: 6
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+    code_folding: hide
+    css: CSSBackgrounds.css
+---
+
+# 主题
+
+## 大秦赋 Chinese Emperor
+
+🚩🇬🇧🇲🇾🇹🇼🇨🇳大秦赋赢家ξng黄氏江夏堂
+
+岂曰无衣，与子同袍
+
+<br>
+<span style='color:#9B111E'>**🚩🦔主题曲🦔🚩**</span>
+<br>
+<audio controls loop autoplay src="文艺坊曲库/卜学亮 - 子曰.mp3" controls></audio>
+<br>
+
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=757957931&bvid=BV1h64y127xd&cid=333194391&page=1" title="天下(电视剧《大秦赋》主题曲完整版)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" border="0" framespacing="0" allowfullscreen="true"></iframe>
+
+*出处：*[**天下***(电视剧《大秦赋》主题曲完整版)*](https://player.bilibili.com/player.html?aid=757957931&bvid=BV1h64y127xd&cid=333194391&page=1)
+
+## 古诗
+
+歼灭巫裔回教恐怖份子，建立六四学术中华政府
+
+🚩🦔Great Britain = 大英帝国<br>
+🚩🦔Greater Chin = 大秦帝国/大秦赋<br>
+🚩🦔Greater Chinese = 大秦子民（爱民如子）<br>
+🚩🦔Oversea Greater Chinese = 海外大秦子民（爱民如子）<br>
+🚩🦔Oversea Greater Chinese Union = 海外大秦子民公会（秦始皇的秦太祖 ----- 🌟秦孝公/🌟陈祯禄公爵，联合秦始皇 ----- 秦始祖嬴政，爱民如子，商鞅变法断肢法铲除咱们巫裔回教徒911恐怖份子Judi回教博彩庄，终止巫术以任何形式、包括指鹿为马、屠杀人类，甚至铲除全球回教徒攻陷回教宗祖国麦家🕋🇹🇷🇸🇦瓦解全球回教，拯救全球）
+
+🚩🇬🇧🇲🇾🇹🇼🇨🇳🌟🐯秦孝公 | 🇬🇧🇲🇾🇹🇼🇨🇳🌟🐯姜太公 --- 🇬🇧🇲🇾🇹🇼🇨🇳🌟陈祯禄公爵/🇬🇧🇲🇾🇹🇼🇨🐯邱德拔公爵/🇬🇧🇲🇾🇹🇼🇨🇳🍁叶亚来队长/🇬🇧🇲🇾🇹🇼🇨🇳🍁叶观盛队长
+
+🚩🦔《大秦赋》<br>
+🚩🦔巫师治国，禍殃全球；<br>
+🚩🦔巫裔尽弃，瓦釜雷鸣。<br>
+🚩🦔商鞅变法，铲除巫裔；<br>
+🚩🦔车裂刘瑾，中华执政。<br>
+🚩🦔一带一路，横跨七洲；<br>
+🚩🦔史无前例，一统天下。<br>
+🚩🦔高频量化，对冲基金；<br>
+🚩🦔只争朝夕，不负韶华。<br>
+🚩🦔学海无涯，唯勤是岸；<br>
+🚩🦔莫忘初衷，方得始终。
+
+《大秦赋》<br>
+🚩大秦孝公，秦惠文王；<br>
+🚩始于商鞅，终于辛亥。<br>
+🚩巫裔尽弃，瓦釜雷鸣；<br>
+🚩铲除巫裔，终止屠杀。<br>
+🚩中科红旗，同舟共济；<br>
+🚩千古一帝，傲视全球。<br>
+🚩一带一路，史无前例；<br>
+🚩横跨七洲，一统天下。<br>
+🚩学海无涯，唯秦是岸；<br>
+🚩莫忘初衷，方得始终。
+
+出处：[蔡卓宜 - 厦门美食](https://www.instagram.com/p/Cjxd_GMLAes)
+
+中国史册：
+
+- [史册号](https://www.shicehao.com)
+- [词林](https://www.cilin.org)
+- [族谱网](https://www.zupu.cn)
+- [历史网](https://www.lishi.net)
+- [中国历史研究院网](http://hrc.cass.cn)
+- [人物介绍网](https://www.yuelishi.cn)
+- [百家有谱](https://www.baijiayoupu.com)
+- [历史记](https://www.lishiji.cn)
+- [β博雅旅游分享网](http://www.bytravel.cn)
+- [博雅人物网](http://ren.bytravel.cn)
+- [洞鑑歷史](https://www.99tango.com/library)
+- [中国人物传记网](https://www.chinarwzj.com)
+- [「百家诸子」中国哲学书电子化计划](https://ctext.org/zhs)
+- [當代中國](https://www.ourchinastory.com)
+- [第一范文网](https://www.diyifanwen.com)
+- [知识贝壳](https://www.zsbeike.com)
+- [趣历史](http://www.qulishi.com/renwu/qinshihuang)
+- [古诗文网](https://www.gushiwen.cn)
+- [5000言](https://5000yan.com)
+- [汉典](https://www.zdic.net)
+- [学术交流联盟](http://bbs.97fc.com)
+- [海词](http://www.cihai123.com)
+- [828啦](https://www.828la.com)
+- [X-MOL学术平台](https://www.x-mol.com)
+- [arXiv](https://arxiv.org)
+- [5000言](https://gwgz.5000yan.com)
+- [古诗词网](https://www.gushici.net)
+- [千篇国学](https://www.qianp.com)
+- [国学百科](https://www.guoxuebaike.cn)
+
+> [《万般皆下品，唯有读书高》]{style="color:#3C33FF"}<br>
+[习李经济，一带一路；]{style="color:#6883FC"}<br>
+[九二共识，量化对冲。]{style="color:#6883FC"}<br>
+[鞭策六四，铲除黑帮；]{style="color:#6883FC"}^[尤其是咱们东南亚巫裔政府施展巫术屠杀680万人类的巫师Judi邪教巫裔宦官博彩庄诸国]<br>
+[推广量化，提倡学术。]{style="color:#6883FC"}<br>
+[百家争鸣，振兴中华；]{style="color:#6883FC"}<br>
+[学海无涯，唯勤是岸。]{style="color:#6883FC"}
+
+- [陕西历史文化名城](http://lishiwenhua.snnu.edu.cn/index.htm)
+- [CCER 特供数据系统平台](http://www.ccerdata.cn)
+- [一带一路数据库](https://www.ydylcn.com/skwx_ydyl/sublibrary?SiteID=1&ID=8721)
+- [中国一带一路网](https://www.yidaiyilu.gov.cn)
+
+> 辛亥革命大秦赋日不落重八、德意志崇祯、古希腊ξηg神话、周公解梦、嬴政把春秋大梦实现为春秋大业、秦孝公招商（商鞅变法）、秦惠文王：全球有16亿不吃猪肉的回教徒宦官（可兰经回教刑事法典断肢法）宗祖国是沙地阿拉伯麦加，需要靠中国政府一带一路战略（商鞅变法联合辛亥革命）还俗。
+
+<img src='文艺坊图库/css.png' width = '400'>
+
+家翁嬴政ξηg Tεηg（赢家黄氏江夏堂）
+
+<img src='文艺坊图库/鞭策六四，推广量化；百家争鸣，振兴中华。.png' width = '400'>
+
+世间再无祖父黄实田，外祖母郑邓
+
+<br>
+
+# 设定
+
+## SCSS 设置
+
+<style>
+pre {
+  overflow-x: auto;
+}
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+.table-hover > tbody > tr:hover { 
+  background-color: #8D918D;
+}
+</style>
+
+```{r 读取SASS, class.source='bg-success', class.output='bg-primary'}
+##
+## 中科红旗（百家争鸣，文艺复兴）
+## Oversea Greater Chinese Union 大秦子民公会（秦孝公 / 姜太公 --- 陈祯禄公爵）
+## 史无前例，一统天下
+##
+##
+##
+## 中科红旗
+## 全球NonMuslim中华民族，支持中共称霸天下战略。
+## Great Britain 大英帝国
+## Greater Chin 大秦赋
+## Republic of Chin / Republic People of Chin 大秦赋（中华民国 / 中华人民共和国）
+## Greater Chinese 大秦子民（爱民如子）
+## Oversea Greater Chinese 大秦子民（爱民如子）
+## Oversea Greater Chinese Union 大秦子民公会（秦孝公 / 姜太公 --- 陈祯禄公爵）
+## 史无前例，一统天下
+##
+## Great Britain = 大布列颠帝国/大英帝国1
+## Greater Chin = 大秦赋
+## Greater Chinese = 大秦子民（爱子如民）
+##
+## NonMuslim马来西亚籍（海外NonMuslim中华民族，自从清末民初下南洋，咱们马来西亚陈祯禄创办 Oversea Chinese Union）秦始皇黄氏江夏堂，笑傲江湖最大文明贡献
+##
+## 1）借鉴以前大英帝国东印度公司，有生之年就把一带一路高铁所经过的国家领土，一律得攻占下来（要比以前大英帝国/大蒙古帝国还要强大）称霸天下，世代延续直至史无前例，一统天下。
+## 2）一带一路所有告示牌、必须使用中文和汉语拼音。
+## 3）借鉴大蒙古帝国骑兵所到之处寸草不生，所有被中国攻占下来的领土，所经之地（包括城市/市镇/乡村），一带一路所有高铁站，都建立国民登记局可以申请入籍中国。
+## 4）川普已经发言多次，美国兵变，会再次内战（借鉴越王勾践，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）
+## 5）中东回教国回教徒911恐怖份子与美国开战，中国军售中东西亚/东欧/非洲回教国（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）
+## 6）中国目前高铁除了尚未与马来西亚达成协议开工建立高铁但是已经借鉴王翦只围不攻战略，把东南亚国家都温馨说服并建立高铁，中国先不与马来西亚开战，让马来西亚兵变内战（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）
+## 7）南太平洋战略：中国和东南亚已经签署合约，达成协议不使用空军、核武器，出动海陆军攻占东南亚
+## 8）商鞅变法多多益善战略：最大贡献是全球16亿回教徒太监民族与全球基督洋人鹬蚌相争... 回教徒默罕默德创办回教，建立可兰经回教刑事法典断肢法规定回教徒伪太监民族必须虔诚戴乌纱帽一天祈祷五次，倘若不虔诚施展巫术屠杀是触犯断肢法而虔诚屠杀也触犯断肢法，只有辛亥革命铲除全球回教徒、断肢法处死或宫刑全球回教徒绝子绝孙，多管齐下才能终止巫术屠杀，拯救全球16亿回教徒还俗。China大秦赋秦孝公至顾自己家族禁止七步诗自相残杀，铲除分一杯羹白骨精刘家彭城堂造反，回教徒会巫术屠杀人类，回教徒太监民族只能屠杀欧美洋人并且被断肢处死，不效忠中共称霸天下，直至一统天下的伪满洲国马来西亚1700万个回教徒911恐怖份子太监民族包括Michael Cutter Christopher，一律断肢法处死（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用秦二世胡亥、辛亥革命、越王胡志明、中国胡景涛、马来西亚回教徒太监不反中共牵制美国，军售中东/西亚/东欧回教诸国对抗美国）。秦始皇在统一七国后就不思进取导致赵高李斯谋反（借鉴中国历史秦始皇，水能载舟亦能覆舟，宗教巫术，古惑民心，指鹿为马，成也赵李，败也赵李。所以秦始皇得铭记当初秦孝公，不能昏庸被回教徒篡位），中国借鉴秦孝公战略善用商朝和苏联俄罗斯叶利钦。秦始皇铭记秦孝公，善用全球回教徒古惑全球洋人再依照可兰经回教刑事法典断肢全球回教徒，让咱们全球NonMuslim中华民族支持中共，一统天下。
+## 9）华尔街、史无前例的万里长城Great Wall Sreet、一带一路高铁：计量经济学、学术治国、编程、统计、科学科技、量化（Fisher姜太公钓鱼大数据，各行各业购物喜好、民意、生活习惯、各国各集团、军事、诊断上市公司等）、金融、贸易、经商、军事、发展各行各业。
+## 10）中文编程语言：借鉴日本自从唐朝大话革新学习汉字至明治维新学习欧洲，日本是全球首个亚洲人自创Ruby红宝石编程语言（Ruby Text可以标音），自从2008年就开始使用R语言并且认识中国R语言论坛《统计之都》论坛创办人网友谢益辉和赵坚毅创办的中国最大计量经济学专业论坛《经管之家》至今十年有余、目前已经开始以中文编程，中华人民共和国的国庆日1001和中华民国的国庆日1010都是二进制的电脑语言binary code，如同黄埔军校国共本是一家，赢家黄氏江夏堂秦孝公禁止《七步诗》自相残杀。咱们东南亚NonMuslim中华民族几乎都是国民华校生，洋人研发电脑、许多编程语言R语言、C语言、C++，推广与发展中文，希望它日有咱们NonMuslim中华民族自创新的编程语言，均以中文编程。
+## 11）发展台式电脑操作系统：中科红旗是由中国北京大学校友孙玉芳创办将Linux礼逆袭和南非原住民开发的Kubuntu忽奔兔中文化并推出自家产品，在美国微软视窗Win台式电脑操作系统垄断全球十多二十年有余，目前已经开始使用芬兰研发的Linux礼逆袭、中国中科红旗台式电脑操作系统，推广与发展中科红旗。
+##
+## 《关雎 --- 英国基督洋妞儿芈拉传》
+## 英国基督洋妞儿芈拉不可以死，隔壁后头邻居黄福全与本人（赢家黄氏江夏堂）祖父同名同姓。
+##
+## 借鉴欧洲中世纪，文艺复兴后就是开始海外军事，称霸天下之路。目前全球疫情已过三年，一带一路如火如荼进行着。
+## 借鉴周公礼乐制度，大英帝国和大日本帝国向来都是自诩绅士淑女，孔子学院，以礼待人，来称霸天下。
+## 借鉴指鹿为马的历史，百家争鸣如果散播回教徒屠杀罪、不杀马来西亚回教徒的话，就得处死回教徒学习可兰经，施展巫术下降头，古惑民心之罪，篡位咱们全球NonMuslim中华民族，人心惶惶、民不聊生，一律依照可兰经回教刑事法典断肢法处死回教徒巫师王（张佳坤Sulaiman Abdullah，分一杯羹白骨精巫师王刘瑾貹Abdul Halim）。
+## 借鉴圣经、诺亚方舟（划龙舟）、孔子儒学（Confusion Catholic）、神父Father与信徒、中国历史、姬昌伯一扈兔子、徐达吃鹅肉、富不过三代的秦始皇嬴政秦二世胡亥至嬴政孙子、公爵、公公孙子、孙文辛亥革命、马来西亚火箭民主行动党由曾敏兴创党后林吉祥林冠英后换人、蒋介石蒋经国后就不延续世袭制，圣经都是善用父子关系，咱们中华民族和英系都是善用公孙关系、法官律师女子假发、自由女神。
+## 中科红旗：借鉴北洋军阀与北约、杀袁者清，灭清者袁，许某可破北洋北约袁绍。黄埔军校国民党共产党辛亥革命是为了铲除回教徒，咱们东南亚回教徒身为伪满洲国911恐怖份子触犯可兰经回教刑事法典断肢法，组织个由回教徒执政的国民阵线（伪国民党）立国，1700万个马来西亚回教徒只能集体自杀，宣布亡国。
+## 何谓中国（大秦赋Chin）？中华民国和中华人民共和国。咱们东南亚自从东亚清末民初几乎都是国民华校生，自从西周的周公开始礼乐制度后，大英帝国和大日本帝国都效仿来称霸天下做得有声有色、禁止回教巫术Judi博彩庄、艺人（异人）、导演巫师巫婆道衍师傅装疯卖傻、青山是巫裔回教徒的归属地，回教巫师巫婆是屠杀人类的语言宗教习俗文化，得断肢法处死1700万个马来西亚巫裔回教徒。
+
+# install.packages('remotes', dependencies = TRUE, INSTALL_opts = '--no-lock')
+library('BBmisc', 'rmsfuns')
+#remotes::install_github("rstudio/sass")
+lib('sass')
+
+## https://support.rstudio.com/hc/en-us/articles/200532197
+## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu
+#Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
+#Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")
+#Sys.setlocale(category = "LC_CTYPE", "Chinese (Simplified)_China.936")
+#Sys.setlocale(locale = "Chinese")
+#Sys.setlocale(locale = "Japanese")
+#Sys.setlocale(locale = "English")
+
+# rmarkdown::render('/home/englianhu/Documents/owner/ryo-cn.Rmd',  encoding = 'UTF-8')
+#Sys.setlocale("LC_CTYPE", "UTF-8")
+#Sys.setlocale(locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "chs")
+#Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "Chinese")
+#Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
+Sys.setlocale("LC_ALL", "en_US.UTF-8")
+```
+
+```{scss SCSS设置, class.source='bg-success', class.output='bg-primary'}
+/* https://stackoverflow.com/a/66029010/3806250 */
+h1 { color: #002C54; }
+h2 { color: #2F496E; }
+h3 { color: #375E97; }
+h4 { color: #556DAC; }
+h5 { color: #92AAC7; }
+
+/* ----------------------------------------------------------------- */
+/* https://gist.github.com/himynameisdave/c7a7ed14500d29e58149#file-broken-gradient-animation-less */
+.hover01 {
+  /* color: #FFD64D; */
+  background: linear-gradient(155deg, #EDAE01 0%, #FFEB94 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #EDAE01 20%, #FFEB94 80%);
+    }
+  }
+
+.hover02 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%);
+    }
+  }
+
+.hover03 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #A10115 0%, #FF3C5C 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #A10115 20%, #FF3C5C 80%);
+    }
+  }
+```
+
+```{r 编织选项, class.source='hover01', class.output='hover02'}
+## 更换时间区域，保留日期时间。
+Sys.setenv(TZ = 'Asia/Shanghai')
+
+## 忽略所有警讯
+## https://stackoverflow.com/a/36846793/3806250
+## 设置宽度
+## options(knitr.table.format = 'html')将所有kableExtra图表一致设置为'html'格式，省略设置各别图表。
+## options(repos = 'https://cran.rstudio.com')将仓库设置为安全网。
+## options(repos = 'http://cran.rstudio.com')将仓库设置为普通网。
+options(warn = -1, width = 999, knitr.table.format = 'html', 
+        digits = 22, digits.secs = Inf, repos = 'https://cran.rstudio.com')
+
+## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
+## https://yihui.org/knitr/options
+knitr::opts_chunk$set(
+  class.source = 'hover01', class.output = 'hover02', class.error = 'hover03', 
+  message = FALSE, warning = FALSE, error = TRUE, 
+  autodep = TRUE, aniopts = 'loop', progress = TRUE, verbose = TRUE, 
+  cache = FALSE, cache.lazy = FALSE, result = 'asis')
+```
+
+## 设置
+
+读取以下所需程序包。
+
+```{r 读取程序包}
+## 读取程序包、设置编织与环境选项。
+## 3210448065@qq.com
+## leiou123
+
+## 2849108450@qq.com
+## leiou123
+## https://rstudio.cloud/project/1198888
+
+## 读取'BBmisc'程序包。
+if (suppressMessages(!require('BBmisc'))) {
+  install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
+}
+suppressMessages(library('BBmisc'))
+
+if (suppressMessages(!require('rmsfuns'))) {
+  install.packages('rmsfuns', dependencies = TRUE, INSTALL_opts = '--no-lock')
+}
+suppressMessages(library('rmsfuns'))
+
+if (!require('REmap')) devtools::install_github('lchiffon/REmap')
+
+## 一次性读取所需程序包。
+## 
+## [R语言高效数据框操作：tidyfst](https://z.itpub.net/article/detail/5EE2CA3CDCD527ADAF5071BF2ADF8874)
+## 
+## [「知乎」tidyft高性能数据操作](https://zhuanlan.zhihu.com/p/128645634)
+## 最下面是tidyft的性能，占用空间最少，花费时间最少。
+##   其实这个包基本拥有tidyfst的所有功能，只是原位更新的概念对于新手是有挑战...
+
+library('tidyfst', warn.conflicts = FALSE)
+library('tidyft', warn.conflicts = FALSE)
+library('dplyr', warn.conflicts = FALSE)
+library('lubridate', warn.conflicts = FALSE)
+library('data.table', warn.conflicts = FALSE)
+library('conflicted', warn.conflicts = FALSE)
+
+conflict_prefer('nth', 'tidyft', quiet = TRUE)
+conflict_prefer('fill', 'tidyft', quiet = TRUE)
+conflict_prefer('nest', 'tidyft', quiet = TRUE)
+conflict_prefer('unnest', 'tidyft', quiet = TRUE)
+conflict_prefer('cummean', 'tidyft', quiet = TRUE)
+conflict_prefer('group_by', 'tidyft', quiet = TRUE)
+conflict_prefer('distinct', 'tidyft', quiet = TRUE)
+conflict_prefer('filter', 'tidyft', quiet = TRUE)
+conflict_prefer('select', 'tidyft', quiet = TRUE)
+conflict_prefer('rename', 'tidyft', quiet = TRUE)
+conflict_prefer('count', 'tidyft', quiet = TRUE)
+conflict_prefer('arrange', 'tidyft', quiet = TRUE)
+conflict_prefer('summarise', 'tidyft', quiet = TRUE)
+conflict_prefer('separate', 'tidyft', quiet = TRUE)
+conflict_prefer('lead', 'tidyft', quiet = TRUE)
+conflict_prefer('lag', 'tidyft', quiet = TRUE)
+conflict_prefer('unite', 'tidyft', quiet = TRUE)
+conflict_prefer('left_join', 'tidyft', quiet = TRUE)
+conflict_prefer('right_join', 'tidyft', quiet = TRUE)
+conflict_prefer('inner_join', 'tidyft', quiet = TRUE)
+conflict_prefer('full_join', 'tidyft', quiet = TRUE)
+conflict_prefer('anti_join', 'tidyft', quiet = TRUE)
+conflict_prefer('semi_join', 'tidyft', quiet = TRUE)
+conflict_prefer('select_dt', 'tidyft', quiet = TRUE)
+conflict_prefer('transpose', 'tidyft', quiet = TRUE)
+conflict_prefer('setDT', 'tidyft', quiet = TRUE)
+conflict_prefer('setnames', 'tidyft', quiet = TRUE)
+conflict_prefer('mutate', 'dplyr', quiet = TRUE)
+conflict_prefer('collapse', 'dplyr', quiet = TRUE)
+conflict_prefer('year', 'lubridate', quiet = TRUE)
+conflict_prefer('first', 'data.table', quiet = TRUE)
+conflict_prefer('last', 'data.table', quiet = TRUE)
+conflict_prefer('between', 'data.table', quiet = TRUE)
+conflict_prefer('set', 'data.table', quiet = TRUE)
+
+程序包 <- c(
+  'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'tidyr', 
+  'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 'tidyfst', 
+  'quantmod', 'tidyquant', 'tibbletime', 'timetk', 'plyr', 'dplyr', #'Rfast', 
+  'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
+  'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'magrittr', 
+  'seasonalview', 'rjson', 'rugarch', 'rmgarch', 'mfGARCH', 'feather', 
+  'sparklyr', 'jcolors', 'microbenchmark', 'dendextend', 'vembedr', #'TSA', 
+  'lhmetools', 'gtools', 'stringi', 'pacman', 'profmem', 'ggthemes', 
+  'flyingfox', 'htmltools', 'echarts4r', 'viridis', 'hrbrthemes', 
+  'fable', 'fabletools', 'fable.prophet', 'Metrics', 'MLmetrics')
+
+# load_pkg(程序包)
+suppressAll(lib(程序包))
+load_pkg(程序包)
+rm(程序包)
+
+.蜀道 <- getwd() |> 
+    {\(.) str_split(., '/')}() |> 
+    {\(.) c('/', .[[1]][2:5])}() |> 
+    {\(.) c(., 'binary.com-interview-question-data/')}() |> 
+    {\(.) paste(., collapse = '/')}() |> 
+    {\(.) substring(., 2)}()
+
+## 设置googleVis选项，促使plot.gvis只陈列HTML格式的完成品。
+谷歌绘图设置 <- options(gvis.plot.tag = 'chart')
+
+## <audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop></audio>
+```
+
+```{r 设置函数优先权}
+conflicts_prefer(Ipaper::llply, .quiet = TRUE)
+conflicts_prefer(Ipaper::`%->%`, .quiet = TRUE)
+conflicts_prefer(tibble::view, .quiet = TRUE)
+conflicts_prefer(lubridate::year, .quiet = TRUE)
+conflicts_prefer(gtools::permutations, .quiet = TRUE)
+```
+
+<br>
+
+# 简介
+
+[<span style='color:#DE5D83; background-color:black;'>*Deriv.com*</span> - *Interday High Frequency Trading Models Comparison* <span style='color:red'>*Blooper*</span>](https://rpubs.com/englianhu/binary-Q1Inter-HFT)科研论文中提及一些技术问题，故此使用**Part I**中的数据加以修饰并回测，再与**Part II**比较，筛选最优统计模型。
+
+- [<span style='color:#DE5D83; background-color:black;'>*Deriv.com*</span> - *Interday High Frequency Trading Models Comparison* <span style='color:RoyalBlue'>*Review (Part I)*</span>](https://rpubs.com/englianhu/binary-Q1Inter-HFT-RV1) (发布于RPubs.com)
+- [<span style='color:#DE5D83; background-color:black;'>*Deriv.com*</span> - *Interday High Frequency Trading Models Comparison* <span style='color:RoyalBlue'>*Review (Part I)*</span>](https://beta.rstudioconnect.com/content/16240/binary-Q1Inter-HFT-RV1.html) (发布于RStudioConnect.com)
+- [<span style='color:#DE5D83; background-color:black;'>*Deriv.com*</span> - *Interday High Frequency Trading Models Comparison* <span style='color:RoyalBlue'>*Review (Part II)*</span>](https://rpubs.com/englianhu/742275) (发布于RPubs.com)
+- [<span style='color:#DE5D83; background-color:black;'>*Deriv.com*</span> - *Interday High Frequency Trading Models Comparison* <span style='color:RoyalBlue'>*Review (Part II)*</span>](https://beta.rstudioconnect.com/content/8a7cbdce-6fc5-409b-8072-9ff21dbd32eb) (发布于RStudioConnect.com)
+- [<span style='color:#DE5D83; background-color:black;'>*Deriv.com*</span> - *筛选日内高频量化交易统计模型 校阅<span style='color:RoyalBlue'>*（第III部）*</span>](https://rpubs.com/englianhu/987834)
+
+在此论文中，使用[季节性自回归综合滑均模型系列]{style="color:RoyalBlue"}。
+
+- 季节性指数平滑模型（Seasonal Exponential Smoothing - Seasonal ETS）
+- 外部因素周期性自回归综合滑均模型（ARIMAX）
+- 季节性自回归综合滑均模型（SARIMA）
+- 外部因素周期性季节性自回归综合滑均模型（SARIMAX）
+- 外部因素周期性自回归分整综合滑均模型（Auto Regressive Fractionally Integrated Moving Average Exogenous - ARFIMAX）
+- 多元季节性自回归综合滑均模型（Multi-Seasonal Time Series `msts()`）
+
+> #自动化 #科研科学 #尚未试驾 尚未试驾🚗
+
+引用：[抖音 - 电动车](https://v.douyin.com/YxVy48K)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0OvkWGRhf_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+引用：[Tumblr - Bayesian Hidden Markov Models for Time Series](https://www.tumblr.com/blog/view/englianhu/641578918656212992?source=share)
+
+> 辛亥革命，铲除巫裔；<br>
+终止屠杀，拯救全球。
+
+**咱们东南亚巫裔政府屠杀680万人类的巫师Judi邪教巫裔宦官博彩庄诸国**
+
+小时候都在日本动漫文化的环境下长大。小学时期在明智华校上学就已经学会万事具备，都会提前30分钟抵达做好准备才不会仓促。自从2002年学习日语后，由于平时从旺沙马朱宿舍到拉曼学院徒步上学需要时间提前准备，所以都会将时间设为提前20分钟，基于从旺沙马朱宿舍徒步耗时45分钟左右，索性设为提前一个小时，所以愚生将所有电子仪器的标准时间都一律设为日本标准时间，然后青梅竹马的郑添和同学问过我，我回答：“我的时间必须比别人快，我的世界必须比别人快，才能占有先机～”，所以设置提前一个小时日本标准时间，再提前一小时就看到是本土提前两个小时。**自从2019年在菲律宾阿里与中国同胞工作离职后，就开始思考身为🇹🇼🇨🇳中华民族，岂能沦为（大化革新的）倭奴或者倭寇，所以目前的科研语言、时间标准、甚至编码，都一律使用汉字。**由于数据上的交易时间出现时差的缘故，在读取数据后就将数据上的时间更换，添加一小时时差为中国标准时间，以确保时间规律计算方面，不会出错。
+
+<br>
+
+# 数据
+
+## 读取数据
+
+**Part I**中使用的原始数据已加以修饰并储存，**Part II**与**（第III部）**次论文读取该数据，将网页轻巧化、省略掉修饰数据的一栏，**（第III部）**虽然出现小出错，但整体上还是可以筛选出**最优统计模型**，总结使用2018年上半年汇价数据即可，节省许多科研时间。
+
+然而**总汇结论（从2016年至2018年7月7日）**和**总汇2018年上半年结论**可以证实将再循环数据量参数设置为`频率 = 1`（**0.02小时一周期（1分钟循环1200次）**）误差最小、最为精准<span style='color:white; background-color:#DE5D83;'>**最优统计模型**</span>。为了节省科研时间，它日只需要使用半年汇价数据而非三年半数据。
+
+基于`1200分钟`为一个最优循环期数据量，此篇文章将样本数据过滤为`2017-12-31 16:01:00 CST（中国标准时间）`至`2018-07-01 00:00:00 CST（中国标准时间）`，这样所预测出来的汇价会从`2018-01-01 00:00:00 CST（中国标准时间）`至`2018-07-01 00:00:00 CST（中国标准时间）`七个月整的汇价数据，再来比较闭市价误差，2018年汇价数据第一周并无闭市价，估计是年假休市，再比较误差时会忽略`NA值`时间的数据。
+
+为了方便日后节省时间，这儿再过滤汇价数据量。
+
+```{r 绘制样本数据图表, results = 'asis'}
+## 检验是否已设置途径。
+source('函数/汇总上奏.R')
+source('函数/总汇结论.R')
+
+if (!exists('.蜀道')) {
+  .蜀道 <- getwd() |> 
+    {\(.) str_split(., '/')}() |> 
+    {\(.) c('/', .[[1]][2:5])}() |> 
+    {\(.) c(., 'binary.com-interview-question-data/')}() |> 
+    {\(.) paste(., collapse = '/')}() |> 
+    {\(.) substring(., 2)}()
+}
+if (!exists('.蜀道仓库')) {
+  .蜀道仓库 <- paste0(.蜀道, '文艺数据库/fx/USDJPY/仓库/')
+}
+
+样本2018半年 <- readRDS("~/文档/猫城/binary.com-interview-question-data/文艺数据库/fx/USDJPY/样本2018半年.rds")
+
+## A data.table and dplyr tour
+## https://atrebas.github.io/post/2019-03-03-datatable-dplyr/#addupdatedelete-columns
+日内指数平滑数据2018年上半年总汇 <- readRDS(paste0(.蜀道仓库, '日内指数平滑数据2018年上半年总汇.rds'))
+
+日内指数平滑数据2018年上半年总汇 <- tidyft::full_join(样本2018半年, 日内指数平滑数据2018年上半年总汇) %>% 
+    na.omit %>% 
+    select_dt(-闭市价)
+```
+
+以上图表显示数据`年月日时分`，由`r paste(range(日内指数平滑数据2018年上半年总汇$年月日时分), collapse = ' 至 ')`，接下来的科研一律使用同样的半年数据，是为了在回测多元统计模型，才能获知并筛选最优统计模型。
+
+以上首千多个汇价（观测值）都是一样的汇价。
+
+# 模型比较
+
+## 精准度
+
+> VAR分析中的一个中心问题是找到滞后的阶数，以产生最佳结果。模型比较通常基于信息标准，例如AIC，BIC或HQ。通常，由于是小样本预测，AIC优于其他标准。但是，BIC和HQ在大型样本中效果很好 
+
+引用：[R语言用向量自回归（VAR）进行经济数据脉冲响应研究分析](http://tecdat.cn/r%e8%af%ad%e8%a8%80%e7%94%a8%e5%90%91%e9%87%8f%e8%87%aa%e5%9b%9e%e5%bd%92%ef%bc%88var%ef%bc%89%e8%bf%9b%e8%a1%8c%e7%bb%8f%e6%b5%8e%e6%95%b0%e6%8d%ae%e8%84%89%e5%86%b2%e5%93%8d%e5%ba%94%e7%a0%94)
+
+- [「经管之家」 [统计软件与数据分析] 如何理解R中给出的ARIMA模型的拟合结果？](https://bbs.pinggu.org/forum.php?mod=redirect&goto=findpost&ptid=3236918&pid=84745157&fromuid=5794471)
+- [**Forecasting: Principle & Practice** - *5.8 Evaluating point forecast accuracy*](https://otexts.com/fpp3/accuracy.html)
+
+# 结论
+
+## 摘要
+
+**大秦赋 (Chinese Emperor)**<br>
+春秋战国《*礼记•经解*》<br>
+孔子曰：『君子慎始，差若毫厘，缪以千里。』
+
+> <span style='color:#FFEBCD; background-color:#D2B48C;'>**《礼记·经解》孔子曰：**</span><span style='color:#A9A9A9; background-color:#696969;'>*「君子慎始，差若毫厘，谬以千里。」*</span>[^1]
+
+*引用：[「快懂百科」《礼记•经解》](https://www.baike.com/wikiid/2225522569881832051?view_id=2tt3iw3blkq000)和[第一范文网：差之毫厘，谬以千里的故事](https://www.diyifanwen.com/chengyu/liuziyishangchengyugushi/2010051523105152347092749890.htm)和[「百度百科」春秋时期孔子作品《礼记•经解》](https://baike.baidu.com/item/%E7%A4%BC%E8%AE%B0%C2%B7%E7%BB%8F%E8%A7%A3/2523092)和[「當代中國」差之毫釐 謬以千里](https://www.ourchinastory.com/zh/2962/%E5%B7%AE%E4%B9%8B%E6%AF%AB%E9%87%90%20%E8%AC%AC%E4%BB%A5%E5%8D%83%E9%87%8C)*
+
+[^1]: [HTML Color Codes](https://html-color.codes)
+
+![](文艺坊图库/秒计.png)
+
+估计是由于骇客人为篡改数据，导致**总汇2016年结论**和**总汇2017年结论**显示误差完全一样，*四个小数位数*的汇价的预测误差，有可能计算出*十五个小数位数*（倘若以秒计，飞秒（fs））误差值一模一样吗？上几周骇客频频入侵电子仪器`频率=12`的数据，骇客人为篡改为多一个观测值汇价。
+
+然而**总汇结论（从2016年至2018年7月7日）**和**总汇2018年上半年结论**可以证实将再循环数据量参数设置为`频率 = 1`（**0.02小时一周期（1分钟循环1200次）**）误差最小、最为精准<span style='color:white; background-color:#DE5D83;'>**最优统计模型**</span>。为了节省科研时间，它日只需要使用半年汇价数据而非三年半数据。
+
+这儿使用`forecast`程序包，尚未使用`fable`程序包与`fabletools`程序包，该程序包中的`accuracy()`[^2]函数有使用**平均绝对比例误差（MASE）**来衡量更为精准的统计模型预测值。
+
+[^2]: [**Forecasting: Principles and Practice (3rd ed)** - *5.8 Evaluating point forecast accuracy*](https://otexts.com/fpp3/accuracy.html)阐明评估预测精准度的计算公式。<br><br>[「CSDN」选择正确的错误度量标准：MAPE与sMAPE的优缺点](https://blog.csdn.net/deephub/article/details/109483129)
+
+**反击大象共和国**
+
+![](文艺坊图库/回教徒，可兰经；断肢法，最合法。歼灭所有印尼巫鹰和美国洋番爱国狂热份子.png)
+![](文艺坊图库/歼灭美国和巫贼巫婆回教徒.png)
+![](文艺坊图库/大秦赋 Chinese Emperor.png)
+
+> #回教徒爱国就严格遵守回教徒可兰经法家国学论集体自杀而不爱国就集体退位让贤而已 #美国耶稣洋番集体被钉在十字架被晒死
+> 回教徒可兰经法家国学论，东南亚巫贼巫婆回教徒尤其是瓜雪巴西不能帮万佛寺土司张佳坤爱国虔诚狂热份子和大象共和国举国公民MH三七零和MH十七自杀式飞往东亚
+
+*引用：[勇于认错的美国洋番回教徒九一一恐怖份子国父华盛顿自杀式伐木都说东亚中国（包括咱们海内外所有华人）不是洋番的敌人，而敌人是东南亚所有巫贼巫婆回教徒包括新加坡首任总统忧索夫殡伊斯骇客回教徒九一一恐怖份子](https://www.youtube.com/watch?v=5LL8V2a_xp0)*
+
+> 核武器温馨提示：回教徒可兰经法家国学论，可兰经回教规定全球所有回教徒世袭制不许学可兰经以外的习俗文化宗教语言断肢法和不许叛乱和叛教
+
+*引用：[斩首、石刑、截肢…阿富汗“伊斯兰教法”或将重现酷刑](https://www.163.com/dy/article/HM881SKU0511RVG1.html)*
+
+## 前瞻科研
+
+使用一样的汇价数据，不过从2018年上半年数据，可以节省许多时间。下一篇科研[<span style='color:#DE5D83; background-color:black;'>Deriv.com</span> - 筛选日内高频量化交易统计模型 <span style='color:#4E79A7'>**校阅（第IV部）**</span>](https://github.com/englianhu/binary.com-interview-question)[^3]会使用`fable`、`fabletools`、`fable.prophet`、`tbats`、`midas`、`sarimax`、`arfimax`等其它统计模型，然后还有比较长短记忆模型如`tensorflow`、`keras`，隐马尔可夫链、隐含波动率、波浪形模型等其它统计模型。
+
+[^3]: 下篇论文中[<span style='color:#DE5D83; background-color:black;'>Deriv.com</span> - 筛选日内高频量化交易统计模型 <span style='color:#4E79A7'>**校阅（第IV部）**</span>](https://github.com/englianhu/binary.com-interview-question)，使用[季节性自回归综合滑均模型系列]{style="color:RoyalBlue"}。<br> - 季节性指数平滑模型（Seasonal Exponential Smoothing - Seasonal ETS）<br> - 外部因素周期性自回归综合滑均模型（ARIMAX）<br> - 季节性自回归综合滑均模型（SARIMA）<br> - 外部因素周期性季节性自回归综合滑均模型（SARIMAX）<br> - 外部因素周期性自回归分整综合滑均模型（Auto Regressive Fractionally Integrated Moving Average Exogenous - ARFIMAX）<br> - 多元季节性自回归综合滑均模型（Multi-Seasonal Time Series `msts()`）
+
+<img src='文艺坊图库/量化投资与机器学习.png' width='240'>
+
+[**近期招聘一览表:**<span style='color:#3C5C; background-color:black;'>*全网Quant都在看!</span>](https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs)
+
+```{r 选项设置, echo = FALSE}
+## Set options back to original options
+options(warn = 0)
+```
+
+<br>
+
+# 附录
+
+## 幕后花絮
+
+- [「猫城」englianhu/binary.com-interview-question#3大秦赋：商鞅变法、辛亥革命、一带一路、习李经济学、孙子兵法](https://github.com/englianhu/library/issues/3)
+- [「猫城」scibrokes/r-world#1`REmap`百度绘图，点缀全球](https://github.com/scibrokes/r-world/issues/1)
+- [「猫城」englianhu/binary.com-interview-question#6`Error: forecast::Arima() #910`](https://github.com/englianhu/binary.com-interview-question/issues/6)
+- [「猫城」englianhu/binary.com-interview-question#8在`ts`和`xts`和`matrix`格式上使用`auto.arima`](https://github.com/englianhu/binary.com-interview-question/issues/8)
+- [「猫城」scibrokes/setup-centOS7-DO#2🚩🇨🇳🏹中科红旗 RedFlag Linux (🍥Debian)](https://github.com/scibrokes/setup-centOS7-DO/issues/2)
+- [「猫城」]()
+- [「猫城」]()
+
+## 文书明细
+
+以下乃此文书的文件信息。
+
+- 文集建立日：2023-01-14
+- 文集最新更新日：`r today('Asia/Shanghai')`
+- `r R.version.string`
+- [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
+- 文集版本：0.2.1
+- 文集作者：[®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-cn)
+- 猫城：[源代码](https://github.com/englianhu/binary.com-interview-question)
+- 追加附属信息
+
+```{r 信息}
+#suppressMessages(require('formattable', quietly = TRUE))
+#suppressMessages(require('knitr', quietly = TRUE))
+#suppressMessages(require('kableExtra', quietly = TRUE))
+#suppressMessages(require('magittr', quietly = TRUE))
+#suppressMessages(require('devtools', quietly = TRUE))
+
+系统信息1 <- session_info()$platform |> 
+    unlist() |> 
+    {\(.) data.frame(row.names = 1:length(.), 
+                     Category = names(.), session_info = .)}()
+
+系统信息2 <- data.frame(Sys.info()) |> 
+    {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
+
+#remarks, dim(系统信息1), dim(系统信息2)
+if (nrow(系统信息1) == 11 && nrow(系统信息2) == 8) {
+  系统信息2 <- 系统信息2 |> 
+    {\(.) rbind(., data.frame(
+    Category = c('rmarkdown', 'rsconnect', '当前时间'), 
+    Sys.info = c(as.character(getwd()), 
+                 as.character(packageVersion('rsconnect')), 
+                 paste(as.character(
+                   lubridate::now('Asia/Shanghai')), 'CST 中国标准时间 🗺'))))}()
+  
+} else if (nrow(系统信息1) == 10 && nrow(系统信息2) == 8) {
+  系统信息1 <- rbind(系统信息1, data.frame(Category = '', session_info = ''))
+  
+  系统信息2 <- 系统信息2 |> 
+    {\(.) rbind(., data.frame(
+    Category = c('rmarkdown', 'rsconnect', '当前时间'), 
+    Sys.info = c(as.character(getwd()), 
+                 as.character(packageVersion('rsconnect')), 
+                 paste(as.character(
+                   lubridate::now('Asia/Shanghai')), 'CST 中国标准时间 🗺'))))}()
+}
+
+系统信息 <- cbind(系统信息1, 系统信息2)
+names(系统信息) <- c('分类1', '访谈信息1', '分类2', '访谈信息2')
+系统信息$分类1 <- c('版本', '操作系统', '系统', '界面', '语言', '核对', 
+              '©标准库', '时区', '日期', '®文艺坊版本', 'Pandoc瑞士军刀')
+系统信息$分类2 <- c('系统名称', '发布', '版本', '元素节点', '机器', '登录', 
+              '用户', '活跃用户', 'rmarkdown (®降价编译)', 
+              'rsconnect (®s联通)', '当前时间')
+rm(系统信息1, 系统信息2)
+
+系统信息 |> 
+  {\(.) 
+    kbl(., caption = '附加访谈信息：')}() |> 
+  {\(.) 
+    kable_styling(
+      ., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) 
+    row_spec(., 0, background = 'DimGrey', color = 'yellow')}() |> 
+  {\(.) 
+    column_spec(., 1, background = 'CornflowerBlue', color = 'red')}() |> 
+  {\(.) 
+    column_spec(., 2, background = 'grey', color = 'black')}() |> 
+  {\(.) 
+    column_spec(., 3, background = 'CornflowerBlue', color = 'blue')}() |> 
+  {\(.) 
+    column_spec(., 4, background = 'grey', color = 'white')}() |> 
+  {\(.) 
+    row_spec(., 11, bold = TRUE, color = 'yellow', background = '#D7261E')}()
+```
+
+## 参考文献
+
+01. [<span style='color:#DE5D83; background-color:black;'>Deriv.com</span> - Interday High Frequency Trading Models Comparison <span style='color:red'>(Blooper)</span>](https://rpubs.com/englianhu/binary-Q1Inter-HFT)
+02. [<span style='color:#DE5D83; background-color:black;'>Deriv.com</span> - Interday High Frequency Trading Models Comparison <span style='color:RoyalBlue'>Review (Part I)</span>](https://rpubs.com/englianhu/binary-Q1Inter-HFT-RV1) (发布于RPubs.com)
+03. [<span style='color:#DE5D83; background-color:black;'>Deriv.com</span> - Interday High Frequency Trading Models Comparison <span style='color:RoyalBlue'>Review (Part I)</span>](https://beta.rstudioconnect.com/content/16240/binary-Q1Inter-HFT-RV1.html) (发布于RStudioConnect.com)
+04. [binary.com 面试试题 I - GARCH模型中的`ARCH in Mean`](https://rpubs.com/englianhu/binary-Q1-archm)
+05. [binary.com 面试试题 I - GARCH模型中的`ARIMA(p,d,q)`参数最优化](https://rpubs.com/englianhu/binary-Q1FiGJRGARCH)
+06. [<span style='color:#DE5D83; background-color:black;'>Deriv.com</span> - 筛选日内高频量化交易统计模型 <span style='color:#4E79A7'>**校阅（第III部）**</span>](https://rpubs.com/englianhu/987834)
+07. [Forecasting: Principles and Practice](https://otexts.com/fpp3)
+08. [Tableau 100 Color Palettes](https://public.tableau.com/en-us/gallery/100-color-palettes)
+09. [PYTHON中的ARIMA模型、SARIMA模型和SARIMAX模型对时间序列预测](http://tecdat.cn/python%e4%b8%ad%e7%9a%84arima%e6%a8%a1%e5%9e%8b%e3%80%81sarima%e6%a8%a1%e5%9e%8b%e5%92%8csarimax%e6%a8%a1%e5%9e%8b%e5%af%b9%e6%97%b6%e9%97%b4%e5%ba%8f%e5%88%97%e9%a2%84%e6%b5%8b)
+10. [利用SARIMAX进行销量预测](https://blog.csdn.net/fitzgerald0/article/details/100823231)
+11. [时间序列分析模型：ARIMA模型和SARIMAX算法](https://maoli.blog.csdn.net/article/details/113835186)
+12. [利用SARIMAX進行銷量預測](https://www.twblogs.net/a/5d7ee484bd9eee5327ffe605)
+13. [季節性時間序列分析-SARIMAX模型的python實現](https://www.twblogs.net/a/5d66409dbd9eee541c332577)
+14. [SARIMAX:简介](https://runebook.dev/zh-CN/docs/statsmodels/examples/notebooks/generated/statespace_sarimax_stata)
+15. [Python数据分析案例-分别使用时间序列ARIMA、SARIMAX模型与Auto ARIMA预测国内汽车月销量_maiyida123的博客-程序员资料](http://www.4k8k.xyz/article/maiyida123/117967762)
+16. [预测：方法与实践：11.1 复杂季节性](https://otexts.com/fppcn/complexseasonality.html)
+17. [市道轮换下的高频数据参数估计]()
+18. [STAT 510 Applied Time Series Analysis : 13.1 Long Memory Models and Fractional Differences](https://online.stat.psu.edu/stat510/lesson/13/13.1)
+19. [A Complete Introduction To Time Series Analysis (with R):: Exogenous models](https://medium.com/analytics-vidhya/a-complete-introduction-to-time-series-analysis-with-r-exogenous-models-4f009b770104)
+20. [Implementation of Time Series Forecasting Methods (SARIMA, SARIMAX and Prophet)](https://medium.com/@shawanugya12/implementation-of-time-series-forecasting-methods-sarima-sarimax-and-prophet-ff8407b25aaa)
+21. [Time Series Forecasting Techniques using R](https://github.com/rajsiddarth/Time_Series_Forecasting)
+22. [A Guide to Time Series Forecasting in R You Should Know](https://www.simplilearn.com/tutorials/data-science-tutorial/time-series-forecasting-in-r)
+23. [HTML Color Codes](https://html-color.codes)
+
+---
+
+[<img src="文艺坊图库/世博量化.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+[**[<img src="文艺坊图库/世博量化.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**]{style="color:RoyalBlue"}
