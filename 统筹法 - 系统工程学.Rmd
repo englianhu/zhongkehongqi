@@ -376,7 +376,7 @@ rm(程序包)
 .蜀道 <- getwd() |> 
     {\(.) str_split(., '/')}() |> 
     {\(.) c('/', .[[1]][2:5])}() |> 
-    {\(.) c(., 'binary.com-interview-question-data/')}() |> 
+    {\(.) c(., 'zhongkehongqi-cangku/')}() |> 
     {\(.) paste(., collapse = '/')}() |> 
     {\(.) substring(., 2)}()
 
@@ -422,7 +422,7 @@ if (!exists('.蜀道')) {
   .蜀道 <- getwd() |> 
     {\(.) str_split(., '/')}() |> 
     {\(.) c('/', .[[1]][2:5])}() |> 
-    {\(.) c(., 'binary.com-interview-question-data/')}() |> 
+    {\(.) c(., 'zhongkehongqi-cangku/')}() |> 
     {\(.) paste(., collapse = '/')}() |> 
     {\(.) substring(., 2)}()
 }
