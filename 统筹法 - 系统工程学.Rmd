@@ -358,12 +358,13 @@ conflict_prefer('set', 'data.table', quiet = TRUE)
 
 程序包 <- c(
   'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'tidyr', 
-  'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 'tidyfst', 
-  'quantmod', 'tidyquant', 'tibbletime', 'timetk', 'plyr', 'dplyr', #'Rfast', 
+  'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 
+  'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 'quantmod', 'tidyquant', 
+  'tibbletime', 'timetk', 'plyr', 'dplyr', #'Rfast', TSA', 
   'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
   'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'magrittr', 
   'seasonalview', 'rjson', 'rugarch', 'rmgarch', 'mfGARCH', 'feather', 
-  'sparklyr', 'jcolors', 'microbenchmark', 'dendextend', 'vembedr', #'TSA', 
+  'sparklyr', 'jcolors', 'microbenchmark', 'dendextend', 'vembedr', 
   'lhmetools', 'gtools', 'stringi', 'pacman', 'profmem', 'ggthemes', 
   'flyingfox', 'htmltools', 'echarts4r', 'viridis', 'hrbrthemes', 
   'fable', 'fabletools', 'fable.prophet', 'Metrics', 'MLmetrics')
@@ -373,12 +374,18 @@ suppressAll(lib(程序包))
 load_pkg(程序包)
 rm(程序包)
 
-.蜀道 <- getwd() |> 
+## 司马错得蜀既得楚
+if (!exists('.蜀道')) {
+  .蜀道 <- getwd() |> 
     {\(.) str_split(., '/')}() |> 
     {\(.) c('/', .[[1]][2:5])}() |> 
     {\(.) c(., 'zhongkehongqi-cangku/')}() |> 
     {\(.) paste(., collapse = '/')}() |> 
     {\(.) substring(., 2)}()
+}
+if (!exists('.蜀道仓库')) {
+  .蜀道仓库 <- paste0(.蜀道, '文艺数据库/聚汇数据/')
+}
 
 ## 设置googleVis选项，促使plot.gvis只陈列HTML格式的完成品。
 谷歌绘图设置 <- options(gvis.plot.tag = 'chart')
@@ -411,6 +418,8 @@ conflicts_prefer(gtools::permutations, .quiet = TRUE)
 
 ## 论文简介
 
+统筹法俗称「系统工程学」，一般上用于工程项目管理或金融业投资组合。
+
 - [🚩🔆🏹🌟🦔数据仓库：中科红旗](https://github.com/englianhu/zhongkehongqi-cangku)
 - [聚会数据](https://www.gotohui.com)
 - [一带一路统计数据库](https://ydyl.cei.cn/jsps/Default)
@@ -424,6 +433,26 @@ conflicts_prefer(gtools::permutations, .quiet = TRUE)
 
 # 数据
 
+## 采集数据
+
+```{r 采集数据}
+lib('datasets')
+
+## 聚汇数据地区数量只到四四五七。
+## https://www.gotohui.com/area/4457
+数 <- 1:4457
+链 <- paste0('https://www.gotohui.com/area/', 数)
+子集 <- llply(链, function(迭) {
+  表 = 迭 %>% read_html %>% html_table
+  名 = 表[[length(表)]]$标题[1] %>% 
+    str_split(., ':') %>% .[[1]] %>% .[1]
+  saveRDS(表, paste0(.蜀道仓库, 表))
+}.progress = "=", .parallel = TRUE)
+
+```
+
+[聚会数据](https://www.gotohui.com)
+
 ## 读取数据
 
 ```{r 绘制样本数据图表, results = 'asis', eval = FALSE}
@@ -431,7 +460,7 @@ conflicts_prefer(gtools::permutations, .quiet = TRUE)
 # source('函数/...R')
 # source('函数/....R')
 
-
+## 司马错得蜀既得楚
 if (!exists('.蜀道')) {
   .蜀道 <- getwd() |> 
     {\(.) str_split(., '/')}() |> 
@@ -441,20 +470,15 @@ if (!exists('.蜀道')) {
     {\(.) substring(., 2)}()
 }
 if (!exists('.蜀道仓库')) {
-  .蜀道仓库 <- paste0(.蜀道, '文艺数据库/fx/USDJPY/仓库/')
+  .蜀道仓库 <- paste0(.蜀道, '文艺数据库/聚汇数据/')
 }
 
 样本 <- readRDS("~/文档/猫城/.../样本.rds")
 
 ```
 
-[聚会数据](https://www.gotohui.com)
 
 ```{r}
-## 聚汇数据地区数量只到四四五七。
-## https://www.gotohui.com/area/4457
-lnk <- 'https://www.gotohui.com/area/33'
-lnk %>% read_html() %>% html_table()
 ```
 
 # 模型比较
