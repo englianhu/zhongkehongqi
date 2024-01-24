@@ -374,6 +374,7 @@ suppressAll(lib(程序包))
 load_pkg(程序包)
 rm(程序包)
 
+## 秦国 China，秦人 Chinese
 ## 司马错得蜀既得楚
 if (!exists('.蜀道')) {
   .蜀道 <- getwd() |> 
@@ -383,9 +384,9 @@ if (!exists('.蜀道')) {
     {\(.) paste(., collapse = '/')}() |> 
     {\(.) substring(., 2)}()
 }
-if (!exists('.蜀道仓库')) {
-  .蜀道仓库 <- paste0(.蜀道, '文艺数据库/聚汇数据/')
-}
+
+if (!exists('.蜀道仓库')) .蜀道仓库 <- paste0(.蜀道, '文艺数据库/聚汇数据/')
+if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 ## 设置googleVis选项，促使plot.gvis只陈列HTML格式的完成品。
 谷歌绘图设置 <- options(gvis.plot.tag = 'chart')
@@ -399,6 +400,7 @@ conflicts_prefer(Ipaper::`%->%`, .quiet = TRUE)
 conflicts_prefer(tibble::view, .quiet = TRUE)
 conflicts_prefer(lubridate::year, .quiet = TRUE)
 conflicts_prefer(gtools::permutations, .quiet = TRUE)
+conflicts_prefer(tidyft::complete, .quiet = TRUE)
 ```
 
 <br>
@@ -433,21 +435,37 @@ conflicts_prefer(gtools::permutations, .quiet = TRUE)
 
 # 数据
 
-## 采集数据
+## 采撷数据
 
-```{r 采集数据}
+```{r 采撷数据}
 lib('datasets')
 
 ## 聚汇数据地区数量只到四四五七。
 ## https://www.gotohui.com/area/4457
 数 <- 1:4457
 链 <- paste0('https://www.gotohui.com/area/', 数)
-子集 <- llply(链, function(迭) {
+子集 <- llply(链[3626:4457], function(迭) {
   表 = 迭 %>% read_html %>% html_table
-  名 = 表[[length(表)]]$标题[1] %>% 
-    str_split(., ':') %>% .[[1]] %>% .[1]
-  saveRDS(表, paste0(.蜀道仓库, 表))
-}.progress = "=", .parallel = TRUE)
+  名 = 迭 %>% read_html %>% 
+    html_nodes(css = "[class = 'ptitle pad-b5 htit']") %>% 
+    html_text %>% str_split(' - ') %>% .[[1]] %>% .[1]
+  
+  if (length(表) == 1) {
+    表 = list(宏观 = data.frame(时间, `GDP（亿元）`, `人均GDP（元）`, `第一产业（亿元）`, `第二产业（亿元）`, `第三产业（亿元）`, `GDP:金融业（亿元）`, `GDP:房地产业（亿元）`, `GDP:工业（亿元）`, `GDP:批发和零售业（亿元）`, `GDP:住宿和餐饮业（亿元）`, `GDP:农林牧渔业（亿元）`), 表)
+  
+  } else if (length(表) == 2) {
+    表 = 表
+  } else {
+    stop(paste0('请查阅网址中', 迭, '的列表！'))
+  }
+  
+  names(表) = c(paste0(名, last(str_split(迭 , '/')[[1]]), '：宏观'), paste0(名, '：明细'))
+  print(表)
+  册 = paste0(.蜀道仓库, 名, last(str_split(迭 , '/')[[1]]), '.rds')
+  saveRDS(表, 册)
+  cat(paste0('\n聚汇数据：', 迭, '\n储存于：', 册, '\n已储存！'))
+  rm(表, 名, 册)
+}, .progress = "=", .parallel = TRUE)
 
 ```
 
@@ -460,6 +478,7 @@ lib('datasets')
 # source('函数/...R')
 # source('函数/....R')
 
+## 秦国 China，秦人 Chinese
 ## 司马错得蜀既得楚
 if (!exists('.蜀道')) {
   .蜀道 <- getwd() |> 
