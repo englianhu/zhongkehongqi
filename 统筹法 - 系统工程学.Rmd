@@ -358,7 +358,7 @@ conflict_prefer('set', 'data.table', quiet = TRUE)
 
 程序包 <- c(
   'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'tidyr', 
-  'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 
+  'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 'rlist', 
   'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 'quantmod', 'tidyquant', 
   'tibbletime', 'timetk', 'plyr', 'dplyr', #'Rfast', TSA', 
   'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
@@ -435,16 +435,24 @@ conflicts_prefer(tidyft::complete, .quiet = TRUE)
 
 # 数据
 
+## 文本纪元
+
+- <ruby>椠<rp>(</rp><rt>qiàn</rt><rp>)</rp></ruby>
+
+*引用：[中国古人书写载体：椠、版、方、牍、简、牒、策、觚、帛、纸](https://baijiahao.baidu.com/s?id=1781595015562599076)*
+
+-[古代记载文字的器物](https://answer.baidu.com/answer/land?params=XhTFwfUBZnK%2FsK4aZ5%2BxtPQ9p%2FtIy5xeQuIK%2Brgrrwusfli3nTGnKAViD%2FEGBXs6xpH3xLVBemI%2Blc%2BgUFfHFyxNYwebSOcqU4dj0FdGlKquvFmU4UeiIhVPgMPwCRrPibhyJ8rGXN%2BQdQXiX6TXwc1YosGK1GfufZ6vfWlGQIm7PRIQBvKwl%2FuD6Lu2VuF9&from=dqa&lid=b0afb0f1000c9a44&word=%E5%8F%A4%E4%BB%A3%E8%AE%B0%E8%BD%BD%E6%96%87%E5%AD%97%E7%9A%84%E5%99%A8%E7%89%A9)
+
 ## 采撷数据
 
-```{r 采撷数据}
+```{r 采撷数据, eval = FALSE}
 lib('datasets')
 
 ## 聚汇数据地区数量只到四四五七。
 ## https://www.gotohui.com/area/4457
 数 <- 1:4457
 链 <- paste0('https://www.gotohui.com/area/', 数)
-子集 <- llply(链[3626:4457], function(迭) {
+集 <- llply(链, function(迭) {
   表 = 迭 %>% read_html %>% html_table
   名 = 迭 %>% read_html %>% 
     html_nodes(css = "[class = 'ptitle pad-b5 htit']") %>% 
@@ -455,6 +463,7 @@ lib('datasets')
   
   } else if (length(表) == 2) {
     表 = 表
+  
   } else {
     stop(paste0('请查阅网址中', 迭, '的列表！'))
   }
@@ -473,7 +482,7 @@ lib('datasets')
 
 ## 读取数据
 
-```{r 绘制样本数据图表, results = 'asis', eval = FALSE}
+```{r 绘制样本数据图表, results = 'asis'}
 ## 检验是否已设置途径。
 # source('函数/...R')
 # source('函数/....R')
@@ -492,12 +501,26 @@ if (!exists('.蜀道仓库')) {
   .蜀道仓库 <- paste0(.蜀道, '文艺数据库/聚汇数据/')
 }
 
-样本 <- readRDS("~/文档/猫城/.../样本.rds")
+集 <- llply(list.files(.蜀道仓库), function(迭) readRDS(paste0(.蜀道仓库, 迭)), .progress = '=')
+names(集) <- list.files(.蜀道仓库) %>% 
+  str_replace_all('.rds', '')
+册 <- llply(集, function(迭) {
+   = 迭[[1]][rowMeans(is.na(迭[[1]])) < 0.5,]
+  
+  }) %>% 
+  plyr::ldply() %>% as_tibble()
 
+names(册) <- stri_replace_all_regex(names(册), '海南省:万宁市|海南省:东方市|大理州:鹤庆县|阿坝市:若尔盖县|阿坝市:茂县|滨州市:邹平县|澳门|海南省:陵水县|大理州:漾濞县|漳州:诏安县|荆州市:沙市区|烟台市:蓬莱市|大理州:祥云县|大理州:永平县|海南省:琼中县|大理州:洱源县|永州市:祁阳县|阿拉善:|海南省:琼海市|大理州:弥渡县|海南省:澄迈县|大理州市:祥云县|阿拉善|漳州:漳浦县|市:|泉州:泉港区|泉州:洛江区|海南省:文昌市|济南济阳县|海南省:保亭县|海南省:五指山市|海南省:屯昌县|大理州:南涧县|海南省:屯昌县|大理州:大理市|大理州:宾川县|泉州:德化县|省:|台湾|香港|大理州:剑川县|大理州:云龙县|龙岩:漳平市|大理州:巍山县|泉州:鲤城区|恩施州:巴东县|合肥经济技术开发区|恩施州:巴东县|延边:龙井|海南白沙县|泉州:惠安县|恩施州:恩施市|南平:建瓯市|泉州:安溪县|恩施州:咸丰县|塔城:和布克赛尔县|吉林龙潭区:|吴忠红寺堡:|塔城:和布克赛尔县|泉州:南安市|^:|海南乐东县|昌吉:奇台县|巴州:和静县:|巴州:和静县|南平:政和县|昌吉:呼图壁县|南平:政和县|^市|^省|泉州:永春县|恩施州:建始县|余姚市|荆门京山县:|^普通|博州:精河县|泉州:石狮市|^年末|^普通', '')
+
+册乙 <- 册 %>% llply(function(迭) data.frame(册[,1:2], 迭)) %>% 
+  full_join_dt(by = c('.id', '时间'))
+册乙$.id.1 <- NULL
+册乙$时间.1 <- NULL
 ```
 
 
 ```{r}
+
 ```
 
 # 模型比较
