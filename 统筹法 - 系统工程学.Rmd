@@ -360,7 +360,7 @@ conflict_prefer('set', 'data.table', quiet = TRUE)
   'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'tidyr', 
   'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 'rlist', 
   'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 'quantmod', 'tidyquant', 
-  'tibbletime', 'timetk', 'plyr', 'dplyr', #'Rfast', TSA', 
+  'tibbletime', 'timetk', 'plyr', 'dplyr', 'cnum', #'Rfast', TSA', 
   'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
   'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'magrittr', 
   'seasonalview', 'rjson', 'rugarch', 'rmgarch', 'mfGARCH', 'feather', 
@@ -368,6 +368,11 @@ conflict_prefer('set', 'data.table', quiet = TRUE)
   'lhmetools', 'gtools', 'stringi', 'pacman', 'profmem', 'ggthemes', 
   'flyingfox', 'htmltools', 'echarts4r', 'viridis', 'hrbrthemes', 
   'fable', 'fabletools', 'fable.prophet', 'Metrics', 'MLmetrics')
+
+## cnum 是協助處理中文數字的R套件，提供轉換、識別及抽取中文數字的函數。
+## cnum 是协助处理中文数字的R包，提供转换、识别及抽取中文数字的函数。
+# https://cran.r-project.org/web/packages/cnum/readme/README.html
+# devtools::install_github("elgarteo/cnum")
 
 # load_pkg(程序包)
 suppressAll(lib(程序包))
@@ -455,9 +460,13 @@ conflicts_prefer(tidyft::complete, .quiet = TRUE)
 
 *引用：[中国古人书写载体：椠、版、方、牍、简、牒、策、觚、帛、纸](https://baijiahao.baidu.com/s?id=1781595015562599076)*
 
+**数据种类相关参考文献**
+
 - [向量、矩阵、数组、列表、数据框关系](https://blog.csdn.net/harry_hurry/article/details/80540242)
+- [数组，矩阵，向量，方阵与行列式的相关关系](https://blog.csdn.net/qq_33715176/article/details/120797110)
 - [参差不齐的数组](https://www.shence123.com/s/52375.html)
 - [数组与张量的区别](https://www.cnblogs.com/szj666/p/15009760.html)
+- [数组的极限大小](https://blog.csdn.net/u011446963/article/details/46278537)
 
 [^1]: <ruby>椠<rp>(</rp><rt>qiàn</rt><rp>)</rp></ruby>：三汉尺长（圆九点三公分，一汉尺等于廿三点一公分）木板。《释名∙释书契》说：“椠，板之长三尺者也。”《论衡·量知》说：“断木为椠，析之为板，力加刮削，乃成奏牍。”
 [^2]: <ruby>版<rp>(</rp><rt>bǎn</rt><rp>)</rp></ruby>：相比椠短和窄的长方形木板，两面刨光以供书写。
@@ -498,6 +507,11 @@ conflicts_prefer(tidyft::complete, .quiet = TRUE)
 > 简牍是对我国古代遗存下来的写有文字的竹简与木牍的概称。用竹片写的书称"简策"，用木版(也作「板」)写的叫「版牍」。超过一百字的长文，就写在简策上，不到一百字的短文，便写在木版上。写在木版上的文字大多数是有关官方文书、户籍、告示、信札、遣册及图画。由于文字内容有异，其称谓有别，如军事的文书叫「檄」；用于告示者称之「榜」；将信写于木版，然后再加一版叫作「检」。在检上写寄信人和收信人的姓名、地址叫作「署」---这是信封的起源。然后将两版合好捆扎，在打结的地方涂上粘土，盖上阴文印章，在粘土上出现凸起的字，这就是「封」，使用的粘土叫「封泥」。由于写信的木版，通常只有一尺长，故信函又叫「尺牍」。笺是古代一种短小的简牍，是供读书者随时注释的，它系在相应的简以备参考之用。现今人们所说的笺注就是起源于此。从策、简、籍、簿、笺、札、检、椠等从竹、木字形上，都反映出简牍的制成材料...
 
 *引用：[简牍｜汉代人的自然书写](https://mp.weixin.qq.com/s?__biz=MzA3OTU3NzMyOQ==&mid=2651319402&idx=4&sn=112dad4fbc94a161acabdcf2ef44e419&chksm=844225f4b335ace227a557c26d5b76d810a167c210ad35aa368b7eae7f202dd7b1f7705783ce&scene=27)*
+
+**历史记载数据的载体相关文献**
+
+- [简牍](https://baike.baidu.com/item/%E7%AE%80%E7%89%8D/2043791)
+- [隶书](https://baike.baidu.com/item/%E9%9A%B6%E4%B9%A6/835864)
 
 ## 采撷数据
 
