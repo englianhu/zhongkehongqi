@@ -1,0 +1,43 @@
+all:	myapp
+
+# 哪个编译器
+CC = gcc
+
+# 安装处
+INSTDIR = /usr/local/bin
+
+# 附件库
+INCLUDE = .
+
+# 开发选项
+CFLAGS = -g Wall -ansi
+
+# 发行选项设置
+CFLAGS = -o -Wall -ansi
+
+# 道地图书馆
+MYLIB = mylib.a
+
+myapp: 主函数.o $(MYLIB)
+	$(CC) -o myapp 主函数.o $(MYLIB)
+
+$(MYLIB): $(MYLIB) (乙.o) $(MYLIB) (丙.o)
+主函数.o: 主函数.c 甲.h
+乙.o: 乙.c 甲.h 乙.h
+丙.o: 丙.c 乙.h 丙.h
+
+clean:
+	-rm 主函数.o 乙.o 丙.o
+
+install: myapp
+	@if [ -d $(INSTDIR) ]; \
+		then \
+		cp myapp $(INSTDIR);\
+		chmod a-x $(INSTDIR)/myapp;\
+		chmod og-w $(INSTDIR)/myapp;\
+		echo "安装于$(INSTDIR)";\
+	else \
+		echo "抱歉，$(INSTDIR)并不存在";\
+	fi
+
+

@@ -1,0 +1,55 @@
+head	1.1;
+access;
+symbols;
+locks
+	englianhu:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2024.01.21.10.47.08;	author englianhu;	state Exp;
+branches;
+next	;
+
+
+desc
+@御猫，源代码管理。
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include <stdlib.h>
+#include <stdio.h>
+
+/*
+	此重要文件管理此项目，实践经典「改变世界！」程序。
+	Filename: $RCSfile$
+*/
+
+static char *RCSinfo = $Id$*;
+
+int main() {
+	printf("改变世界！\n");
+	printf("此空行稍后添加\n");
+	printf("此文件隶属RCS旗下管辖，而代号是\n%s\n", RCSinfo);
+	exit(EXIT_SUCCESS);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@

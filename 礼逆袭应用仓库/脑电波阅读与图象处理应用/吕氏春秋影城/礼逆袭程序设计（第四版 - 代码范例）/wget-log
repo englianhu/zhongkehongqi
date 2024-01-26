@@ -1,0 +1,6 @@
+--2024-01-18 19:01:57--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/13062062/a074d9ed-4abb-4885-b34a-d5ba0662f734?X-Amz-Algorithm=AWS4-HMAC-SHA256
+正在解析主机 objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...
+正在连接 objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 401 Unauthorized
+
+用户名/密码认证失败。

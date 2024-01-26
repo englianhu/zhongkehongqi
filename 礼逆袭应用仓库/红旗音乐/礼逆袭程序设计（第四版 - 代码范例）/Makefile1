@@ -1,0 +1,25 @@
+all:	myapp
+
+# 哪个编译器
+CC = gcc
+
+# 附件储存处
+INCLUDE =
+
+# 开发选项
+CFLAGS = -g -Wall -ansi
+
+# 发行前选项设置
+# CFLAGS = -o -Wall -ansi
+
+myapp: 主函数.o 乙.o 丙.o
+	gcc -o myapp 主函数.o 乙.o 丙.o
+
+主函数.o: 主函数.c 甲.h
+	gcc -c 主函数.c
+
+乙.o: 乙.c 甲.h 乙.h
+	gcc -c 乙.c
+
+丙.o: 丙.c 乙.h 丙.h
+	gcc -c 丙.c

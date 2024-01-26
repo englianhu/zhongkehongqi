@@ -1,0 +1,9 @@
+#include <time.h>
+
+char *asctime(const struct tm *timeptr);
+char *ctime(const time_t *timeval);
+
+
+
+
+

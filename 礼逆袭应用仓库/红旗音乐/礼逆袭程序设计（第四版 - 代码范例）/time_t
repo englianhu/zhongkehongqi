@@ -1,0 +1,11 @@
+#include <time.h>
+
+time_t time(time_t *tloc);
+double difftime(time_t time1, time_t, time2);
+struct tm *gmtime(const time_t, timeval);
+
+
+
+
+
+
