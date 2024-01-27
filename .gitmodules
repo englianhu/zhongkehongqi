@@ -1,3 +1,8 @@
 [submodule "礼逆袭应用仓库/红旗输入法/cnum"]
 	path = 礼逆袭应用仓库/红旗输入法/cnum
 	url = git@github.com:englianhu/cnum.git
+
+[submodule "礼逆袭应用仓库/红旗音乐/TongJi"]
+	path = TongJi
+	url = git@github.com:englianhu/TongJi.git
+
