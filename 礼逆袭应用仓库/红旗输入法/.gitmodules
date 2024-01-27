@@ -1,0 +1,3 @@
+[submodule "cnum"]
+	path = cnum
+	url = git@github.com:elgarteo/cnum.git
