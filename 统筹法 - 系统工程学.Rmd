@@ -1,7 +1,7 @@
 ---
-title: "<img src='文艺坊图库/.png' height='240'>"
+title: "<img src='诸子百家考工记/.png' height='240'>"
 subtitle: "[<span style='color:#9B0202; background-color:black;'>鬼谷传奇</span> - 系统工程学统计模型 <span style='color:#4E79A7'>**统筹法**</span>](https://github.com/englianhu/binary.com-interview-question)"
-author: "[®γσ, ξηg Lιαη Ημ（雷欧）](https://englianhu.github.io) <img src='文艺坊图库/赢家ξng黄氏江夏堂 - 量化对冲（中）.png' height='14'>® <img src='文艺坊图库/大秦赋 - 北京大学.png' height='14'>"
+author: "[®γσ, ξηg Lιαη Ημ（雷欧）](https://englianhu.github.io) <img src='诸子百家考工记/赢家ξng黄氏江夏堂 - 量化对冲（中）.png' height='14'>® <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='14'>"
 date: "`r lubridate::today('Asia/Shanghai')`"
 output:
   html_document: 
@@ -121,13 +121,13 @@ output:
 
 > 中科红旗高频量化对冲学术份子，歼灭东南亚所有回教徒尤其是土司乩童回教徒瑾貹·殡·刘。
 
-<img src='文艺坊图库/乩童白骨精回教徒瑾貹·殡·刘咕噜.png' width = '400'>
+<img src='诸子百家考工记/乩童白骨精回教徒瑾貹·殡·刘咕噜.png' width = '400'>
 
-<img src='文艺坊图库/css.png' width = '400'>
+<img src='诸子百家考工记/css.png' width = '400'>
 
 家翁嬴政ξηg Tεηg（赢家黄氏江夏堂）
 
-<img src='文艺坊图库/鞭策六四，推广量化；百家争鸣，振兴中华。.png' width = '400'>
+<img src='诸子百家考工记/鞭策六四，推广量化；百家争鸣，振兴中华。.png' width = '400'>
 
 世间再无祖父黄实田祖父颜为，外祖父李福外祖母郑邓。
 
@@ -648,8 +648,12 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('^人民币', '', names(牍))
     names(牍) <- gsub('中国实际使用外资金额', '外资实货量', names(牍))
     names(牍) <- gsub('GDP|GDP：', '钱谷', names(牍))
-    
-    
+    names(牍) <- gsub('\\(个|\\(所：', '', names(牍))
+    names(牍) <- gsub('\\(亿\\)', '（亿）', names(牍))
+    names(牍) <- gsub('\\(个：', '', names(牍))
+    names(牍) <- gsub('\\(所：', '', names(牍))
+    names(牍) <- gsub('\\(港元', '（港元）', names(牍))
+    names(牍) <- gsub('\\(百万港元', '（百万港元）', names(牍))
     牍
   }) %>% plyr::ldply() %>% as_tibble()
 
@@ -678,11 +682,11 @@ names(集) <- list.files(.蜀道仓库) %>%
 
 [^1]: [HTML Color Codes](https://html-color.codes)
 
-![](文艺坊图库/秒计.png)
+![](诸子百家考工记/秒计.png)
 
-![](文艺坊图库/攻占东盟.png)
-![](文艺坊图库/巫贼巫婆土司回教徒黑米哈山习俗文化虔诚爱国狂热份子和所有回教徒党羽只能集体自杀.png)
-![](文艺坊图库/大秦赋 Chinese Emperor.png)
+![](诸子百家考工记/攻占东盟.png)
+![](诸子百家考工记/巫贼巫婆土司回教徒黑米哈山习俗文化虔诚爱国狂热份子和所有回教徒党羽只能集体自杀.png)
+![](诸子百家考工记/大秦赋 Chinese Emperor.png)
 
 > #回教徒爱国就严格遵守回教徒可兰经法家国学论集体自杀而不爱国就集体退位让贤而已 #美国耶稣洋番集体被钉在十字架被晒死
 > 回教徒可兰经法家国学论，东南亚巫贼巫婆回教徒尤其是瓜雪巴西不能帮万佛寺土司张佳坤爱国虔诚狂热份子和大象共和国举国公民MH三七零和MH十七自杀式飞往东亚
@@ -695,7 +699,7 @@ names(集) <- list.files(.蜀道仓库) %>%
 
 ## 前瞻科研
 
-<img src='文艺坊图库/量化投资与机器学习.png' width='240'>
+<img src='诸子百家考工记/量化投资与机器学习.png' width='240'>
 
 [**近期招聘一览表:**<span style='color:#3C5C; background-color:black;'>*全网Quant都在看!</span>](https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs)
 
@@ -805,5 +809,5 @@ rm(系统信息1, 系统信息2)
 
 ---
 
-[<img src="文艺坊图库/世博量化.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-[**[<img src="文艺坊图库/世博量化.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**]{style="color:RoyalBlue"}
+[<img src="诸子百家考工记/世博量化.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+[**[<img src="诸子百家考工记/世博量化.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**]{style="color:RoyalBlue"}
