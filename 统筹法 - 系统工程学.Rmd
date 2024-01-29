@@ -462,6 +462,14 @@ conflicts_prefer(tidyft::complete, .quiet = TRUE)
 
 *出处：[既流行又小众，学学如何用文言文写稿](https://www.sohu.com/a/155211408_375507)*
 
+> ... 
+「國總產」（名）謂國內生產總值、GDP。
+「民總產」（名）謂國民生產總值、GNP。
+「民總獲」（名）謂國民總收入、GNI。
+...
+
+*出处：[知乎@近現代漢語文變革](https://zhuanlan.zhihu.com/p/656800286)*
+
 - [国际元是什么？为何世行采用的购买力平价，使用「国际美元」](https://new.qq.com/rain/a/20200930A04J4I00)
 - [古代中国哪个时期的钱谷（GDP）最高](https://zhidao.baidu.com/question/372808750996691404.html)
 - [中国古代钱谷（GDP）有多高？宋朝半壁江山成就世界第一，占全球的一半](http://k.sina.com.cn/article_6401542798_17d8fca8e00100702z.html)
