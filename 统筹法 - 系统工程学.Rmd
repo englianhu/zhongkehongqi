@@ -633,6 +633,7 @@ names(集) <- list.files(.蜀道仓库) %>%
     牍[grep('千', names(牍))] <- round(牍[grep('千', names(牍))] * 1000)
     names(牍) <- gsub('\\(千+.*)|\\(人)', '', names(牍))
     names(牍) <- gsub('(^人民币+.*(亿元))', '\\1（亿人民币）', names(牍))
+    names(牍) <- gsub('\\(人民币|\\(人民币\\)', '（人民币）', names(牍))
     names(牍) <- gsub('\\(亿元|)$', '', names(牍))
     names(牍) <- gsub('\\(美元\\)|美元\\(', '', names(牍))
     names(牍) <- gsub('\\(百万吨油当量|\\(百万吨', '（百万吨）', names(牍))
@@ -660,6 +661,17 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('高职(专科)', '专科', names(牍))
     names(牍) <- gsub('\\(购买力平价\\)\\(国际元', '', names(牍))
     names(牍) <- gsub('\\(亿千瓦时', '（亿千瓦时）', names(牍))
+    names(牍) <- gsub('老年人占总人口占全球', '老年人口占全球', names(牍))
+    names(牍) <- gsub('服务业增加值占钱谷占全球', '服务业增加值占全球钱谷', names(牍))
+    names(牍) <- gsub('\\(10亿立方米', '（十亿立方米）', names(牍))
+    names(牍) <- gsub('老年人人口总数', '老年人口总数', names(牍))
+    names(牍) <- gsub('高等学校在校学生数|高等学校本专科在校学生数', '高校在校学生数', names(牍))
+    names(牍) <- gsub('\\(平方公里', '（平方公里）', names(牍))
+    names(牍) <- gsub('\\(床', '', names(牍))
+    names(牍) <- gsub('\\(活产男婴/活产女婴', '（男/女）', names(牍))
+    names(牍) <- gsub('（元）/平方米', '（元/平方米）', names(牍))
+    
+    
     牍
   }) %>% plyr::ldply() %>% as_tibble()
 
