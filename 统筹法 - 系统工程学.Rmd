@@ -670,6 +670,7 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('\\(床', '', names(牍))
     names(牍) <- gsub('\\(活产男婴/活产女婴', '（男/女）', names(牍))
     names(牍) <- gsub('（元）/平方米', '（元/平方米）', names(牍))
+    names(牍) <- gsub('：|：：', '', names(牍))
     
     
     牍
