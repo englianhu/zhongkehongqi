@@ -557,7 +557,7 @@ conflicts_prefer(tidyft::complete, .quiet = TRUE)
 
 ```
 
-[聚会数据](https://www.gotohui.com)
+[聚汇数据](https://www.gotohui.com)
 
 ## 开函阅牍/简
 
