@@ -361,7 +361,7 @@ conflict_prefer('set', 'data.table', quiet = TRUE)
   'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 'rlist', 
   'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 'quantmod', 'tidyquant', 
   'tibbletime', 'timetk', 'plyr', 'dplyr', 'cnum', 'arabic2kansuji', 
-  #'Rfast', TSA', 
+  'tsibble', #'Rfast', TSA', 
   'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
   'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'magrittr', 
   'seasonalview', 'rjson', 'rugarch', 'rmgarch', 'mfGARCH', 'feather', 
