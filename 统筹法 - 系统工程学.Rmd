@@ -789,6 +789,7 @@ names(集) <- list.files(.蜀道仓库) %>%
   mutate(`.id` = factor(`.id`))
 names(版)
 
+# 版[rowSums(!is.na(版[grep('亿人民币',  names(版))])) > 0, ]
 ```
 
 
