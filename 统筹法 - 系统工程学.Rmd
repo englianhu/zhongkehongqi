@@ -34,7 +34,7 @@ output:
 
 <iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=757957931" title="天下(电视剧《大秦赋》主题曲完整版)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" border="0" framespacing="0" allowfullscreen="true"></iframe>
 
-*出处：*[**天下***(电视剧《大秦赋》主题曲完整版)*](https://player.bilibili.com/player.html?aid=757957931)
+*出处：[**天下**(电视剧《大秦赋》主题曲完整版)](https://player.bilibili.com/player.html?aid=757957931)*
 
 ## 古诗
 
@@ -76,7 +76,7 @@ output:
 
 *引用：[#大奖章基金之路 #RT #ST lim ₓ→ₐ f ) HMM... LSTM...](https://www.instagram.com/p/CNm43grAbVz)*
 
-上图的漂亮妞儿就长得像农历二零零零年到二零零一年中四和中五时期，乘搭韵祯校车的隔壁校私立丹绒学妹**林燕芳**，行不改名坐不改姓。
+上图的漂亮妞儿就长得像农历二零零零年到二零零一年中四勤班和中五勤班时期，乘搭韵祯校车的隔壁校私立丹绒学妹**林燕芳**，行不改名坐不改姓。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xyR86xcI8Ag?si=hXZMB7qITwjAJ4nU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -639,7 +639,7 @@ head(数)
 
 ## 开函阅牍/简
 
-```{r 绘制样本数据图表, results = 'asis'}
+```{r 绘制样本数据图表, eval = FALSE, results = 'asis'}
 ## 检验是否已设置途径。
 # source('函数/...R')
 # source('函数/....R')
@@ -849,11 +849,21 @@ options(warn = 0)
 
 ## 幕后花絮
 
-- [「猫城」englianhu/binary.com-interview-question#3大秦赋：商鞅变法、辛亥革命、一带一路、习李经济学、孙子兵法](https://github.com/englianhu/library/issues/3)
-- [「猫城」scibrokes/r-world#1`REmap`百度绘图，点缀全球](https://github.com/scibrokes/r-world/issues/1)
-- [「猫城」englianhu/binary.com-interview-question#6`Error: forecast::Arima() #910`](https://github.com/englianhu/binary.com-interview-question/issues/6)
-- [「猫城」englianhu/binary.com-interview-question#8在`ts`和`xts`和`matrix`格式上使用`auto.arima`](https://github.com/englianhu/binary.com-interview-question/issues/8)
-- [「猫城」scibrokes/setup-centOS7-DO#2🚩🇨🇳🏹中科红旗 RedFlag Linux (🍥Debian)](https://github.com/scibrokes/setup-centOS7-DO/issues/2)
+- [「文派」🚩🇨🇳🔆🏹🌟👊🚀🦔中科红旗](https://englianhu.wordpress.com/statistics/linux-%f0%9f%90%a7-kubuntu-%e2%9a%99)
+- [「文派」阳历二零二三年十二月三日」今日是校花紫云生日](https://englianhu.wordpress.com/2024/02/04/%e3%80%8c%e9%98%b3%e5%8e%86%e4%ba%8c%e9%9b%b6%e4%ba%8c%e4%b8%89%e5%b9%b4%e5%8d%81%e4%ba%8c%e6%9c%88%e4%b8%89%e6%97%a5%e3%80%8d%e4%bb%8a%e6%97%a5%e6%98%af%e7%b4%ab%e4%ba%91%e7%94%9f%e6%97%a5)
+- [「文派」中华民族国产电脑礼逆袭操作系统（2022-07-05](https://englianhu.wordpress.com/2022/08/26/%e4%b8%ad%e5%8d%8e%e6%b0%91%e6%97%8f%e5%9b%bd%e4%ba%a7%e7%94%b5%e8%84%91%e7%a4%bc%e9%80%86%e8%a2%ad%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%ef%bc%882022-07-05%ef%bc%89)
+- [「博客园」「原创」R-4.2.0 (2022-04-30) 仅登录用户可见](https://www.cnblogs.com/englianhu/p/16618396.html)
+- [「文派」RUBY TEXT 2022-03-25](https://englianhu.wordpress.com/2022/03/26/ruby-text-2022-03-25)
+- [「文派」《赢家黄氏江夏堂》 – 始祖赢政ΞΗG TΕΗG·黄永春家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)
+- [「文派」马来民族（宦官太监）和妖僧🗣️和✍🏻白骨精☠️，祸害全球](https://englianhu.wordpress.com/2022/02/04/%e9%a9%ac%e6%9d%a5%e6%b0%91%e6%97%8f%ef%bc%88%e5%ae%a6%e5%ae%98%e5%a4%aa%e7%9b%91%ef%bc%89%e5%92%8c%e5%a6%96%e5%83%a7%f0%9f%97%a3%ef%b8%8f%e5%92%8c%e2%9c%8d%f0%9f%8f%bb%e7%99%bd%e9%aa%a8%e7%b2%be)
+- [「文派」2022-01-03：JIANG太公之《六韬》 — 韬光养晦](https://englianhu.wordpress.com/2022/01/04/2022-01-03%ef%bc%9ajiang%e5%a4%aa%e5%85%ac%e4%b9%8b%e3%80%8a%e5%85%ad%e9%9f%ac%e3%80%8b-%e9%9f%ac%e5%85%89%e5%85%bb%e6%99%a6)
+- [「文派」迟了一年，更新履历表 B4TELEBIZ (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz)
+- [「文派」修读COURSERA : MACHINE LEARNING FOR ALGORITHMIC TRADING中…](https://englianhu.wordpress.com/2021/09/15/%e4%bf%ae%e8%af%bbcoursera-machine-learning-for-algorithmic-trading%e4%b8%ad)
+- [「猫城」雷欧@次元期权#三 大秦赋：商鞅变法、辛亥革命、一带一路、习李经济学、孙子兵法](https://github.com/englianhu/library/issues/3)
+- [「猫城」世博量化@鄀世界#一 `REmap`百度绘图，点缀全球](https://github.com/scibrokes/r-world/issues/1)
+- [「猫城」雷欧@次元期权#六 `Error: forecast::Arima() #910`](https://github.com/englianhu/binary.com-interview-question/issues/6)
+- [「猫城」雷欧@次元期权#八 在`ts`和`xts`和`matrix`格式上使用`auto.arima`](https://github.com/englianhu/binary.com-interview-question/issues/8)
+- [「猫城」世博量化@通过数码海洋（Digital Ocean）建立服务器#二 🚩🇨🇳🏹中科红旗 RedFlag Linux (🍥Debian)](https://github.com/scibrokes/setup-centOS7-DO/issues/2)
 - [「猫城」雷欧@中科红旗](https://github.com/englianhu/RedFlag-Linux)
 - [「猫城」雷欧@图书馆](https://github.com/englianhu/library)
 
