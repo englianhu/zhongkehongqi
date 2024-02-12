@@ -34,7 +34,7 @@ output:
 
 <iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=757957931" title="天下(电视剧《大秦赋》主题曲完整版)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" border="0" framespacing="0" allowfullscreen="true"></iframe>
 
-*出处：[**天下**(电视剧《大秦赋》主题曲完整版)](https://player.bilibili.com/player.html?aid=757957931)*
+*出处：*[**天下***(电视剧《大秦赋》主题曲完整版)*](https://player.bilibili.com/player.html?aid=757957931)
 
 ## 古诗
 
@@ -471,9 +471,11 @@ conflicts_prefer(tidyft::complete, .quiet = TRUE)
 
 *出处：[系统工程专业介绍、研究方向、就业前景分析](https://www.dxsbb.com/news/21644.html)*
 
-统筹法俗称「系统工程学」，一般上大至用于规模庞大的工程多管齐下项目管理、军事与玄术物理学包括实战洲际军事埋伏「王翦灭楚」与「四面楚歌」、教育与学术科技业如鬼谷传奇、中华习俗文化宗教易经中药中医等取代所有西药西医月亮十字架和发展中华保健娱乐圈与保险业、全球金融业投资组合，小至个人起居饮食、修身齐家平天下、学习与教育事业等多管齐下进度管理。
+统筹法俗称「系统工程学」，一般上大至用于规模庞大的工程多管齐下项目管理、军事与玄术物理学包括实战洲际军事埋伏「王翦灭楚」与「四面楚歌」、教育与学术科技业如鬼谷传奇、中华习俗文化宗教易经中药中医等取代所有西药西医月亮十字架和发展中华保健娱乐圈与保险业、全球金融业投资组合，小至个人起居饮食、修身齐家平天下、高频量化量子电脑甚至个人电脑进程组合最优化、学习与教育事业等多管齐下进度管理。
 
-借鉴春秋战国史、七大洲五大洋、秦国China而秦人为Chinese、左氏春秋与战国策分析天下局势（此文章所采撷的范例并无任何天下诸侯详细军事、外交、内阁数据）、秦人牧马论，此文章采撷咱们祖国秦国与天下诸侯经济数据为范例，通过统筹法概念和计量经济学来解析。
+借鉴春秋战国史、七大洲五大洋、秦国China而秦人为Chinese、左氏春秋与战国策分析天下局势（此文章所采撷的范例并无任何天下诸侯详细军事、外交、内阁数据）、秦人牧马论、[马克·棣逊（阳历一九九六年）]()中应用英国数学家罗纳尔·飞雪（渔夫 - 姜太公钓鱼）的大数定律概念部署全局而非局部样本与愚生旧作[猫城@`Rmodel` 赔率建模与测试博彩庄的无效性（英）](https://github.com/englianhu/Rmodel)[^1]，此文章采撷咱们祖国秦国与天下诸侯经济数据为范例，通过统筹法概念和计量经济学来解析。
+
+[^1]: https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers<br>http://rpubs.com/englianhu/rmodel-vignettes1
 
 - [🚩🔆🏹🌟🦔数据仓库：中科红旗](https://github.com/englianhu/zhongkehongqi-cangku)
 - [聚汇数据](https://www.gotohui.com)
@@ -639,7 +641,7 @@ head(数)
 
 ## 开函阅牍/简
 
-```{r 绘制样本数据图表, eval = FALSE, results = 'asis'}
+```{r 绘制样本数据图表, results = 'asis'}
 ## 检验是否已设置途径。
 # source('函数/...R')
 # source('函数/....R')
@@ -698,7 +700,7 @@ names(集) <- list.files(.蜀道仓库) %>%
 版 <- llply(集, function(迭) {
     牍 = 迭[[1]] %>% lapply(as.numeric) %>% bind_cols()
     names(牍) = gsub('海南省:万宁市|海南省:东方市|大理州:鹤庆县|阿坝市:若尔盖县|阿坝市:茂县|滨州市:邹平县|澳门|海南省:陵水县|大理州:漾濞县|漳州:诏安县|荆州市:沙市区|烟台市:蓬莱市|大理州:祥云县|大理州:永平县|海南省:琼中县|大理州:洱源县|永州市:祁阳县|阿拉善:|海南省:琼海市|大理州:弥渡县|海南省:澄迈县|大理州市:祥云县|阿拉善|漳州:漳浦县|市:|泉州:泉港区|泉州:洛江区|海南省:文昌市|济南济阳县|海南省:保亭县|海南省:五指山市|大理州:南涧县|海南省:屯昌县|大理州:大理市|大理州:宾川县|泉州:德化县|省:|台湾|香港|大理州:剑川县|大理州:云龙县|龙岩:漳平市|大理州:巍山县|泉州:鲤城区|恩施州:来凤县|恩施州:巴东县|合肥经济技术开发区|延边:龙井', '', names(牍))
-    names(牍) = gsub('海南白沙县|泉州:惠安县|恩施州:恩施市|南平:建瓯市|泉州:安溪县|恩施州:咸丰县|塔城:和布克赛尔县|建德市|敦煌市|吉林龙潭区:|吴忠红寺堡:|塔城:和布克赛尔县|泉州:南安市|海南乐东县|昌吉:奇台县|巴州:和静县:|巴州:和静县|南平:政和县|昌吉:呼图壁县|南平:政和县|泉州:永春县|恩施州:建始县|余姚市|荆门京山县:|博州:精河县|泉州:石狮市|林区|湘西泸溪县|济南济阳县|安宁区|兴安:|海南州:兴海县|广州增城市|海南临高县|玉门市|平凉华亭县|海南昌江县', '', names(牍))
+    names(牍) = gsub('海南白沙县|泉州:惠安县|恩施州:恩施市|南平:建瓯市|泉州:安溪县|恩施州:咸丰县|塔城:和布克赛尔县|建德市|敦煌市|吉林龙潭区:|吴忠红寺堡:|塔城:和布克赛尔县|泉州:南安市|海南乐东县|昌吉:奇台县|巴州:和静县:|巴州:和静县|南平:政和县|昌吉:呼图壁县|南平:政和县|泉州:永春县|恩施州:建始县|余姚市|荆门京山县:|博州:精河县|泉州:石狮市|林区|湘西泸溪县|济南济阳县|安宁区|兴安:|海南州:兴海县|广州增城市|海南临高县|玉门市|平凉华亭县|海南昌江县|海西格尔木市', '', names(牍))
     names(牍) = gsub('^:|^市|^省|普通|年末|年底|群岛|通化梅河口|在岗', '', names(牍))
     牍[grep('万', names(牍))] <- round(牍[grep('万', names(牍))] * 10000)
     names(牍) <- gsub('\\(万+.*)|\\(人)', '', names(牍))
@@ -708,6 +710,8 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('(^人民币+.*(亿元))', '\\1（亿人民币）', names(牍))
     names(牍) <- gsub('\\(人民币|\\(人民币\\)', '（人民币）', names(牍))
     names(牍) <- gsub('\\(^（亿元）（亿人民币）\\)|（亿元（亿人民币））|（人民币）（亿元）|（亿元）', '（亿人民币）', names(牍))
+    牍[grep('（亿人民币）', names(牍))] <- round(牍[grep('（亿人民币）', names(牍))] * 100000000)
+    names(牍) <- gsub('（亿人民币）', '', names(牍))
     names(牍) <- gsub('\\(美元\\)|美元\\(', '', names(牍))
     names(牍) <- gsub('\\(百万吨油当量|\\(百万吨', '（百万吨）', names(牍))
     names(牍) <- gsub('\\(\\%|\\(\\‰', '（百分比）', names(牍))
@@ -716,9 +720,11 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('\\(元', '（元）', names(牍))
     names(牍) <- gsub('\\(吨', '（吨）', names(牍))
     names(牍) <- gsub('\\(亿美元', '（亿美元）', names(牍))
+    牍[grep('（亿美元）', names(牍))] <- round(牍[grep('（亿美元）', names(牍))] * 100000000)
+    names(牍) <- gsub('（亿美元）', '', names(牍))
     names(牍) <- gsub('\\/人|\\(辆|\\(张| 55056', '', names(牍))
     names(牍) <- gsub(':', '：', names(牍))
-    names(牍) <- gsub('\\(美元', '（美元）', names(牍))
+    names(牍) <- gsub('\\(美元|（亿美元）', '（美元）', names(牍))
     names(牍) <- gsub('：：', '：', names(牍))
     names(牍) <- gsub('^人民币', '', names(牍))
     names(牍) <- gsub('中国实际使用外资金额', '外资实货量', names(牍))
@@ -726,15 +732,19 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('^钱谷百万美元$', '钱谷（百万美元）', names(牍))
     names(牍) <- gsub('\\(个|\\(所：', '', names(牍))
     names(牍) <- gsub('\\(亿\\)', '（亿）', names(牍))
+    牍[grep('（亿）', names(牍))] <- round(牍[grep('（亿）', names(牍))] * 100000000)
+    names(牍) <- gsub('（亿）', '', names(牍))
     names(牍) <- gsub('\\(个：', '', names(牍))
     names(牍) <- gsub('\\(所：|\\(所', '', names(牍))
     names(牍) <- gsub('\\(港元', '（港元）', names(牍))
-    names(牍) <- gsub('\\(百万港元', '（百万港元）', names(牍))
+    牍[grep('（百万港元）', names(牍))] <- round(牍[grep('（百万港元）', names(牍))] * 1000000)
+    names(牍) <- gsub('\\(百万港元', '（港元）', names(牍))
     names(牍) <- gsub('：全球占比|占世界比重|：占全球比例|比重', '占全球', names(牍))
     names(牍) <- gsub('占比', '', names(牍))
     names(牍) <- gsub('高职\\(专科\\)', '专科', names(牍))
     names(牍) <- gsub('\\(购买力平价\\)\\(国际元', '', names(牍))
     names(牍) <- gsub('\\(亿千瓦时', '（亿千瓦时）', names(牍))
+    names(牍) <- gsub('（亿千瓦时）', '（亿千瓦时）', names(牍))
     names(牍) <- gsub('老年人占总人口占全球', '老年人口占全球', names(牍))
     names(牍) <- gsub('服务业增加值占钱谷占全球', '服务业增加值占全球钱谷', names(牍))
     names(牍) <- gsub('\\(10亿立方米', '（十亿立方米）', names(牍))
@@ -747,7 +757,7 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('：|：：', '', names(牍))
     names(牍) <- gsub('\\(本国货币单位', '（本国货币单位）', names(牍))
     names(牍) <- gsub('\\(本币\\)\\(欧元', '（欧元）', names(牍))
-    names(牍) <- gsub('\\(医院和卫生院床位数\\(家|医院和卫生院床位数\\(家|^医院床位数和卫生院|^医院和卫生院床位数$|^医院床位数$|^医疗卫生机构床位数$', '医院、卫生院床位数', names(牍))
+    names(牍) <- gsub('\\(医院和卫生院床位数\\(家|医院和卫生院床位数\\(家|^医院床位数和卫生院|^医院和卫生院床位数$|^医院床位数$|^医疗卫生机构床位数$|^病床数$|^医院、卫生院床位数$', '医院和诊疗所床数', names(牍))
     names(牍) <- gsub('\\(含劳务派遣\\)', '（含劳务派遣）', names(牍))
     names(牍) <- gsub('\\(户', '（户）', names(牍))
     names(牍) <- gsub('\\(本国货币单位', '（本国货币单位）', names(牍))
@@ -765,7 +775,14 @@ names(集) <- list.files(.蜀道仓库) %>%
     names(牍) <- gsub('^在校小*.+$|小学*.+$', '在校小学生', names(牍))
     names(牍) <- gsub('^高等*.+$|^高校*.+$', '在校高学生', names(牍))
     names(牍) <- gsub('^专科*.+$|^本专科*.+$', '在校高专生', names(牍))
-    names(牍) <- gsub('^农村*.+$|^农牧*.+$', '。。。。。', names(牍))
+    
+    # 版[grep('.id|时间|农村|农牧|农民|城镇', names(版), value = TRUE)] %>% 
+    #   .[rowSums(!is.na(版[grep('城镇化率', names(版), value = TRUE)])) > 0, ] # %>% names
+    # .[1001:1l500,] %>% data.frame
+    names(牍) <- gsub('农村居民|农牧民|农牧居民|渔农村居', '农林牧渔民', names(牍))
+    names(牍) <- gsub('城镇居民', '邑民与农民工', names(牍))
+    names(牍) <- gsub('^地方财政收入税收收入$', '地方财税', names(牍))
+    names(牍) <- gsub('^地方财政收入税收收入', '地方财政税收', names(牍))
     
     names(牍) <- gsub('存款余额个人储蓄存款|居民储蓄存款余额', '居民储蓄', names(牍))
     names(牍) <- gsub('^居民储蓄存款余额（亿人民币）$|^存款余额个人储蓄存款（亿人民币）$|^城乡居民储蓄余额（亿人民币）$|^本外币居民储蓄（亿人民币）$|^城乡居民储蓄（亿人民币）$|^储蓄存款余额（亿人民币）$|^居民储蓄余额（亿人民币）$|^城乡居民储蓄（亿人民币）$|^本外币居民储蓄（亿人民币）$', '居民储蓄（亿人民币）', names(牍))
@@ -849,21 +866,11 @@ options(warn = 0)
 
 ## 幕后花絮
 
-- [「文派」🚩🇨🇳🔆🏹🌟👊🚀🦔中科红旗](https://englianhu.wordpress.com/statistics/linux-%f0%9f%90%a7-kubuntu-%e2%9a%99)
-- [「文派」阳历二零二三年十二月三日」今日是校花紫云生日](https://englianhu.wordpress.com/2024/02/04/%e3%80%8c%e9%98%b3%e5%8e%86%e4%ba%8c%e9%9b%b6%e4%ba%8c%e4%b8%89%e5%b9%b4%e5%8d%81%e4%ba%8c%e6%9c%88%e4%b8%89%e6%97%a5%e3%80%8d%e4%bb%8a%e6%97%a5%e6%98%af%e7%b4%ab%e4%ba%91%e7%94%9f%e6%97%a5)
-- [「文派」中华民族国产电脑礼逆袭操作系统（2022-07-05](https://englianhu.wordpress.com/2022/08/26/%e4%b8%ad%e5%8d%8e%e6%b0%91%e6%97%8f%e5%9b%bd%e4%ba%a7%e7%94%b5%e8%84%91%e7%a4%bc%e9%80%86%e8%a2%ad%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%ef%bc%882022-07-05%ef%bc%89)
-- [「博客园」「原创」R-4.2.0 (2022-04-30) 仅登录用户可见](https://www.cnblogs.com/englianhu/p/16618396.html)
-- [「文派」RUBY TEXT 2022-03-25](https://englianhu.wordpress.com/2022/03/26/ruby-text-2022-03-25)
-- [「文派」《赢家黄氏江夏堂》 – 始祖赢政ΞΗG TΕΗG·黄永春家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)
-- [「文派」马来民族（宦官太监）和妖僧🗣️和✍🏻白骨精☠️，祸害全球](https://englianhu.wordpress.com/2022/02/04/%e9%a9%ac%e6%9d%a5%e6%b0%91%e6%97%8f%ef%bc%88%e5%ae%a6%e5%ae%98%e5%a4%aa%e7%9b%91%ef%bc%89%e5%92%8c%e5%a6%96%e5%83%a7%f0%9f%97%a3%ef%b8%8f%e5%92%8c%e2%9c%8d%f0%9f%8f%bb%e7%99%bd%e9%aa%a8%e7%b2%be)
-- [「文派」2022-01-03：JIANG太公之《六韬》 — 韬光养晦](https://englianhu.wordpress.com/2022/01/04/2022-01-03%ef%bc%9ajiang%e5%a4%aa%e5%85%ac%e4%b9%8b%e3%80%8a%e5%85%ad%e9%9f%ac%e3%80%8b-%e9%9f%ac%e5%85%89%e5%85%bb%e6%99%a6)
-- [「文派」迟了一年，更新履历表 B4TELEBIZ (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz)
-- [「文派」修读COURSERA : MACHINE LEARNING FOR ALGORITHMIC TRADING中…](https://englianhu.wordpress.com/2021/09/15/%e4%bf%ae%e8%af%bbcoursera-machine-learning-for-algorithmic-trading%e4%b8%ad)
-- [「猫城」雷欧@次元期权#三 大秦赋：商鞅变法、辛亥革命、一带一路、习李经济学、孙子兵法](https://github.com/englianhu/library/issues/3)
-- [「猫城」世博量化@鄀世界#一 `REmap`百度绘图，点缀全球](https://github.com/scibrokes/r-world/issues/1)
-- [「猫城」雷欧@次元期权#六 `Error: forecast::Arima() #910`](https://github.com/englianhu/binary.com-interview-question/issues/6)
-- [「猫城」雷欧@次元期权#八 在`ts`和`xts`和`matrix`格式上使用`auto.arima`](https://github.com/englianhu/binary.com-interview-question/issues/8)
-- [「猫城」世博量化@通过数码海洋（Digital Ocean）建立服务器#二 🚩🇨🇳🏹中科红旗 RedFlag Linux (🍥Debian)](https://github.com/scibrokes/setup-centOS7-DO/issues/2)
+- [「猫城」englianhu/binary.com-interview-question#3大秦赋：商鞅变法、辛亥革命、一带一路、习李经济学、孙子兵法](https://github.com/englianhu/library/issues/3)
+- [「猫城」scibrokes/r-world#1`REmap`百度绘图，点缀全球](https://github.com/scibrokes/r-world/issues/1)
+- [「猫城」englianhu/binary.com-interview-question#6`Error: forecast::Arima() #910`](https://github.com/englianhu/binary.com-interview-question/issues/6)
+- [「猫城」englianhu/binary.com-interview-question#8在`ts`和`xts`和`matrix`格式上使用`auto.arima`](https://github.com/englianhu/binary.com-interview-question/issues/8)
+- [「猫城」scibrokes/setup-centOS7-DO#2🚩🇨🇳🏹中科红旗 RedFlag Linux (🍥Debian)](https://github.com/scibrokes/setup-centOS7-DO/issues/2)
 - [「猫城」雷欧@中科红旗](https://github.com/englianhu/RedFlag-Linux)
 - [「猫城」雷欧@图书馆](https://github.com/englianhu/library)
 
