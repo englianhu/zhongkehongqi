@@ -781,11 +781,8 @@ names(集) <- list.files(.蜀道仓库) %>%
     # .[1001:1l500,] %>% data.frame
     names(牍) <- gsub('农村居民|农牧民|农牧居民|渔农村居', '农林牧渔民', names(牍))
     names(牍) <- gsub('城镇居民', '邑民与农民工', names(牍))
-    # names(牍) <- gsub('地方财政收入税收收入', '地方财税', names(牍))
-    # names(牍[grep('地方', names(牍))])[1] <- '地方财税甲'
-    # names(牍[grep('地方', names(牍))])[2] <- '地方财税乙'
-    # 牍[grep('地方', names(牍))] %<>% mutate(地方财税 = ifelse(!is.na(地方财税甲), 地方财税甲, 地方财税乙), 地方财税甲 = NULL, 地方财税乙 = NULL)
-    牍$地方财税 <- rowSums(牍[grep('地方', names(牍))], na.rm = TRUE) %>% na_if(0)
+    牍$地方财税 <- rowSums(牍[grep('地方|财政', names(牍))], na.rm = TRUE) %>% na_if(0)
+    牍[grep('财政', names(牍))] <- NULL
     
     names(牍) <- gsub('存款余额个人储蓄存款|居民储蓄存款余额', '居民储蓄', names(牍))
     names(牍) <- gsub('^居民储蓄存款余额（亿人民币）$|^存款余额个人储蓄存款（亿人民币）$|^城乡居民储蓄余额（亿人民币）$|^本外币居民储蓄（亿人民币）$|^城乡居民储蓄（亿人民币）$|^储蓄存款余额（亿人民币）$|^居民储蓄余额（亿人民币）$|^城乡居民储蓄（亿人民币）$|^本外币居民储蓄（亿人民币）$', '居民储蓄（亿人民币）', names(牍))
@@ -818,13 +815,6 @@ names(集) <- list.files(.蜀道仓库) %>%
   mutate(`.id` = factor(`.id`))
 names(版)
 
-names(版[grep('地方', names(版))])[1] <- '地方财税甲'
-names(版[grep('地方', names(版))])[2] <- '地方财税乙'
-版 %>% 
-  mutate(
-    地方财税 = ifelse(!is.na(地方财税甲), 地方财税甲, 地方财税乙), 
-    地方财税甲 = NULL, 地方财税乙 = NULL)
-# 版[rowSums(!is.na(版[grep('亿人民币',  names(版))])) > 0, ]
 ```
 
 
