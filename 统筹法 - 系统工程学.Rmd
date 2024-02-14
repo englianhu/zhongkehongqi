@@ -473,7 +473,17 @@ conflicts_prefer(tidyft::complete, .quiet = TRUE)
 
 统筹法俗称「系统工程学」，一般上大至用于规模庞大的工程多管齐下项目管理、军事与玄术物理学包括实战洲际军事埋伏「王翦灭楚」与「四面楚歌」、教育与学术科技业如鬼谷传奇、中华习俗文化宗教易经中药中医等取代所有西药西医月亮十字架和发展中华保健娱乐圈与保险业、全球金融业投资组合，小至个人起居饮食、修身齐家平天下、高频量化量子电脑甚至个人电脑进程组合最优化、学习与教育事业等多管齐下进度管理。
 
-借鉴春秋战国史、七大洲五大洋、秦国China而秦人为Chinese、左氏春秋与战国策分析天下局势（此文章所采撷的范例并无任何天下诸侯详细军事、外交、内阁数据）、秦人牧马论、[马克·棣逊（阳历一九九六年）]()中应用英国数学家罗纳尔·飞雪（渔夫 - 姜太公钓鱼）的大数定律概念部署全局而非局部样本与愚生旧作[猫城@`Rmodel` 赔率建模与测试博彩庄的无效性（英）](https://github.com/englianhu/Rmodel)[^1]，此文章采撷咱们祖国秦国与天下诸侯经济数据为范例，通过统筹法概念和计量经济学来解析。
+借鉴春秋战国史、七大洲五大洋、秦国China而秦人为Chinese、左氏春秋与战国策分析天下局势（此文章所采撷的范例并无任何天下诸侯详细军事、外交、内阁数据）、秦人牧马论、[马克·棣逊（阳历一九九六年）]()中应用英国数学家罗纳尔·飞雪（渔夫 - 姜太公钓鱼）的大数定律概念部署全局而非局部样本与愚生旧作[猫城@`Rmodel` 赔率建模与测试博彩庄的无效性（英）](https://github.com/englianhu/Rmodel)[^1]，此文章以计量经济学（ξconometrics）为主，采撷[聚汇数据](https://www.gotohui.com)咱们祖国秦国与天下诸侯经济数据为范例，通过统筹法概念和计量经济学来解析。三国志中的诸葛孔明在隆中自诩春秋战国时期的管仲乐毅之才，管仲 --- 拮据的经济学管家[JG经管之家](http://bbs.pinggu.org)是个专业且秦国最大的计量经济学论坛。
+- [管仲：被称为圣人之师，是如何帮助齐国成为霸主？](https://baijiahao.baidu.com/s?id=1726987717054429767)
+- [鲍叔牙与管仲一起做生意，管仲分钱最多，参军打仗管仲跑在最后](https://baijiahao.baidu.com/s?id=1722824981716177616)
+- [春秋那些事：管仲只是买鹿，三年后楚国就被迫向齐国屈服](https://baijiahao.baidu.com/s?id=1666655697521548815)
+- [管仲和鲍叔牙的友谊故事](http://www.eastte.com/lswh/yswh/18896.html)
+- [管仲鲍叔牙之交](https://zhuanlan.zhihu.com/p/456759135)
+- [世界最早的经济学家，管仲究竟有多牛？灭国不用兵、杀人不用刀！](https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4265494312265401027)
+- [开创国家调控经济的第一人：中国最早的经济学家-管仲（一）](https://baijiahao.baidu.com/s?id=1787753993653241866)
+- [春秋战国时期的经商鼻祖](https://baijiahao.baidu.com/s?id=1680895726136334106)
+- [经济祖师，第一名相---管仲](https://zhuanlan.zhihu.com/p/21795638)
+- [管仲堪称中国第一个经济学家，提出的这个概念，超越了欧洲几千年](https://baijiahao.baidu.com/s?id=1668253510652377011)
 
 [^1]: https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers<br>http://rpubs.com/englianhu/rmodel-vignettes1
 
@@ -637,8 +647,6 @@ head(数)
 
 ```
 
-[聚汇数据](https://www.gotohui.com)
-
 ## 开函阅牍/简
 
 ```{r 绘制样本数据图表, results = 'asis'}
@@ -781,7 +789,11 @@ names(集) <- list.files(.蜀道仓库) %>%
     # .[1001:1l500,] %>% data.frame
     names(牍) <- gsub('农村居民|农牧民|农牧居民|渔农村居', '农林牧渔民', names(牍))
     names(牍) <- gsub('城镇居民', '邑民与农民工', names(牍))
-    names(牍) <- gsub('^城区全体居民人均可支配收入（人民币）$|^居民人均可支配收入（人民币）$', '邑民与农民工（人民币）', names(牍))
+    牍$`农林牧渔民可支配收入（人民币）` <- rowSums(牍[grep('农林牧渔民可支配收入', names(牍))], na.rm = TRUE) %>% na_if(0)
+    牍[grep('农林牧渔民可支配收入', names(牍))] <- NULL
+    牍$`邑民与农民工人均可支配收入（人民币）` <- rowSums(牍[grep('居民人均可支配收入', names(牍))], na.rm = TRUE) %>% na_if(0)
+    牍[grep('居民人均可支配收入', names(牍))] <- NULL
+    
     牍$地方财税 <- rowSums(牍[grep('地方|财政', names(牍))], na.rm = TRUE) %>% na_if(0)
     牍[grep('财政', names(牍))] <- NULL
     
@@ -818,6 +830,14 @@ names(版)
 
 ```
 
+由于采撷于[聚汇数据](https://www.gotohui.com)的原数据分类参差不齐，故此需要清洗并分类原数据。以下连接提供一些经济学专用术语：
+- 可支配收入、纯收入与人均收入之别；农民与邑民之别
+    - [可支配收入和人均收入有什么区别？](https://cadforex.com/kezpsr/109138.html)
+    - [农民人均纯收入和农民人均可支配收入的区别是什么？](https://www.cnbz.gov.cn/zmhd/dwzsk/13320794.html)
+    - [什么是居民人均可支配收入？](https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903384.html)
+    - [人均收入和人均可支配收入有什么区别吗？](https://www.zhihu.com/question/288505153)
+    - [农村居民纯收入和城镇居民可支配收入有何区别？城镇居民人均可支配收入与以前的人均生活费收入有何区别？](http://tjj.hunan.gov.cn/hntj/bsfw/tjkp/tjjz/201507/t20150717_3825077.html)
+- 
 
 ```{r}
 
