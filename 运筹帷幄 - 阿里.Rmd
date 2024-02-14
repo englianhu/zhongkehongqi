@@ -327,6 +327,7 @@ library('lubridate', warn.conflicts = FALSE)
 library('data.table', warn.conflicts = FALSE)
 library('conflicted', warn.conflicts = FALSE)
 
+conflicts_prefer(Ipaper::is_empty, .quiet = TRUE)
 conflict_prefer('nth', 'tidyft', quiet = TRUE)
 conflict_prefer('fill', 'tidyft', quiet = TRUE)
 conflict_prefer('nest', 'tidyft', quiet = TRUE)

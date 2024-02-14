@@ -335,7 +335,10 @@ library('dplyr', warn.conflicts = FALSE)
 library('lubridate', warn.conflicts = FALSE)
 library('data.table', warn.conflicts = FALSE)
 library('conflicted', warn.conflicts = FALSE)
+library('Ipaper', warn.conflicts = FALSE)
+library('purrr', warn.conflicts = FALSE)
 
+conflicts_prefer(Ipaper::is_empty, .quiet = TRUE)
 conflict_prefer('nth', 'tidyft', quiet = TRUE)
 conflict_prefer('fill', 'tidyft', quiet = TRUE)
 conflict_prefer('nest', 'tidyft', quiet = TRUE)
@@ -658,7 +661,7 @@ head(数)
 
 以上原数据采撷于[聚汇数据](https://www.gotohui.com)的原数据分类参差不齐，储存于[「雎鹈」黄联富（®γσ ξηg 雷欧）/数据仓库：中科红旗](https://gitee.com/englianhu/zhongkehongqi-cangku)。
 
-```{r 绘制样本数据图表, results = 'asis'}
+```{r 绘制样本数据图表, eval = FALSE, results = 'asis'}
 ## 检验是否已设置途径。
 # source('函数/...R')
 # source('函数/....R')
