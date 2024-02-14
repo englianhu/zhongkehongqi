@@ -849,8 +849,9 @@ names(版)
     - [什么是居民人均可支配收入？](https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903384.html)
     - [人均收入和人均可支配收入有什么区别吗？](https://www.zhihu.com/question/288505153)
     - [农村居民纯收入和城镇居民可支配收入有何区别？城镇居民人均可支配收入与以前的人均生活费收入有何区别？](http://tjj.hunan.gov.cn/hntj/bsfw/tjkp/tjjz/201507/t20150717_3825077.html)
-- 
-
+- 税收收入
+    - [税收收入包括哪些？](https://localsite.baidu.com/okam/pages/article/index?articleId=7849186&ucid=PjRvPHDYPjm)
+    - [「百度」税收收入](https://baike.baidu.com/item/%E7%A8%8E%E6%94%B6%E6%94%B6%E5%85%A5/10803104)
 
 - 原数据中的*农牧渔民人均纯收入*中的福建省数据矢量标题有误，「户」是指总额除以家庭量而非人口，而「人均」是总额除以人口；由于查询福建省数据以户为计量单位而数目依然与其它省份城邑相差不远，故此以文字游戏为由归类为人均数据。
 
