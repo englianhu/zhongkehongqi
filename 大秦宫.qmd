@@ -5110,6 +5110,7 @@ https://www.facebook.com/ChinaPressCP/posts/pfbid03wDrW1rPVnQBdBzsdrjAudnqNMBpju
 ##-----------------------------------------------------------------------
 
 - 山不在高，有仙则灵；水不在深，有龙则鸣。借鉴美国苹果、微软、元宇宙等公司都是先研发高端科技科技产品，再择处另建立宏伟科技园也不迟。请查阅集合操作系统与统筹法的高端科技的学术操作系统[「国学论」](......)。
+- [「猫城」Pandoc based Quarto应该翻译成什么？#三 春秋战国，七大洲五大洋。管制宗教、阅读脑电波、春秋大梦与一统天下](https://github.com/scibrokes/r-world/issues/3#issuecomment-1959178209)
 
 <style>
     .reveal section p {
