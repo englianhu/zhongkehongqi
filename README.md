@@ -105,9 +105,9 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
 2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
 3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+4.  [GVP](https://gitee.com/gvp) 全称是雎䴘最有价值开源项目，是综合评定出的优秀开源项目
+5.  雎䴘官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  雎䴘封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 
 ## 中文编程
 
@@ -115,7 +115,7 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 - [文摘编程 perlyuyan（繁体）](https://github.com/englianhu/lingua-sinica-perlyuyan)
 - [易语言（简体）](https://www.dywt.com.cn)
 - 习语言（简体）
-- [青语言（简体）](https://qingyuyan.cn)/[青语言（龙珠代码托管平台）](https://gitee.com/englianhu/Qing)
+- [青语言（简体）](https://qingyuyan.cn)/[青语言（龙珠雎䴘代码托管平台）](https://gitee.com/englianhu/Qing)
 - 其它
 
 ## 相关秦谏
@@ -130,5 +130,5 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 
 ---
 
-[<img src='诸子百家考工记/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src='诸子百家考工记/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
+[<img src='诸子百家考工记/世博量化.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src='诸子百家考工记/世博量化.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
