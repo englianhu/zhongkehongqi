@@ -1,4 +1,4 @@
-![](文艺坊图库/中科红旗（秦人十二生肖）.png)
+![](诸子百家考工记/中科红旗（秦人十二生肖）.png)
 
 # 中科红旗
 
@@ -6,7 +6,7 @@
 
 🚩🇨🇳🏹红旗礼逆袭
 
-![](文艺坊图库/红旗礼逆袭.gif)
+![](诸子百家考工记/红旗礼逆袭.gif)
 
 - [中科红旗](https://www.chinaredflag.cn)
 - [红旗应用商城](https://www.linuxsir.cn)
@@ -19,7 +19,7 @@
 - [ARM比较X86处理器构架一文读懂](http://lamanhao.com/shcs/453916.html)
 - [六大中央处理单位体系结构：X86、 ARM、MIPS、PowerPC、Sparc、Alfa发展](https://blog.csdn.net/kinglapland/article/details/91955388)
 
-![](文艺坊图库/国产操作系统廿年 - 进退攻防，战斗不止.png)
+![](诸子百家考工记/国产操作系统廿年 - 进退攻防，战斗不止.png)
 
 *出处：[国产操作系统廿年：进退攻防，战斗不止](https://zhidao.baidu.com/question/1711957358187244260.html)*
 
@@ -71,8 +71,8 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 
 第一个由咱们中华民族创办的电脑操作系统 --- 🚩🇨🇳🏹红旗礼逆袭
 
-- [<img src='文艺坊图库/RunoobCom.png' height='14'/>](https://www.runoob.com)各类编程教程网
-- [<img src='文艺坊图库/DBS数据服务.png' height='14'/>](https://www.dbs724.com)礼逆袭程教程网
+- [<img src='诸子百家考工记/RunoobCom.png' height='14'/>](https://www.runoob.com)各类编程教程网
+- [<img src='诸子百家考工记/DBS数据服务.png' height='14'/>](https://www.dbs724.com)礼逆袭程教程网
 - [码农家园](https://www.codenong.com)
 - [中文马克思主义文库](https://www.marxists.org/chinese/index.html)
 - [中文马克思主义文·库参考图书·左翼文化](https://www.marxists.org/chinese/reference-books/index-leftwingculture.htm)
@@ -130,5 +130,5 @@ https://www.163.com/dy/article/HM881SKU0511RVG1.html
 
 ---
 
-[<img src='文艺坊图库/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src='文艺坊图库/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
+[<img src='诸子百家考工记/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src='诸子百家考工记/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>

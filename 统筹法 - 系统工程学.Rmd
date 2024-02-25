@@ -44,6 +44,8 @@ output:
 
 *引用：[「维基百科」孔子学院列表](https://zh.wikipedia.org/wiki/%E5%AD%94%E5%AD%90%E5%AD%A6%E9%99%A2%E5%88%97%E8%A1%A8)*
 
+![](诸子百家考工记/还有半社会主义半资本主义.png)
+
 <iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=757957931" title="天下(电视剧《大秦赋》主题曲完整版)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" border="0" framespacing="0" allowfullscreen="true"></iframe>
 
 *出处：*[**天下***(电视剧《大秦赋》主题曲完整版)*](https://player.bilibili.com/player.html?aid=757957931)
@@ -572,7 +574,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 > 
 - 系统工程及相关学科的教学和科研工作：国家机关、军事系统等的系统规划
 - 设计和管理工作：工厂、企业
-- 工程项目的生产系统从事设计规划、设计和管理工作：铁路和城市轨道交通行业、系统工程、交通运输工程、管理科学与工程、电气工程，以及与工业自动化密切相关的企事业单位和研究机构和大专院校。<br>
+- 工程项目的生产系统从事设计规划、设计和管理工作：铁路和城市轨道交通行业、系统工程、交通运输工程、管理科学与工程、电气工程，以及与工业自动化密切相关的企事业单位和研究机构和大专院校。<br><br>
    *农历二零二零年六月廿七日 庚子年甲申月辛卯日 属鼠 周日*
 
 *出处：[系统工程专业介绍、研究方向、就业前景分析](https://www.dxsbb.com/news/21644.html)*
@@ -952,6 +954,7 @@ names(版)
 ```
 
 由于采撷于[聚汇数据](https://www.gotohui.com)的原数据分类参差不齐，故此需要整顿并分门别类。以下连接提供一些经济学专用术语：
+
 - 可支配收入、纯收入与人均收入之别；农民与邑民之别
     - [可支配收入和人均收入有什么区别？](https://cadforex.com/kezpsr/109138.html)
     - [农民人均纯收入和农民人均可支配收入的区别是什么？](https://www.cnbz.gov.cn/zmhd/dwzsk/13320794.html)
