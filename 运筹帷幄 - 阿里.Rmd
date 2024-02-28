@@ -532,6 +532,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 - [「文派」修读COURSERA : MACHINE LEARNING FOR ALGORITHMIC TRADING中…](https://englianhu.wordpress.com/2021/09/15/%e4%bf%ae%e8%af%bbcoursera-machine-learning-for-algorithmic-trading%e4%b8%ad)
 - [「文派」迟了一年，更新履历表 B4TELEBIZ (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz)
 - [「文派」《赢家黄氏江夏堂》 – 始祖赢政ΞΗG TΕΗG·黄永春家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)
+- [「原创」程序员的精神食粮代码仓库：GITHUB REPOSITORY 应该翻译成什么？](https://englianhu.wordpress.com/2022/12/29/%e3%80%90%e5%8e%9f%e5%88%9b%e3%80%91%e7%a8%8b%e5%ba%8f%e5%91%98%e7%9a%84%e7%b2%be%e7%a5%9e%e9%a3%9f%e7%b2%ae%e4%bb%a3%e7%a0%81%e4%bb%93%e5%ba%93%ef%bc%9agithub-repository-%e5%ba%94%e8%af%a5%e7%bf%bb)
 - [「文派」**阳历二零二三年十二月三日**今日是紫云生日](https://englianhu.wordpress.com/2024/02/04/%e3%80%8c%e9%98%b3%e5%8e%86%e4%ba%8c%e9%9b%b6%e4%ba%8c%e4%b8%89%e5%b9%b4%e5%8d%81%e4%ba%8c%e6%9c%88%e4%b8%89%e6%97%a5%e3%80%8d%e4%bb%8a%e6%97%a5%e6%98%af%e7%b4%ab%e4%ba%91%e7%94%9f%e6%97%a5)
 - [「文派」🚩🇨🇳🔆🏹🌟👊🚀🦔中科红旗](https://englianhu.wordpress.com/statistics/linux-%f0%9f%90%a7-kubuntu-%e2%9a%99)
 
