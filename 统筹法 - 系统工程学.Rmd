@@ -790,7 +790,7 @@ head(数)
 
 以上原数据采撷于[聚汇数据](https://www.gotohui.com)的原数据分类参差不齐，储存于[「雎䴘」黄联富（®γσ ξηg 雷欧）/数据仓库：中科红旗](https://gitee.com/englianhu/zhongkehongqi-cangku)。
 
-```{r 整顿数据, results = 'asis'}
+```{r 整顿数据, eval = FALSE, results = 'asis'}
 集 <- llply(list.files(.蜀道仓库), function(迭) readRDS(paste0(.蜀道仓库, 迭)), .progress = '=')
 names(集) <- list.files(.蜀道仓库) %>% 
   str_replace_all('.rds', '')
@@ -1005,7 +1005,8 @@ if (!exists('聚汇数据')) {
   }
 # conflicted::conflicts_prefer(data.table::`:=`)
 聚汇数据 %<>% as.data.table
-聚汇数据[, 年份 := data.table::year(年份)][天下 != '全世界']
+# 聚汇数据[, 年份 := data.table::year(年份)][天下 != '全世界']
+聚汇数据 %<>% .[rowSums(!is.na(.[,-c(1:2)])) > 0, ]
 
 ## 绘制聚汇数据图表
 聚汇数据[c(1:3, (nrow(聚汇数据) - 3):nrow(聚汇数据)),] |> 
@@ -1014,19 +1015,123 @@ if (!exists('聚汇数据')) {
   ## https://public.tableau.com/en-us/gallery/100-color-palettes?gallery=votd 
   {\(.) row_spec(., 0, background = 'DimGrey', 
                  color = 'gold', bold = TRUE)}() |> 
-  {\(.) column_spec(., 1, background = 'CornflowerBlue')}() |> 
-  {\(.) column_spec(., 2, background = 'Gray')}() |> 
-  {\(.) column_spec(., 3, background = 'DarkGrey')}() |> 
-  {\(.) column_spec(., 4, background = 'Gray')}() |> 
-  {\(.) column_spec(., 5, background = 'DarkGrey')}() |> 
-  {\(.) column_spec(., 6, background = '#4897D8')}() |> 
-  {\(.) column_spec(., 7, background = '#556DAC')}() |> 
-  {\(.) column_spec(., 8, background = '#92AAC7')}() |> 
-  {\(.) column_spec(., 9, background = '#556DAC')}() |> 
-  {\(.) column_spec(., 10, background = '#375E97')}() |> 
-  {\(.) column_spec(., 11, background = 'CornflowerBlue')}() |> 
-  {\(.) column_spec(., 12, background = 'LightGray', 
-                    color = 'goldenrod')}() |> 
+  {\(.) column_spec(.,   1, background = '#991B00')}() |> 
+  {\(.) column_spec(.,   2, background = '#D52600')}() |> 
+  {\(.) column_spec(.,   3, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,   4, background = 'Gray')}() |> 
+  {\(.) column_spec(.,   5, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,   6, background = 'Gray')}() |> 
+  {\(.) column_spec(.,   7, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,   8, background = 'Gray')}() |> 
+  {\(.) column_spec(.,   9, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  10, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  11, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  12, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  13, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  14, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  15, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  16, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  17, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  18, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  19, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  20, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  21, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  22, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  23, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  24, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  25, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  26, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  27, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  28, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  29, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  30, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  31, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  32, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  33, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  34, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  35, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  36, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  37, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  38, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  39, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  40, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  41, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  42, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  43, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  44, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  45, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  46, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  47, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  48, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  49, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  50, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  51, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  52, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  53, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  54, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  55, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  56, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  57, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  58, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  59, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  60, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  61, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  62, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  63, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  64, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  65, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  66, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  67, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  68, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  69, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  70, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  71, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  72, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  73, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  74, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  75, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  76, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  77, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  78, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  79, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  80, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  81, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  82, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  83, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  84, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  85, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  86, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  87, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  88, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  89, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  90, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  91, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  92, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  93, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  94, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  95, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  96, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  97, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(.,  98, background = 'Gray')}() |> 
+  {\(.) column_spec(.,  99, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 100, background = 'Gray')}() |> 
+  {\(.) column_spec(., 101, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 102, background = 'Gray')}() |> 
+  {\(.) column_spec(., 103, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 104, background = 'Gray')}() |> 
+  {\(.) column_spec(., 105, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 106, background = 'Gray')}() |> 
+  {\(.) column_spec(., 107, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 108, background = 'Gray')}() |> 
+  {\(.) column_spec(., 109, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 110, background = 'Gray')}() |> 
+  {\(.) column_spec(., 111, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 112, background = 'Gray')}() |> 
+  {\(.) column_spec(., 113, background = 'DarkGrey')}() |> 
+  {\(.) column_spec(., 114, background = 'Gray')}() |> 
+
+  # {\(.) column_spec(., 12, background = 'LightGray', 
+  #                   color = 'goldenrod')}() |> 
   {\(.) kable_styling(., bootstrap_options = 
                         c('striped', 'hover', 'condensed', 'responsive'))}() |> 
   ##`full_width = FALSE`是将每列设置为伸缩性自动调整宽度。
@@ -1035,13 +1140,23 @@ if (!exists('聚汇数据')) {
                    height = '490px')}()
 ```
 
-*数据：`r paste0(num2c(dim(聚汇数据)[1], lang = 'sc'), '行 乘 ', num2c(dim(聚汇数据)[2], lang = 'sc'), '列')`*[^]
+*数据：`r paste0(num2c(dim(聚汇数据)[1], lang = 'sc'), '行 乘 ', num2c(dim(聚汇数据)[2], lang = 'sc'), '列')`*[^19]
+
+[^19]: - [为什么台湾与大陆关于线性代数中「行」与「列」的定义截然不同？](https://www.zhihu.com/question/32199138)<br>- [台湾的行和列与大陆不同](https://blog.twofei.com/839)
 
 # 统计建模
 
 ![](诸子百家考工记/高频量化对冲与运筹学概念.png)
 
 ![](诸子百家考工记/技术型量化投资与主观基本面投资.png)
+
+```{r 天下数据, results = 'asis'}
+天下数据 <- 聚汇数据[, 年份 := data.table::year(年份)][天下 != '全世界']
+总汇数据 <- 聚汇数据[, 年份 := data.table::year(年份)][天下 == '全世界']
+
+```
+
+
 
 # 模型比较
 
@@ -1055,11 +1170,11 @@ if (!exists('聚汇数据')) {
 春秋战国《*礼记•经解*》<br>
 孔子曰：『君子慎始，差若毫厘，缪以千里。』
 
-> <span style='color:#FFEBCD; background-color:#D2B48C;'>**《礼记·经解》孔子曰：**</span><span style='color:#A9A9A9; background-color:#696969;'>*「君子慎始，差若毫厘，谬以千里。」*</span>[^19]
+> <span style='color:#FFEBCD; background-color:#D2B48C;'>**《礼记·经解》孔子曰：**</span><span style='color:#A9A9A9; background-color:#696969;'>*「君子慎始，差若毫厘，谬以千里。」*</span>[^20]
 
 *引用：[「快懂百科」《礼记•经解》](https://www.baike.com/wikiid/2225522569881832051?view_id=2tt3iw3blkq000)和[第一范文网：差之毫厘，谬以千里的故事](https://www.diyifanwen.com/chengyu/liuziyishangchengyugushi/2010051523105152347092749890.htm)和[「百度百科」春秋时期孔子作品《礼记•经解》](https://baike.baidu.com/item/%E7%A4%BC%E8%AE%B0%C2%B7%E7%BB%8F%E8%A7%A3/2523092)和[「當代中國」差之毫釐 謬以千里](https://www.ourchinastory.com/zh/2962/%E5%B7%AE%E4%B9%8B%E6%AF%AB%E9%87%90%20%E8%AC%AC%E4%BB%A5%E5%8D%83%E9%87%8C)*
 
-[^19]: [HTML Color Codes](https://html-color.codes)
+[^20]: [HTML Color Codes](https://html-color.codes)
 
 ![](诸子百家考工记/秒计.png)
 
