@@ -414,11 +414,11 @@ conflicts_prefer(data.table::between, .quiet = TRUE)
 conflicts_prefer(data.table::set, .quiet = TRUE)
 
 程序包 <- c(
-  'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'tidyr', 
-  'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 'rlist', 
-  'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 'quantmod', 'tidyquant', 
-  'tibbletime', 'timetk', 'plyr', 'dplyr', 'cnum', 'arabic2kansuji', 
-  'tsibble', #'Rfast', TSA', 
+  'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 
+  'tidyr', 'readr', 'lubridate', 'reprex', 'stringr', 'feather', 
+  'purrr', 'rlist', 'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 
+  'quantmod', 'tidyquant', 'tibbletime', 'timetk', 'plyr', 'dplyr', 
+  'cnum', 'arabic2kansuji', 'tsibble', #'Rfast', TSA', 
   'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
   'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'magrittr', 
   'seasonalview', 'rjson', 'rugarch', 'rmgarch', 'mfGARCH', 'feather', 
@@ -465,7 +465,9 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 ### 鬼谷传奇
 
-#### 硅谷传奇史
+#### 春秋战国
+
+**春秋战国，七大洲五大洋**
 
 诸子百家、文艺复兴和美国硅谷传奇分为两条路线：
 
@@ -495,7 +497,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 - **商鞅**：改变天下学术（包括复古中国算筹）、杏林、保险与司法界，取代天下所有西方文化科学科技医学司法；习俗文化宗教语言杏林务农法律等世纪大革命，一劳永逸。
 - **吕不韦**：改变天下学术尤其是高频量化对冲运筹学（包括复古中国算筹）、高频量化对冲、金融与务农中药中医杏林、娱乐圈（包括复古中国古代习俗文化宗教语言）、广告与产品代言；习俗文化宗教语言等世纪大革命，一劳永逸。
-- **李斯**：改变天下学术尤其是文学（文言文、古文、中国历史习俗文化宗教语言等），研发咱们中华秦国操作系统、电子仪器、科技软件、科技产品来取代天下所有西方电子产品与习俗文化宗教语言等；习俗文化宗教语言等世纪大革命，一劳永逸。
+- **李斯**：改变天下学术尤其是文学（文言文、古文、中国历史习俗文化宗教语言等），研发咱们中华秦国操作系统、电子仪器、科技软件、科技产品来取代天下所有西方电子产品与习俗文化宗教语言等；以电子仪器与操作系统记载并进化所有习俗文化宗教语言法律等世纪大革命并且直到一统天下，一劳永逸。
 
 <br>
 

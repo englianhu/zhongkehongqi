@@ -414,11 +414,11 @@ conflicts_prefer(data.table::between, .quiet = TRUE)
 conflicts_prefer(data.table::set, .quiet = TRUE)
 
 程序包 <- c(
-  'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'tidyr', 
-  'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'purrr', 'rlist', 
-  'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 'quantmod', 'tidyquant', 
-  'tibbletime', 'timetk', 'plyr', 'dplyr', 'cnum', 'arabic2kansuji', 
-  'tsibble', #'Rfast', TSA', 
+  'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 
+  'tidyr', 'readr', 'lubridate', 'reprex', 'stringr', 'feather', 
+  'purrr', 'rlist', 'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 
+  'quantmod', 'tidyquant', 'tibbletime', 'timetk', 'plyr', 'dplyr', 
+  'cnum', 'arabic2kansuji', 'tsibble', #'Rfast', TSA', 
   'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
   'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'magrittr', 
   'seasonalview', 'rjson', 'rugarch', 'rmgarch', 'mfGARCH', 'feather', 
