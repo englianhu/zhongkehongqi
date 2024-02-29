@@ -602,7 +602,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 <img src='诸子百家考工记/Scicom CS Workshop.png' width = '400'>
 
-*西施康吏部副总裁廖雷娜颁发***大奖章**
+_西施康吏部副总裁廖雷娜颁发**大奖章**_
 
 - 中国四大名著中的「三国演义」乃蜀国陈寿著作。**廖化**本名淳，**字元俭**、孔明好友**徐庶，字元直**、东吴孙太祖孙权字仲谋、明太祖**朱元璋**本名重八（天干地支，辛亥革命）、崇祯朱由检。
 - 小学在民智国民华文学校修读时期，由于咱们民智国民华校学生的整体学术总分比不上附近的国民华校没有在县内名列三甲，然后陈仙凤女校长就特地请退休人士吴荣兴老师重返校园任教，精通与熟悉中国历史尤其是春秋战国与成语典故的吴荣兴中文老师教导过：“咱们马来西亚中央山脉叫大汉山，后汉三国时期有句名言叫「蜀中无大将，廖化作先锋。」”。
@@ -1027,7 +1027,7 @@ if (!exists('聚汇数据')) {
 # conflicted::conflicts_prefer(data.table::`:=`)
 聚汇数据 %<>% as.data.table
 # 聚汇数据[, 年份 := data.table::year(年份)][天下 != '全世界']
-聚汇数据 %<>% .[rowSums(!is.na(.[,-c(1:2)])) > 0, ]
+聚汇数据 <- 聚汇数据[, 年份 := data.table::year(年份)][rowSums(!is.na(聚汇数据[,-c(1:2)])) > 0, ]
 
 ## 绘制聚汇数据图表
 聚汇数据[c(1:3, (nrow(聚汇数据) - 3):nrow(聚汇数据)),] |> 
@@ -1172,8 +1172,8 @@ if (!exists('聚汇数据')) {
 ![](诸子百家考工记/技术型量化投资与主观基本面投资.png)
 
 ```{r 天下数据, results = 'asis'}
-天下数据 <- 聚汇数据[, 年份 := data.table::year(年份)][天下 != '全世界']
-总汇数据 <- 聚汇数据[, 年份 := data.table::year(年份)][天下 == '全世界']
+天下数据 <- 聚汇数据[天下 != '全世界']
+总汇数据 <- 聚汇数据[天下 == '全世界']
 
 ```
 
@@ -1254,7 +1254,7 @@ options(warn = 0)
 
 [^20]: 欲知更多阳历/民国/农历日历详情，请登录中华民国农业部官网查询日历查询[阳历/农历/民国查询](https://ppg.naif.org.tw/naif/MarketInformation/Other/Calendar_V3.aspx)。
 
-```{r 信息}
+```{r 信息, results = 'asis'}
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
