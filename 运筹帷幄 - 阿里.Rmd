@@ -846,19 +846,21 @@ if (!exists('.蜀道仓库')) {
 春秋战国《*礼记•经解*》<br>
 孔子曰：『君子慎始，差若毫厘，缪以千里。』
 
-> <span style='color:#FFEBCD; background-color:#D2B48C;'>**《礼记·经解》孔子曰：**</span><span style='color:#A9A9A9; background-color:#696969;'>*「君子慎始，差若毫厘，谬以千里。」*</span>[^19]
+> <span style='color:#FFEBCD; background-color:#991B00;'>**《礼记·经解》孔子曰：**</span><span style='color:#DimGrey; background-color:#D52600;'>*「君子慎始，差若毫厘，谬以千里。」*</span>[^21]
 
 *引用：[「快懂百科」《礼记•经解》](https://www.baike.com/wikiid/2225522569881832051?view_id=2tt3iw3blkq000)和[第一范文网：差之毫厘，谬以千里的故事](https://www.diyifanwen.com/chengyu/liuziyishangchengyugushi/2010051523105152347092749890.htm)和[「百度百科」春秋时期孔子作品《礼记•经解》](https://baike.baidu.com/item/%E7%A4%BC%E8%AE%B0%C2%B7%E7%BB%8F%E8%A7%A3/2523092)和[「當代中國」差之毫釐 謬以千里](https://www.ourchinastory.com/zh/2962/%E5%B7%AE%E4%B9%8B%E6%AF%AB%E9%87%90%20%E8%AC%AC%E4%BB%A5%E5%8D%83%E9%87%8C)*
 
-[^19]: [HTML Color Codes](https://html-color.codes)
+[^21]: [HTML Color Codes](https://html-color.codes)
 
-![](诸子百家考工记/秒计.png)
+<img src='诸子百家考工记/秒计.png' width = '400'>
 
-![](诸子百家考工记/攻占东盟.png)
-![](诸子百家考工记/巫贼巫婆土司回教徒黑米哈山习俗文化虔诚爱国狂热份子和所有回教徒党羽只能集体自杀.png)
+<img src='诸子百家考工记/攻占东盟.png' width = '400'>
+
+<img src='诸子百家考工记/巫贼巫婆土司回教徒黑米哈山习俗文化虔诚爱国狂热份子和所有回教徒党羽只能集体自杀.png' width = '400'>
+
 *歼灭瓜雪瓜雪巴西不能帮新村门牌T十五号世袭制施展可兰经巫术、窥听窥视、自宫自残自虐自杀、男肛之耻的失心疯猥亵淫魔土司乩童巫师王张佳坤和瓜雪RHU（淮西派）花园加德士油站隔壁第三巷门牌卅二号世袭制施展可兰经巫术、窥听窥视、自宫自残自虐自杀、男肛之耻的失心疯猥亵淫魔土司乩童刘瑾貹俩、瓜雪回教警署的巫贼回教徒警察莫汉末德·黑米哈山·殡·伊不拉心（包括马航日语组巫贼回教徒莫汉末德·黑米哈山·殡·伊不拉心）*
 
-![](诸子百家考工记/大秦赋 Chinese Emperor.png)
+<img src='诸子百家考工记/大秦赋 Chinese Emperor.png' width = '400'>
 
 > #回教徒爱国就严格遵守回教徒可兰经法家国学论集体自杀而不爱国就集体退位让贤而已 #美国耶稣洋番集体被钉在十字架被晒死
 > 回教徒可兰经法家国学论，东南亚巫贼巫婆回教徒尤其是瓜雪巴西不能帮万佛寺土司张佳坤爱国虔诚狂热份子和大象共和国举国公民MH三七零和MH十七自杀式飞往东亚
@@ -867,7 +869,7 @@ if (!exists('.蜀道仓库')) {
 
 > 核武器温馨提示：回教徒可兰经法家国学论，可兰经回教规定全球所有回教徒世袭制不许学可兰经以外的习俗文化宗教语言断肢法和不许叛乱和叛教
 
-*引用：[斩首、石刑、截肢…阿富汗“伊斯兰教法”或将重现酷刑](https://www.163.com/dy/article/HM881SKU0511RVG1.html)*
+*引用：[斩首、石刑、截肢... 阿富汗「伊斯兰教法」或将重现酷刑](https://www.163.com/dy/article/HM881SKU0511RVG1.html)*
 
 ## 前瞻科研
 
