@@ -1084,7 +1084,7 @@ if (!exists('聚汇数据')) {
   聚汇数据 <- readRDS(paste0(.蜀道, '诸子百家学府/聚汇数据.rds'))
   }
 # conflicted::conflicts_prefer(data.table::`:=`)
-聚汇数据 %<>% as.data.table
+if (!is.data.table(聚汇数据)) 聚汇数据 %<>% as.data.table
 
 ## 天下各别数据
 天下数据 <- 聚汇数据[!grep('全世界', 天下)]
@@ -1362,9 +1362,9 @@ if (!exists('聚汇数据')) {
 
 *数据：`r paste0(num2c(dim(总汇数据)[1], lang = 'sc'), '行 乘 ', num2c(dim(总汇数据)[2], lang = 'sc'), '列')`*
 
-```{r 绘制天下数据图表甲, results = 'asis'}
+```{r 绘制天下数据图表甲, eval = FALSE, results = 'asis'}
 ## 绘制天下数据图表
-绘图甲 <- 聚汇数据 |> 
+绘图甲 <- 天下数据 |> 
   highchart() |> 
   hc_chart('line', hcaes(x = 年份, y = 钱谷, group = 天下)) |> 
   hc_title(text = '天下') |> 
@@ -1376,7 +1376,7 @@ tagList(绘图甲)
 ```{r 绘制天下数据图表乙, results = 'asis'}
 ## 绘制天下数据图表
 天下数据 %>% 
-    group_by(天下) %>% 
+    dplyr::group_by(天下) %>% 
     e_charts(x = 年份) %>% 
     e_line(钱谷, smooth = TRUE) %>% 
   e_datazoom(
@@ -1384,7 +1384,7 @@ tagList(绘图甲)
     toolbox = FALSE,
     bottom = -5) %>% 
   e_tooltip() %>% 
-  e_title(text = '天下', subtext = '钱谷', left = 'center') %>% 
+  e_title(text = '左氏春秋：天下经济数据', subtext = '钱谷', left = 'center') %>% 
   e_axis_labels(x = '年份', y = '钱谷') %>%
   e_x_axis(年份, axisPointer = list(show = TRUE)) %>% 
   e_legend(
