@@ -666,8 +666,6 @@ _西施康吏部副总裁廖雷娜颁发**大奖章**_
 - [修读COURSERA : MACHINE LEARNING FOR ALGORITHMIC TRADING中…](https://englianhu.wordpress.com/2021/09/15/%e4%bf%ae%e8%af%bbcoursera-machine-learning-for-algorithmic-trading%e4%b8%ad/)
 - [迟了一年，更新履历表 B4TELEBIZ (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz/)
 
-### 古文与文言文
-
 - [管仲：被称为圣人之师，是如何帮助齐国成为霸主？](https://baijiahao.baidu.com/s?id=1726987717054429767)
 - [鲍叔牙与管仲一起做生意，管仲分钱最多，参军打仗管仲跑在最后](https://baijiahao.baidu.com/s?id=1722824981716177616)
 - [春秋那些事：管仲只是买鹿，三年后楚国就被迫向齐国屈服](https://baijiahao.baidu.com/s?id=1666655697521548815)
@@ -680,6 +678,8 @@ _西施康吏部副总裁廖雷娜颁发**大奖章**_
 - [管仲堪称中国第一个经济学家，提出的这个概念，超越了欧洲几千年](https://baijiahao.baidu.com/s?id=1668253510652377011)
 
 [^3]: 愚生首篇科研论文：<br> - [「猫城」Odds Modelling and Testing Inefficiency of Sports Bookmakers](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)<br>- [「猫城」Rmodel（秦笺甲）](http://rpubs.com/englianhu/rmodel-vignettes1)<br>- [Odds modelling and testing inefficiency of sports bookmakers](https://issuu.com/englianhu/docs/odds_modelling_and_testing_ineffici)
+
+### 古文与文言文
 
 > 其次，要做到对古典作品有很深的感性认识，有大量的词汇和句式积淀，甚至要做到可以用文言文进行思考和布局，文言文有它固有的用词，熟悉这些模式，才有可能运用自如。例如《高小琴传》，讲到高小凤奉承高育良，眉目温顺传神，我就用了「俯眉承睫」，这个词就来自《聊斋志异》里的《吕无病》。再如《赵东来传》里写到赵东来「声如乳虎」，就来自于《庄子》。积累的文言词汇多了，就能运用自如。再如李达康书记很重视GDP，这个在古文里怎么表达呢？如果读史书读得多，就会自然而然地想到一个词**「钱谷」，重视GDP的官吏就叫钱谷吏**...
 
