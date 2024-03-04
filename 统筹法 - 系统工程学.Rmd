@@ -584,9 +584,9 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 > 论文古称
 
 - [古时的八种文体分别是什么？](https://zhidao.baidu.com/question/1392136451064841900.html)
-- [「范本模板」古代雅称大全](https://wenku.baidu.com/view/36418229a78da0116c175f0e7cd184254a351b30.html?_wkts_=1709365939044&bdQuery=%E6%A8%A1%E6%9D%BF%E5%8F%A4%E7%A7%B0)
 - [写论文的雅称是什么](https://zhidao.baidu.com/question/1248542257667328339.html)
-
+- [「范本模板」古代雅称大全](https://wenku.baidu.com/view/36418229a78da0116c175f0e7cd184254a351b30.html?_wkts_=1709365939044&bdQuery=%E6%A8%A1%E6%9D%BF%E5%8F%A4%E7%A7%B0)
+- [中国古代常用敬词](https://wenku.baidu.com/view/36418229a78da0116c175f0e7cd184254a351b30.html)
 
 
 
