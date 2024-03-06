@@ -1426,7 +1426,9 @@ tagList(绘图甲)
 # 统计建模
 
 - [「统计之都」急急急！！！农村人均纯收入指数怎么计算得到](https://d.cosx.org/d/104091-104091)
+- [「预测：方法与实践」第九章第三节 - 模型预测](https://otexts.com/fppcn/forecasting.html)
 - [「统计之都」求助：Error in solve.default(A) : system is computationally singular: reciprocal](https://d.cosx.org/d/416775-416775)
+- [「预测：方法与实践」第八章第一节 - 简单的指数平滑（英）](https://otexts.com/fpp3/ses.html)
 
 <img src='诸子百家考工记/高频量化对冲与运筹学概念.png' width = '400'>
 
@@ -1488,7 +1490,7 @@ tagList(绘图甲)
 
 [**近期招聘一览表:**<span style='color:#3C5C; background-color:black;'>*全网Quant都在看!</span>](https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs)
 
-- [我也开始玩linux ubuntu了，请问该怎么开始玩。。](https://d.cosx.org/d/110028-110028)
+- [我也开始玩linux Ubuntu了，请问该怎么开始玩。。](https://d.cosx.org/d/110028-110028)
 
 ```{r 选项设置, echo = FALSE}
 ## Set options back to original options
