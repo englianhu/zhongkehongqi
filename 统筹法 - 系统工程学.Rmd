@@ -112,7 +112,7 @@ output:
 
 *引用：[#大奖章基金之路 #RT #ST lim ₓ→ₐ f ) HMM... LSTM...](https://www.instagram.com/p/CNm43grAbVz)视频与长相似上图女生是我二零零二年在拉曼学院修读电脑科学A专攻数学系时期追求的课外家庭日语班女同学林艳迎改变了我一生。*[^0]
 
-[^0]: 人生经历，至今遇到三次人生启发的三个转戾点：<br> - 二零零二年当时迷茫对于未来完全没有一个明确的方向，喜欢和科研基本面觉得洋人的技术面分析太复杂太高深却无奈入学无门，而咱们华人的技术面分析是个诈骗集团的幌子，的对冲基金的我，一心想要靠学术和对冲基金一统天下驾驶车子踩完门油和迎面而来的对冲，如果迎面而来的没有自知之明不闪避一块儿死；<br> - 而二零零八年加入西施康闲暇时间自修每天通过搜索引擎翻阅廿页搜索结果的论文与文章再阅读与比较，跌跌撞撞、持续摸索、无师自通，终于认识到R鄀编程统计学，当时每天犹如歌曲「成都」一样终于入门高深统计学奈何高深难学资质不高，如同翻白眼的潮汕乩童查安或金毛狮王百思不解如何参透屠龙刀的绝世武功秘籍；<br> - 二零一九年前后科研高频量化对冲遇到瓶颈，就是代码和学术作品频频受到洋番的人为篡改和攻击导致学术论文都频频失误代码和呈现的效果不一致，在借鉴孙玉芳教授在二零零二年创办中科红旗的名言：“中国不能没有自己的操作系统。”，逼于无奈之下只能独自科研并研发咱们世袭制道家的操作系统。至今二零二四年仍每天在烦恼何时才能学成那些高频量化对冲的上层武功和内力，得先从统筹法着手；目前只关心学术作品和科技产品并无任何喜欢的人，莫忘初衷，砥砺前行。
+[^0]: 人生经历，至今遇到三次人生启发的三个转戾点：<br> - 二零零二年当时迷茫对于未来完全没有一个明确的方向，喜欢和科研基本面觉得洋人的技术面分析太复杂太高深却无奈入学无门，而咱们华人的技术面分析是个诈骗集团的幌子，的对冲基金的我，一心想要靠学术和对冲基金一统天下驾驶车子踩完门油和迎面而来的对冲，如果迎面而来的没有自知之明不闪避一块儿死；<br> - 而二零零七年在新宝被高层股东们纷纷看好前途似锦却，当时夸夸其谈压力大就辞职不干继续自修学习量化对冲；辞职回国后二零零八年加入西施康闲暇时间自修每天通过搜索引擎翻阅廿页搜索结果的论文与文章再阅读与比较，跌跌撞撞、持续摸索、无师自通，终于认识到R鄀编程统计学，当时每天犹如歌曲「成都」一样终于入门高深统计学奈何高深难学资质不高，如同翻白眼的潮汕乩童查安或金毛狮王百思不解如何参透屠龙刀的绝世武功秘籍；<br> - 二零一九年前后科研高频量化对冲遇到瓶颈，就是代码和学术作品频频受到洋番的人为篡改和攻击导致学术论文都频频失误代码和呈现的效果不一致，在借鉴孙玉芳教授在二零零二年创办中科红旗的名言：“中国不能没有自己的操作系统。”，逼于无奈之下只能独自科研并研发咱们世袭制道家的操作系统。至今二零二四年仍每天在烦恼何时才能学成那些高频量化对冲的上层武功和内力，得先从统筹法着手；目前只关心学术作品和科技产品并无任何喜欢的人，莫忘初衷，砥砺前行。
 
 <iframe width="400" height="225" src="https://www.youtube.com/embed/ndCUxQB0kzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -161,7 +161,7 @@ output:
 - [国学百科](https://www.guoxuebaike.cn)
 
 > [《万般皆下品，唯有读书高》]{style="color:#3C33FF"}<br>
-[习李经济，一带一路；]{style="color:#6883FC"}<br>
+[计量经济，一带一路；]{style="color:#6883FC"}<br>
 [九二共识，量化对冲。]{style="color:#6883FC"}<br>
 [鞭策六四，铲除黑帮；]{style="color:#6883FC"}^[尤其是咱们东南亚回教政府施展巫术屠杀六百八十万人类的巫师Judi邪教巫裔宦官博彩庄诸国]<br>
 [推广量化，提倡学术。]{style="color:#6883FC"}<br>
@@ -1630,7 +1630,7 @@ options(warn = 0)
 
 ## 幕后花絮
 
-- [「猫城」englianhu/binary.com-interview-question#3大秦赋：商鞅变法、辛亥革命、一带一路、习李经济学、孙子兵法](https://github.com/englianhu/library/issues/3)
+- [「猫城」englianhu/binary.com-interview-question#3大秦赋：商鞅变法、辛亥革命、一带一路、计量经济学、孙子兵法](https://github.com/englianhu/library/issues/3)
 - [「猫城」scibrokes/r-world#1`REmap`百度绘图，点缀全球](https://github.com/scibrokes/r-world/issues/1)
 - [「猫城」englianhu/binary.com-interview-question#6`Error: forecast::Arima() #910`](https://github.com/englianhu/binary.com-interview-question/issues/6)
 - [「猫城」englianhu/binary.com-interview-question#8在`ts`和`xts`和`matrix`格式上使用`auto.arima`](https://github.com/englianhu/binary.com-interview-question/issues/8)
