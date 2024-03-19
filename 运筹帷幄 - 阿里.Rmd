@@ -704,6 +704,7 @@ _西施康吏部副总裁廖雷娜颁发**大奖章**_
 - [春秋战国时期的经商鼻祖](https://baijiahao.baidu.com/s?id=1680895726136334106)
 - [经济祖师，第一名相---管仲](https://zhuanlan.zhihu.com/p/21795638)
 - [管仲堪称中国第一个经济学家，提出的这个概念，超越了欧洲几千年](https://baijiahao.baidu.com/s?id=1668253510652377011)
+- [浅谈春秋战国时期的统计分析](http://tjj.hunan.gov.cn/bsfw/tjkp/tjysh/201507/t20150717_3825224.html)
 
 [^3]: 愚生首篇科研论文：<br> - [「猫城」Odds Modelling and Testing Inefficiency of Sports Bookmakers](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)<br>- [「猫城」Rmodel（秦笺甲）](http://rpubs.com/englianhu/rmodel-vignettes1)<br>- [Odds modelling and testing inefficiency of sports bookmakers](https://issuu.com/englianhu/docs/odds_modelling_and_testing_ineffici)
 
@@ -720,6 +721,13 @@ _西施康吏部副总裁廖雷娜颁发**大奖章**_
 ...
 
 *出处：[知乎@近現代漢語文變革](https://zhuanlan.zhihu.com/p/656800286)*
+
+> ...
+管仲，名夷吾（约公元前730——公元前645年），曾任齐桓公的宰相40年。《管子》一书着重阐述了管仲的思想，其中包括了管仲大量的统计思想和统计分析。管仲十分重视统计，对统计的作用以极高的评价：不明于计数而欲举大事，犹无舟楫而经于水。险也。...遍知天下，而不明于机数，不能正天下。”
+> 
+> 　**以上“计数”、“机数”等语，泛指统计。这些话的意思是说，要想管理好国家（“欲举大事”），得充分地认识国情（“遍知天下”）这些离不开统计（计数），对统计“不明”，国家管理就会紊乱，失去发展方向，（犹无舟楫而经于水。险也”。）...**
+
+*出处：[浅谈春秋战国时期的统计分析](http://tjj.hunan.gov.cn/bsfw/tjkp/tjysh/201507/t20150717_3825224.html)*
 
 - [国际元是什么？为何世行采用的购买力平价，使用「国际美元」](https://new.qq.com/rain/a/20200930A04J4I00)
 - [古代中国哪个时期的钱谷（GDP）最高](https://zhidao.baidu.com/question/372808750996691404.html)
@@ -873,13 +881,25 @@ if (!exists('.蜀道仓库')) {
 
 ## 精准度
 
+> VAR分析中的一个中心问题是找到滞后的阶数，以产生最佳结果。模型比较通常基于信息标准，例如AIC，BIC或HQ。通常，由于是小样本预测，AIC优于其他标准。但是，BIC和HQ在大型样本中效果很好 
+
+引用：[R语言用向量自回归（VAR）进行经济数据脉冲响应研究分析](http://tecdat.cn/r%e8%af%ad%e8%a8%80%e7%94%a8%e5%90%91%e9%87%8f%e8%87%aa%e5%9b%9e%e5%bd%92%ef%bc%88var%ef%bc%89%e8%bf%9b%e8%a1%8c%e7%bb%8f%e6%b5%8e%e6%95%b0%e6%8d%ae%e8%84%89%e5%86%b2%e5%93%8d%e5%ba%94%e7%a0%94)
+
+- [「经管之家」 [统计软件与数据分析] 如何理解R中给出的ARIMA模型的拟合结果？](https://bbs.pinggu.org/forum.php?mod=redirect&goto=findpost&ptid=3236918&pid=84745157&fromuid=5794471)
+- [**Forecasting: Principle & Practice** - *5.8 Evaluating point forecast accuracy*](https://otexts.com/fpp3/accuracy.html)
+- [**预测：方法与实践（第三版）** - *第五章第八节 评估预测精度*](https://otexts.com/fpp3cn)
+
+这儿使用`forecast`程序包，尚未使用`fable`程序包与`fabletools`程序包，该程序包中的`accuracy()`[^2]函数和`report()`函数有使用**平均绝对比例误差（MASE）**来衡量更为精准的统计模型预测值。
+
+[^2]: 预测：方法与实践（第三版）<br> - [**Forecasting: Principles and Practice (3rd ed)** - *5.8 Evaluating point forecast accuracy*](https://otexts.com/fpp3/accuracy.html)阐明评估预测精准度的计算公式。<br> - [**预测：方法与实践（第三版）** - *第五章第八节 评估预测精度*](https://otexts.com/fpp3cn)阐明评估预测精准度的计算公式。<br> - [「CSDN」选择正确的错误度量标准：MAPE与sMAPE的优缺点](https://blog.csdn.net/deephub/article/details/109483129)<br> - [「β站」康雁飞在线视频教程《预测：方法与实践》（第三版）](https://space.bilibili.com/624024421)
+
 # 结论
 
 ## 摘要
 
 **大秦赋 (Chinese Emperor)**<br>
 春秋战国《*礼记•经解*》<br>
-孔子曰：『君子慎始，差若毫厘，缪以千里。』
+孔子曰：「君子慎始，差若毫厘，缪以千里。」
 
 > <span style='color:#FFEBCD; background-color:#991B00;'>**《礼记·经解》孔子曰：**</span><span style='color:#DimGrey; background-color:#D52600;'>*「君子慎始，差若毫厘，谬以千里。」*</span>[^21]
 
