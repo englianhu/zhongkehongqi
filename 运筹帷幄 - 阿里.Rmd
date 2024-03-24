@@ -534,7 +534,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 它日再通过运筹学、物理学来诠释咱们春秋战国时期诸子百家中道家李耳的易经、张灯结彩、天文历法、廿四节气[^2]、时辰、十二生肖、咱们世袭制道家姓氏堂号子嗣贞节牌坊等。
 
 [^1]: [唯一会飞的爬行动物飞蜥是翼龙的后代吗？](https://haokan.baidu.com/v?pd=wisenatural&vid=14393146146365528807)
-[^2]: [⼆⼗四节⽓⼤全](https://mp.weixin.qq.com/s?__biz=Mzg3MTUzNjAwMw==&mid=2247492492&idx=6&sn=0614e89a7eb7e827cec6d878dd7acf23&chksm=ceffa760f9882e768fcff27488f46736f562d7964604a78ce066340968583b343c5ab95a0bee&scene=27)
+[^2]: [⼆⼗四节⽓⼤全](https://mp.weixin.qq.com/s?__biz=Mzg3MTUzNjAwMw==&mid=2247492492&idx=6&sn=0614e89a7eb7e827cec6d878dd7acf23)
 
 #### 计时法
 
