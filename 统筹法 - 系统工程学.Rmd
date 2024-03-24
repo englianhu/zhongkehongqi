@@ -738,7 +738,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 #### 孔明/诸葛亮
 
-### 方技师（杏林/医家）
+### 方技师（杏林/医家/大夫）
 
 #### 扁鹊
 
@@ -1658,7 +1658,7 @@ tagList(绘图甲)
 
 - [巴蜀两省？这是一个坑，历史上我为何能出现那么多割据政权？](https://www.bilibili.com/video/BV1N24y1b72C)
 - [从“十八星旗”到“五色旗”，资产阶级革命内涵的“拨乱反正”](https://zhuanlan.zhihu.com/p/337126121)
-
+- 
 
 ```{r 选项设置, echo = FALSE}
 ## Set options back to original options
