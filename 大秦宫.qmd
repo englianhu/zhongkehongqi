@@ -1539,6 +1539,25 @@ editor: source
   }
 </style>
 
+# <ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>宫<rp>(</rp><rt>gōng</rt><rp>)</rp></ruby>
+
+## <ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>宫<rp>(</rp><rt>gōng</rt><rp>)</rp></ruby>
+
+### <ruby>宫<rp>(</rp><rt>gōng</rt><rp>)</rp></ruby>
+
+<img src='诸子百家考工记/一组图看懂古建屋顶（甲）.png' height='400'>
+<br>
+*<ruby>出<rp>(</rp><rt>chū</rt><rp>)</rp>处<rp>(</rp><rt>chù</rt><rp>)</rp></ruby>：[「元宇宙」一组图看懂古建屋顶](https://www.facebook.com/xyzhiju/posts/pfbid02TYyK2mCt8DgpQxPyGh7Edrfu1o4ahQHJZBtZLTB2eM5QshsxF6Fi4XsJPNKrAwzEl)*
+
+<style>
+    .reveal section p {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top;
+  }
+</style>
+
 ## <ruby>大<rp>(</rp><rt>dà</rt><rp>)</rp>秦<rp>(</rp><rt>qín</rt><rp>)</rp>宫<rp>(</rp><rt>gōng</rt><rp>)</rp></ruby>
 
 ### <ruby>宫<rp>(</rp><rt>gōng</rt><rp>)</rp></ruby>
