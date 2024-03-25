@@ -1603,9 +1603,9 @@ tagList(绘图甲)
 
 > VAR分析中的一个中心问题是找到滞后的阶数，以产生最佳结果。模型比较通常基于信息标准，例如AIC，BIC或HQ。通常，由于是小样本预测，AIC优于其他标准。但是，BIC和HQ在大型样本中效果很好 
 
-引用：[R语言用向量自回归（VAR）进行经济数据脉冲响应研究分析](http://tecdat.cn/r%e8%af%ad%e8%a8%80%e7%94%a8%e5%90%91%e9%87%8f%e8%87%aa%e5%9b%9e%e5%bd%92%ef%bc%88var%ef%bc%89%e8%bf%9b%e8%a1%8c%e7%bb%8f%e6%b5%8e%e6%95%b0%e6%8d%ae%e8%84%89%e5%86%b2%e5%93%8d%e5%ba%94%e7%a0%94)
+引用：[R语言用向量自回归（VAR）进行经济数据脉冲响应研究分析](http://tecdat.cn/r语言用向量自回归（var）进行经济数据脉冲响应研)
 
-- [「经管之家」 [统计软件与数据分析] 如何理解R中给出的ARIMA模型的拟合结果？](https://bbs.pinggu.org/forum.php?mod=redirect&goto=findpost&ptid=3236918&pid=84745157&fromuid=5794471)
+- [「经管之家」 [统计软件与数据分析] 如何理解R中给出的ARIMA模型的拟合结果？](https://bbs.pinggu.org/forum.php?mod=viewthread&tid=3236918)
 - [**Forecasting: Principle & Practice** - *5.8 Evaluating point forecast accuracy*](https://otexts.com/fpp3/accuracy.html)
 - [**预测：方法与实践（第三版）** - *第五章第八节 评估预测精度*](https://otexts.com/fpp3cn)
 
@@ -1656,9 +1656,16 @@ tagList(绘图甲)
 
 **秦人得蜀既得楚、东汉末年与清末史**
 
+咱们马来西亚自从巫贼巫婆回教徒纳吉内阁时期，就开始落实各乡镇自治民警社区。
+
 - [巴蜀两省？这是一个坑，历史上我为何能出现那么多割据政权？](https://www.bilibili.com/video/BV1N24y1b72C)
 - [从“十八星旗”到“五色旗”，资产阶级革命内涵的“拨乱反正”](https://zhuanlan.zhihu.com/p/337126121)
-- 
+- [广州市南沙区珠江街居（村）民委员会](http://www.gzns.gov.cn/gzjg/gzj/zjj/jcmwyh/content/post_3870621.html)
+- [三专家探讨共同“保根护脉”，新村申遗价值在哪？](https://www.sinchew.com.my/news/20231229/nation/5230160)
+- [《新新村：社区联盟》发挥互助精神　自主串联社区资源](https://www.orientaldaily.com.my/news/nation/2020/07/20/352977)
+- [雪新村村长明年“加薪”，管委会主席感激受肯定](https://metro.sinchew.com.my/news/20221207/metro/4320124)
+- [马华四正副部长谈工作计划，盼吸纳华裔专才拼经济](http://www.chinaqw.com/hqhr/hrdt/200904/12/159038.shtml)
+- [《故郷ふるさと》🎶J-League ⚽🎌🎎🎏#ふるさと #故郷](https://www.tiktok.com/@englianhu/video/6876997614085082370)
 
 ```{r 选项设置, echo = FALSE}
 ## Set options back to original options
