@@ -971,6 +971,12 @@ options(warn = 0)
 - [「猫城」雷欧@中科红旗](https://github.com/englianhu/RedFlag-Linux)
 - [「猫城」雷欧@图书馆](https://github.com/englianhu/library)
 
+<iframe width="400" height="225" src="https://www.youtube.com/embed/6VMjJ2v9Nv8?si=2-Pt0UDsHKI07qds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="400" height="225" src="https://www.youtube.com/embed/qpH19SxHXJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="400" height="225" src="https://www.youtube.com/embed/yEICn9RegoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 文书明细
 
 以下乃此文书的文件信息。
