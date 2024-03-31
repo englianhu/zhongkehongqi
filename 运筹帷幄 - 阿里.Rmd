@@ -121,7 +121,7 @@ output:
 
 *引用：[抖音」大秦赋 - 时光机器农历二零零二年](https://v.douyin.com/iNwNe2Q6)*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EPyFeQcDSUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/5uysBWFXex8" title="《成都》趙雷（成都街景）分別總是在九月♫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *正在科研高频量化对冲操作系统世袭制歼灭所有敌人祖籍印尼和印度的印裔兴都和回教徒和峇峇娘惹的世袭制道教徒学术份子黄氏江夏堂，联富本人（咱们道教徒是世袭制禁止与任何外教外族通婚有染姻缘等）目前单身亦无任何色情活动并无任何喜欢的人只歼灭所有敌人，只是继续力争上游。*
 
@@ -189,7 +189,7 @@ nameserver 114.114.114.114
 
 <img src='诸子百家考工记/全球公敌世袭制白骨精土司法家刘氏彭城堂·殡刘.png' width = '400'>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8TO58UU6iBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/8TO58UU6iBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 十二生肖（秦人牧马和燕从京来论），从满洲到星洲、从鼻祖到耳孙，世间再无富不过三代的败家子祖父黄实田（曾祖黄福全在清末光绪年间和两个哥哥仨飘洋过海从满洲到星洲自力更生努力奋斗开垦一百亩农地，然后和土木工程的杨清廉俩在清末鸦片战争时期是瓜雪两大不相伯仲的首富）祖母颜为，省吃俭用的外祖父书法家李福（李斯篆书）外祖母郑邓（家道中落的富家千金）。
 
@@ -431,6 +431,7 @@ conflicts_prefer(data.table::`:=`, .quiet = TRUE)
 conflicts_prefer(hms::hms, .quiet = TRUE)
 conflicts_prefer(fabletools::accuracy, .quiet = TRUE)
 conflicts_prefer(base::load, .quiet = TRUE)
+conflicts_prefer(base::merge, .quiet = TRUE)
 
 程序包 <- c(
   'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'hms', 
@@ -571,12 +572,12 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 小时候都在日本动漫文化的环境下长大。小学时期在明智国民华文小学上学就已经学会万事具备，都会提前卅分钟抵达做好准备才不会仓促。自从阳历二零零二年学习日语后，由于平时从旺沙马朱宿舍到拉曼学院徒步上学需要时间提前准备，所以都会将时间设为提前廿分钟，基于从旺沙马朱宿舍徒步耗时三刻钟左右，索性设为提前一个小时，所以愚生将所有电子仪器的标准时间都一律设为日本标准时间，然后青梅竹马的郑添和同学问过我，我回答：“我的时间必须比别人快，我的世界必须比别人快，才能占有先机～”，所以设置提前半个时辰日本标准时间，再提前半个时辰就看到是本土提前一个时辰，[平时闲暇时间都会泡拉曼学院图书馆](https://github.com/scibrokes/r-world/issues/2#issuecomment-1264570739)。**自从阳历二零一九年在菲律宾阿里与中国同胞工作离职后，就开始思考身为🇹🇼🇨🇳中华民族，岂能沦为（大化革新的）倭奴或者倭寇，所以目前的科研语言、时间标准、甚至编码，都一律使用中文。**由于数据上的交易时间出现时差的缘故，在读取数据后就将数据上的时间更换，添加半个时辰时差为中国标准时间，以确保时间规律计算方面，不会出错。
 
-- [「文派」修读COURSERA : MACHINE LEARNING FOR ALGORITHMIC TRADING中…](https://englianhu.wordpress.com/2021/09/15/%e4%bf%ae%e8%af%bbcoursera-machine-learning-for-algorithmic-trading%e4%b8%ad)
-- [「文派」迟了一年，更新履历表 B4TELEBIZ (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz)
-- [「文派」《赢家黄氏江夏堂》 – 始祖赢政ΞΗG TΕΗG·黄永春家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)
-- [「原创」程序员的精神食粮代码仓库：GITHUB REPOSITORY 应该翻译成什么？](https://englianhu.wordpress.com/2022/12/29/%e3%80%90%e5%8e%9f%e5%88%9b%e3%80%91%e7%a8%8b%e5%ba%8f%e5%91%98%e7%9a%84%e7%b2%be%e7%a5%9e%e9%a3%9f%e7%b2%ae%e4%bb%a3%e7%a0%81%e4%bb%93%e5%ba%93%ef%bc%9agithub-repository-%e5%ba%94%e8%af%a5%e7%bf%bb)
-- [「文派」**阳历二零二三年十二月三日**今日是紫云生日](https://englianhu.wordpress.com/2024/02/04/%e3%80%8c%e9%98%b3%e5%8e%86%e4%ba%8c%e9%9b%b6%e4%ba%8c%e4%b8%89%e5%b9%b4%e5%8d%81%e4%ba%8c%e6%9c%88%e4%b8%89%e6%97%a5%e3%80%8d%e4%bb%8a%e6%97%a5%e6%98%af%e7%b4%ab%e4%ba%91%e7%94%9f%e6%97%a5)
-- [「文派」🚩🇨🇳🔆🏹🌟👊🚀🦔中科红旗](https://englianhu.wordpress.com/statistics/linux-%f0%9f%90%a7-kubuntu-%e2%9a%99)
+- [「文派」修读COURSERA : MACHINE LEARNING FOR ALGORITHMIC TRADING中…](https://englianhu.wordpress.com/2021/09/15/修读coursera-machine-learning-for-algorithmic-trading中)
+- [「文派」迟了一年，更新履历表 B4TELEBIZ (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/迟了一年，更新履历表-b4telebiz)
+- [「文派」《赢家黄氏江夏堂》 – 始祖赢政ΞΗG TΕΗG·黄永春家谱](https://englianhu.wordpress.com/2022/02/22/《雪隆江夏堂》-家谱)
+- [「原创」程序员的精神食粮代码仓库：GITHUB REPOSITORY 应该翻译成什么？](https://englianhu.wordpress.com/2022/12/29/【原创】程序员的精神食粮代码仓库：github-repository-应该翻)
+- [「文派」**阳历二零二三年十二月三日**今日是紫云生日](https://englianhu.wordpress.com/2024/02/04/「阳历二零二三年十二月三日」今日是紫云生日)
+- [「文派」🚩🇨🇳🔆🏹🌟👊🚀🦔中科红旗](https://englianhu.wordpress.com/statistics/linux-🐧-kubuntu-⚙)
 
 ### 法家
 
@@ -639,7 +640,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 #### 杏林神仙姐姐<s>王氏开闽堂</s>语嫣
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EPyFeQcDSUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/5uysBWFXex8" title="《成都》趙雷（成都街景）分別總是在九月♫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <img src='神仙美媚王嘉宜（紫蕾同学的外甥女）/常克芳（长得像皇朝酒店唐宫女服侍生 - 好学穷人家郭子瑜或陈紫蕾同学的外甥女王嘉宜或大港李嘉琪）.png' width = '400'>
 
@@ -670,7 +671,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 #### 赵云
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EPyFeQcDSUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/5uysBWFXex8" title="《成都》趙雷（成都街景）分別總是在九月♫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *从北京（三国时期称为「北平」，统计之都、经管之家）到成都（三国时期蜀国国都称为「蜀都」，而礼逆袭操作系统最高权限是sudo su建立蜀都；在天愿做比翼鸟，在地愿做连理枝。）*
 
@@ -973,7 +974,7 @@ options(warn = 0)
 - [「猫城」雷欧@中科红旗](https://github.com/englianhu/RedFlag-Linux)
 - [「猫城」雷欧@图书馆](https://github.com/englianhu/library)
 
-<iframe width="400" height="225" src="https://www.youtube.com/embed/6VMjJ2v9Nv8?si=2-Pt0UDsHKI07qds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/6VMjJ2v9Nv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="400" height="225" src="https://www.youtube.com/embed/qpH19SxHXJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
