@@ -5,15 +5,16 @@ author: "[<ruby>赢<rp>(</rp><rt>yíng</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><
 date: "`r lubridate::today('Asia/Shanghai')`"
 output:
   html_document: 
-    mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    number_sections: yes
-    toc: yes
+    mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    number_sections: true
+    toc: true
     toc_depth: 6
     toc_float:
-      collapsed: yes
-      smooth_scroll: yes
+      collapsed: true
+      smooth_scroll: true
     code_folding: hide
     css: 秦谏典范与楷模.css
+    fig_caption: true
 ---
 
 # 主题
