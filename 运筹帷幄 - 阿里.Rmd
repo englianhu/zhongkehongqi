@@ -603,6 +603,8 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 
 ##### 商鞅变法
 
+<iframe width="400" height="225" src="https://www.youtube.com/embed/ISiIZYZW8TQ" title="商鞅变法：华夏历史上最邪恶的改革" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 《洋番变法》
 印裔宦官，祸国殃民；
 草菅人命，民不聊生。
