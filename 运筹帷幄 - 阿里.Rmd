@@ -1413,11 +1413,9 @@ if (!exists('.蜀道仓库')) {
 - [一刻钟是多久，古代的一天为几刻钟呢？](https://zhidao.baidu.com/question/16558757)
 - [「问百度」一刻钟](https://baike.baidu.com/item/一刻钟/2070381)
 
-![](/home/englianhu/文档/猫城/img/诸子百家百戏/大秦赋 - 黄埔军校黄种人民族主义赢家黄氏江夏堂始祖嬴政永春庄（峇东新村）/万家灯火，张灯结彩.mp4){width=400 height=225}
+![*诸子百家，万家灯火；天文历法，张灯结彩。*](/home/englianhu/文档/猫城/img/诸子百家百戏/大秦赋 - 黄埔军校黄种人民族主义赢家黄氏江夏堂始祖嬴政永春庄（峇东新村）/万家灯火，张灯结彩.mp4){width=400 height=225}
 
-*诸子百家，万家灯火；天文历法，张灯结彩。*
-
-> ![](诸子百家考工记/时间单位，是七种基本单位之一.png)
+> ![*时间单位，是七种基本单位之一*](诸子百家考工记/时间单位，是七种基本单位之一.png){width=400}
 > 
 > 时间单位，是七种基本单位之一，[长度](https://baike.baidu.com/item/长度/1584632)、[时间](https://baike.baidu.com/item/时间/25651)、[质量](https://baike.baidu.com/item/质量/1236)、[物质的量](https://baike.baidu.com/item/物质的量/867572)、[光照度](https://baike.baidu.com/item/光照强度/10956411)、[电流](https://baike.baidu.com/item/电流/268192)和（[热力学](https://baike.baidu.com/item/热力学/60326)）[温度](https://baike.baidu.com/item/温度/221599)是七种[基本单位](https://baike.baidu.com/item/基本单位/10189558)。 本词条中时间单位以时间从大到小列。
 > 
