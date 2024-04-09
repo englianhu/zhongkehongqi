@@ -1728,6 +1728,8 @@ tagList(绘图甲)
   e_toolbox_feature('saveAsImage', title = '截图')
 ```
 
+- [二零二三年国家城市GDP排行榜前廿五名，看看都有哪些城市](https://www.tiktok.com/@amazing_china168/video/7350836322786954514)
+
 <br>
 
 # 计数/机数建模
