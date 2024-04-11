@@ -53,11 +53,9 @@ output:
 >
 阳历二零一八年开始，美国有几家大专院校相继关闭中国政府资助的孔子学院，最新一间是美国北佛罗里达大学，校方认为孔子学院的教学与大学理念不相符，决定终止合作...
 
-*引用：[「维基百科」孔子学院列表](https://zh.wikipedia.org/wiki/%E5%AD%94%E5%AD%90%E5%AD%A6%E9%99%A2%E5%88%97%E8%A1%A8)*
+*引用：[「维基百科」孔子学院列表](https://zh.wikipedia.org/wiki/孔子学院列表)*
 
-<img src='诸子百家考工记/还有半社会主义半资本主义.png' width = '400'>
-
-*引用：[「猫城」中国北京大学赢家ξng黄氏江夏堂「大秦赋•道家李耳老子兼法家李斯篆紀•艺文志」：目前使用🚩🇨🇳🏹🦔中国国产红旗礼逆袭，编程都会使用咱们母语华语、字体、字幕加汉语拼音。](https://github.com/englianhu/RedFlag-Linux/issues/6#issuecomment-1722247674)*
+![*引用：[「猫城」中国北京大学赢家ξng黄氏江夏堂「大秦赋•道家李耳老子兼法家李斯篆紀•艺文志」：目前使用🚩🇨🇳🏹🦔中国国产红旗礼逆袭，编程都会使用咱们母语华语、字体、字幕加汉语拼音。](https://github.com/englianhu/RedFlag-Linux/issues/6#issuecomment-1722247674)*](诸子百家考工记/还有半社会主义半资本主义.png){width=400}
 
 <iframe width="400" height="225" src="https://player.bilibili.com/player.html?aid=757957931" title="天下(电视剧《大秦赋》主题曲完整版)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" border="0" framespacing="0" allowfullscreen="true"></iframe>
 
@@ -2412,9 +2410,7 @@ cat('天干：', 天干, '\n地支：', 地支, '\n干支：', 干支, '\n')
 
 ## 前瞻科研
 
-<img src='诸子百家考工记/量化投资与机器学习.png' width='240'>
-
-[**近期招聘一览表:**<span style='color:#3C5C; background-color:black;'>*全网Quant都在看!</span>](https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs)
+![[**近期招聘一览表:**<span style='color:#3C5C; background-color:black;'>*全网Quant都在看!</span>](https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs)](诸子百家考工记/量化投资与机器学习.png){width=400}
 
 - [我也开始玩linux Ubuntu了，请问该怎么开始玩。。](https://d.cosx.org/d/110028-110028)
 - [「元宇宙」你的职业在古代叫什么？](https://www.facebook.com/scibrokes/posts/pfbid0tEPaMb4BXzVeXjvnaWpvobWBk7DrK7o4v9S9fgRi6io8KGoZXXdqJTY4KB2UZPKcl)
