@@ -1,6 +1,6 @@
 ---
 title: "<img src='诸子百家考工记/大秦赋 - 时空转移春秋战国（中科红旗中国妞儿）.png' height='240'>"
-subtitle: "[<span style='color:#9B0202; background-color:black;'>鬼谷传奇</span> - 系统工程学统计模型 <span style='color:#4E79A7'>**统筹法（乐发 / 阿里报告）**</span>](https://github.com/englianhu/RedFlag-Linux)"
+subtitle: "[赢家黄氏江夏堂：<span style='color:#9B0202; background-color:black;'>鬼谷传奇</span> - 系统工程学统计模型 <span style='color:#4E79A7'>**统筹法（乐发 / 阿里报告）**</span>](https://github.com/englianhu/RedFlag-Linux)"
 author: "道家笔者：[<ruby>赢<rp>(</rp><rt>yíng</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp>黄<rp>(</rp><rt>huáng</rt><rp>)</rp>氏<rp>(</rp><rt>shì</rt><rp>)</rp>江<rp>(</rp><rt>jiānɡ</rt><rp>)</rp>夏<rp>(</rp><rt>xià</rt><rp>)</rp>堂<rp>(</rp><rt>táng</rt><rp>)</rp></ruby> ®γσ, ξηg Lιαη Ημ，<ruby>黄<rp>(</rp><rt>huáng</rt><rp>)</rp>联<rp>(</rp><rt>lián</rt><rp>)</rp>富<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>（<ruby>雷<rp>(</rp><rt>léi</rt><rp>)</rp>欧<rp>(</rp><rt>ōu</rt><rp>)</rp></ruby>∪ <ruby>瑞<rp>(</rp><rt>ruì</rt><rp>)</rp>欧<rp>(</rp><rt>ōu</rt><rp>)</rp></ruby>）](https://englianhu.wordpress.com.com) ![](诸子百家考工记/大秦赋 - 北京大学.png){height=14}![](诸子百家考工记/赢家ξng黄氏江夏堂 - 量化对冲（中）.png){height=14}®"
 date: "`r lubridate::today('Asia/Shanghai')`"
 output:
@@ -61,6 +61,8 @@ output:
 <iframe width="400" height="225" src="https://player.bilibili.com/player.html?aid=757957931" title="天下(电视剧《大秦赋》主题曲完整版)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" border="0" framespacing="0" allowfullscreen="true"></iframe>
 
 *出处：*[**天下***(电视剧《大秦赋》主题曲完整版)*](https://player.bilibili.com/player.html?aid=757957931)
+
+<iframe width="400" height="225" src="https://www.youtube.com/embed/mV5IQbd0o0U" title="謝霆鋒 Nicholas Tse《黃種人》[Official MV]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="400" height="225" src="https://www.youtube.com/embed/DI-ydEN2PjY" title="「快手」我是中国人🎶" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -876,10 +878,16 @@ https://youtu.be/_yD7IZYnIUU
 #### 司马错
 
 - 愚生赢家黄氏江夏堂联富（二零零八年暨二零一二年在西施康工作时，经过[佳丽论坛跑龙套当业余演员，当时YY姐是中介负责人](https://c.cari.com.my/forum.php?mod=viewthread&tid=1061770&page=16#pid38938269)）以目前春秋战国（七大洲五大洋）天下局势，将司马错、白起和王剪列为秦国军事三杰，平夷攻赵灭楚。秦灭六洲，一统天下；莫忘初衷，方得始终。
+- [「沧浪」秦国怎样提升军队战斗力](https://www.bilibili.com/video/BV1Kx42117rj)
+    - [「知乎」MIDAS：混频数据回归](https://zhuanlan.zhihu.com/p/343307253)
+    - [MIDAS：混频数据回归](https://www.lianxh.cn/news/8ab193e6f04cc.html)
 
 #### 白起
 
 - 愚生赢家黄氏江夏堂联富（二零零八年暨二零一二年在西施康工作时，经过[佳丽论坛跑龙套当业余演员，当时YY姐是中介负责人](https://c.cari.com.my/forum.php?mod=viewthread&tid=1061770&page=16#pid38938269)）以目前春秋战国（七大洲五大洋）天下局势，将司马错、白起和王剪列为秦国军事三杰，平夷攻赵灭楚。秦灭六洲，一统天下；莫忘初衷，方得始终。
+- [「沧浪」秦国怎样提升军队战斗力](https://www.bilibili.com/video/BV1Kx42117rj)
+    - [「知乎」MIDAS：混频数据回归](https://zhuanlan.zhihu.com/p/343307253)
+    - [MIDAS：混频数据回归](https://www.lianxh.cn/news/8ab193e6f04cc.html)
 
 #### 王剪
 
@@ -888,6 +896,8 @@ https://youtu.be/_yD7IZYnIUU
 - 愚生赢家黄氏江夏堂联富（二零零八年暨二零一二年在西施康工作时，经过[佳丽论坛跑龙套当业余演员，当时YY姐是中介负责人](https://c.cari.com.my/forum.php?mod=viewthread&tid=1061770&page=16#pid38938269)）以目前春秋战国（七大洲五大洋）天下局势，将司马错、白起和王剪列为秦国军事三杰，平夷攻赵灭楚。秦灭六洲，一统天下；莫忘初衷，方得始终。
 - 统筹法、系统工程学，操兵练将、通往古今的兵书、韩信点兵、计数/机数建模量化分析所有将士与兵卒的起居饮食与评估能力与学习进度、兵种分配与管理、研发军事武器与军用玄学、军用操作系统与软件、军事科学科技、人造卫星网络密码学等。
 - [「沧浪」秦国怎样提升军队战斗力](https://www.bilibili.com/video/BV1Kx42117rj)
+    - [「知乎」MIDAS：混频数据回归](https://zhuanlan.zhihu.com/p/343307253)
+    - [MIDAS：混频数据回归](https://www.lianxh.cn/news/8ab193e6f04cc.html)
 
 #### 赵云
 
@@ -1132,9 +1142,9 @@ if (!exists('.蜀道仓库')) {
 
 *从北京（三国时期称为「北平」，统计之都、经管之家）到成都（三国时期蜀国国都称为「蜀都」，而礼逆袭操作系统最高权限是`sudo su`建立蜀都；在天愿做比翼鸟，在地愿做连理枝。）*
 
-> 直到所有的灯都熄灭了也不停留... 🎶
+> 直到所有的灯都熄灭了也不停留…🎶
 
-*目前正在自修并着手栽种一些杏林（中药/中药食谱/中医）夏季菇/鸡纵菇（食用菌类，改天再栽种多元化杏林，如灵芝、罗汉果、松茸与人参等），直到「非诚勿扰」所有的灯都熄灭了，我还是一颗孤军作战、独自一人、力争上游的精子... 它日杏林可以建立金融商品市场、杏林道家算卜与保险业、农业、杏林保健、杏林医学、杏林药材与咱们道家易经、世纪大革命。*
+*目前正在自修并着手栽种一些杏林（中药/中药食谱/中医）夏季菇/鸡纵菇（食用菌类，改天再栽种多元化杏林，如灵芝、罗汉果、松茸与人参等），直到「非诚勿扰」所有的灯都熄灭了，我还是一颗孤军作战、独自一人、力争上游的精子…它日杏林可以建立金融商品市场、杏林道家算卜与保险业、农业、杏林保健、杏林医学、杏林药材与咱们道家易经、世纪大革命。*
 
 - [夏季菇，忻城农村称之为「鸡肉菇」，一次品尝，终生难忘。](https://www.sohu.com/a/403745196_686834)
 - [《可遇不可求之鸡肉菇》](https://www.facebook.com/SummerParkRestaurant/posts/1283163161804430)
@@ -1143,14 +1153,20 @@ if (!exists('.蜀道仓库')) {
 - [《农广天地》黑皮鸡枞菌栽培技术，二零一八年九月廿六日 | CCTV农业](https://youtu.be/Gu-WX2iLJTM)
 - [妇女善用新村木屋做为种植凤尾菇的园圃](https://sembilan.sinchew.com.my/news/20231227/sembilan/5226220)
 - [亩纯赚十万元！这种稀有的蔬菜，很多人都没见过](https://zhuanlan.zhihu.com/p/554364017)
+- [在家种蘑菇会有健康隐患吗？| CCTV「生活提示」20210625](https://youtu.be/PySBgsnQh2U)
 - [农村这种作物，价格是其它作物的五倍，见效快，种植一亩赚十万！](https://www.sohu.com/a/486898726_121123906)
 - [野生鸡肉菇美味多人爱，此味可遇不可求](https://eastcoast.sinchew.com.my/news/20201207/eastcoast/3082609)
 - [又到鸡肉菇旺季，老饕碰运气摘煮乐](https://eastcoast.sinchew.com.my/news/20230401/eastcoast/4577798)
 - [业者引入高价位黑鸡枞，促进大马磨菇业多元发展](https://www.agroworld.my/cn/article-details/349-article-13)
 - [种植鸡枞全过程？（鸡纵菇种植方法）](https://www.tippingpointmediastudios.com/delicacy/78303.html)
 - [白蚁系列鸡枞菌的纯人工栽培方法](https://patents.google.com/patent/CN103004454A/zh)
+- [鸡枞菌的人工驯化种植方法](https://patents.google.com/patent/CN102599007A/zh)
 
-<iframe width="400" height="225" src="https://www.youtube.com/embed/Ff202w8-j7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/Ff202w8-j7s" title="有3000年歷史的「守宮砂」，真能辨別女子貞操？有沒有科學依據？[酒窩趣科普] #趣味歷史#歷史科普#古代歷史" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+> ![](诸子百家百戏/「抖音」计量经济学霸ξ诗 - hypothesis test.mp4){width=400}
+
+*出处：[「抖音」计量经济学霸ξ诗 - hypothesis test](https://youtube.com/shorts/nbMbxkFN2a8)*
 
 **#秦灭六洲，一统天下；**<br>
 **#莫忘初衷，方得始终。**
@@ -1219,6 +1235,10 @@ if (!exists('.蜀道仓库')) {
 
 综合以上所述，与咱们世袭制道家杏林中药材相关的贝类叫「牡蛎」（也称「生蚝」）。
 
+> ![](诸子百家百戏/「抖音」加油不放弃.mp4){width=400}
+
+*出处：[「抖音」加油不放弃](https://youtube.com/shorts/qMmlwttfad8)*
+
 > ... #大秦赋 #秦孝公 #姜太公 #陈祯禄公爵 #邱德拔公爵 #巫裔尽弃瓦釜雷鸣 #期权可居 #商鞅变法铲除巫裔 #中科红旗🚩 #北京大学 #咱们马来西亚赢家ξng黄氏江夏堂和杏林林氏西河堂和商家苏氏阜阳堂和道家肖氏远芳堂和道家阮氏郡望堂<s> 🇬🇧NonMuslim👱🏻‍♀️英国基督洋妞儿芈拉</s>都不可以死 #咱们中华民族和越族不可以死 #文言文编程 #nguyen阮氏 #道家李耳 #耳东陈耳元阮 
 > 
 > 借鉴春秋战国（目前七大洲五大洋）吴越之争，皇室与内阁<br>
@@ -1265,7 +1285,7 @@ if (!exists('.蜀道仓库')) {
 
 #### 子宫与皇宫
 
-- 中华古代婚礼，花冠与苗族（万物皆有灵，取代回教徒）
+- 借鉴咱们中华古代婚礼，花冠与苗族（万物皆有灵，取代天下所有回教徒）
 
 ### 道家时间计量单位（中国古代计时法）
 
@@ -1521,7 +1541,13 @@ if (!exists('.蜀道仓库')) {
 - [一刻钟是多久，古代的一天为几刻钟呢？](https://zhidao.baidu.com/question/16558757)
 - [「问百度」一刻钟](https://baike.baidu.com/item/一刻钟/2070381)
 
-![*诸子百家，万家灯火；天文历法，张灯结彩。*](/home/englianhu/文档/猫城/img/诸子百家百戏/大秦赋 - 黄埔军校黄种人民族主义赢家黄氏江夏堂始祖嬴政永春庄（峇东新村）/万家灯火，张灯结彩.mp4){width=400 height=225}
+<iframe width="400" height="225" src="https://www.youtube.com/embed/krSYu_vawNc" title="万家灯火，张灯结彩" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+> 您想问的是**衣锦夜行**还是**锦衣夜行**的区别吗？含义不同。
+> 
+> **衣锦夜行**意为穿着华美的衣裳在夜间行走，比喻有才华、有能力却默默无闻，不为世人所知。**锦衣夜行**则是指富贵人家的子弟夜晚出游，穿着华丽的衣服，形容生活奢华、富有。
+
+*出处：[衣锦夜行还是锦衣夜行？](https://zhidao.baidu.com/question/2277942097738415748.html)*
 
 > ![*时间单位，是七种基本单位之一*](诸子百家考工记/时间单位，是七种基本单位之一.png){width=400}
 > 
@@ -1550,7 +1576,9 @@ if (!exists('.蜀道仓库')) {
 
 [十二生肖都咋来的？为啥鼠是第一个？怎么没猫？](http://www.xinhuanet.com/politics/2020-01/22/c_1125491667.htm)，如果有留意十二生肖中，只有龙（飞蜥[^2]）是神话的三栖动物而非其余十一个生肖现实生活中的动物，蛇是两栖动物可以潜水和活在水里而其余的都是陆上动物。
 
-> ![](/home/englianhu/文档/猫城/binary.com-interview-question/诸子百家百戏/峇东新村.mp4){width=400 height=225}
+> <iframe width="400" height="225" src="https://www.youtube.com/embed/tNTuFtDnJDk" title="δ「Tiktok」故郷 ふるさと" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+> 
+> *世袭制道教徒十二生肖赢家黄氏江夏堂联富本人的曾祖父黄福全，清末光绪年间鸦片战争，从满洲到星洲——峇东新村。*
 > 
 > - [「文派」**阳历二零二三年十二月三日**今日是紫云生日](https://englianhu.wordpress.com/2024/02/04/「阳历二零二三年十二月三日」今日是紫云生日)
 > - 咱们峇东新村巫文叫Kampung Tiram Buruk，民智国民华校小学五年级时期的中文老师兼班主任颜玉婷老师和陈温温老师说过改名为Kampung Tiram Setia，小学时期喜欢中文老师兼班主任颜玉婷老师觉得老师很伟大，下篇中的[<span style='color:#DE5D83; background-color:black;'>金融衍生</span> - 筛选日内高频量化交易计数模型 <span style='color:#4E79A7'>**（丁：春秋战国道家）**</span>](https://github.com/englianhu/binary.com-interview-question)矩阵「行与列」中、有会聊起一九九五年在民智国民华校小学时期五年级、民众会堂陈奕迅的歌曲「背包」、和吴双喜老师（老师间的爱情）、吴荣兴中文学会老师兼学校主任的历史，灌输我在中国历史春秋战国、成语典故、中文和数学和喜欢中文数学科学的重大影响一生受用，包括李登辉总统时期台湾岛被中国解放军围绕。
@@ -1789,7 +1817,7 @@ options(warn = 0)
 
 ## 幕后花絮
 
-### 内忧
+### 春秋战国——秦国∙内忧
 
 #### 操作系统与软件
 
@@ -1824,6 +1852,10 @@ options(warn = 0)
 #### 电子仪器与硬件
 
 - 借鉴目前的电脑计算机[🎦「pre🆕高颜值🖥️」俺は、お前を買ってるんだぜ!🇭🇰](https://youtube.com/shorts/DFvpqKb2XH0)派热系统，它日研发咱们赢家黄氏江夏堂「大秦赋」操作系统和「算筹」电子仪器。
+- [「猫城」🚩🔆🏹🌟👊🚀🦔大秦赋：「甘石星经，周髀算经；诸子百家，干支算筹」取代阿拉伯数字和回教徒语言（包括巫术、货币、习俗文化、可兰经断肢法）#十二 *自然对数「干支算筹」与农历天文历法*](https://github.com/englianhu/RedFlag-Linux/issues/12#issuecomment-1676066137)
+- [上篇：国产六大中央处理单位技术全对比（附下载）](https://www.modb.pro/db/107396)
+- [下篇：国产六大中央处理单位的春秋战国（附下载）](https://www.eet-china.com/mp/a75720.html)
+- [「图享」国产六大中央处理单位的春秋战国](https://www.instagram.com/p/CYRDpsdJO2R)
 - [「计算机网络发展史」你在网上勇闯天涯时用的网络，是如何发展至今的呢？](https://youtu.be/CjAl6jODHq8)
 
 #### 演员的自我修养
@@ -1839,9 +1871,9 @@ options(warn = 0)
 - [「猫城」雷欧@图书馆](https://github.com/englianhu/library)
 - [「油管」雷欧 ®γσ ξηg视频总览](https://www.youtube.com/@englianhu/videos)
 - [「油管」雷欧 ®γσ ξηg短视频总览](https://www.youtube.com/@englianhu/shorts)
-- [「」](https://vimeo.com/englianhu)
+- [「微视」赢家黄氏江夏堂，联富（雷欧）](https://vimeo.com/englianhu)
 
-### 外患
+### 春秋战国——秦国∙外患
 
 - [外部因素周期性自回归综合滑均模型（ARIMAX）](外部因素周期性自回归综合滑均模型（ARIMAX）)章节中的[`forecast::Arima()`](#`forecast::Arima()`)，经过[廿四节气](#廿四节气)筹算季节周期后，得知自回归均移模型最优值的`p, d, q`分别为`0, 1, 4`。
 - [平滑周计](#平滑周计)美国洲际犯罪案！
@@ -1861,7 +1893,7 @@ options(warn = 0)
 > 世风日下，人心不古；<br>
 > 莘莘学子，赤子之心。
 
-*引用：[forecast::Arima(xreg = XXXX)咱们道家易经、天文历法、廿四节气、十二时辰、算卜与气象学，孔明借东风与草船借箭出现错误信息#九](https://github.com/englianhu/binary.com-interview-question/issues/9#issuecomment-2041903143)*
+*引用：[`forecast::Arima(xreg = XXXX)`咱们道家易经、天文历法、廿四节气、十二时辰、算卜与气象学，孔明借东风与草船借箭出现错误信息#九](https://github.com/englianhu/binary.com-interview-question/issues/9#issuecomment-2041903143)*
 
 ## 文书明细
 
