@@ -1162,8 +1162,8 @@ _西施康吏部副总裁廖雷娜颁发**大奖章**_
 
 **历史记载数据的载体相关文献**
 
-- [简牍](https://baike.baidu.com/item/%E7%AE%80%E7%89%8D/2043791)
-- [隶书](https://baike.baidu.com/item/%E9%9A%B6%E4%B9%A6/835864)
+- [简牍](https://baike.baidu.com/item/简牍/2043791)
+- [隶书](https://baike.baidu.com/item/隶书/835864)
 
 ## 采撷数据
 
@@ -1397,7 +1397,9 @@ names(聚汇数据)
     - [税收收入包括哪些？](https://localsite.baidu.com/okam/pages/article/index?articleId=7849186&ucid=PjRvPHDYPjm)
     - [「百度」税收收入](https://baike.baidu.com/item/%E7%A8%8E%E6%94%B6%E6%94%B6%E5%85%A5/10803104)
 
-- 原数据中的*农牧渔民人均纯收入*中的福建省数据矢量标题有误，「户」是指总额除以家庭量而非人口，而「人均」是总额除以人口；由于查询福建省数据以户为计量单位而数目依然与其它省份城邑相差不远，故此以文字游戏为由归类为人均数据。
+- 人口与户籍
+  - 原数据中的*农牧渔民人均纯收入*中的福建省数据矢量标题有误，「户」是指总额除以家庭量而非人口，而「人均」是总额除以人口；由于查询福建省数据以户为计量单位而数目依然与其它省份城邑相差不远，故此以文字游戏为由归类为人均数据。
+  - [中国古代的人口统计](https://cdo.develpress.com/?p=10970)
 - 士农工商
   - [制造业和工业的区别和联系](https://worktile.com/kb/ask/11799.html)。
 - [四、人口与计划生育常用统计指标解释](http://dfz.shaanxi.gov.cn/sqzlk/xbsxsz/szdel/rkhjhsyz/201709/t20170922_934812.html)
