@@ -88,6 +88,7 @@ local({
   #radiant.update::radiant.update()
   #install.packages('cmdstanr', repos = c('https://mc-stan.org/r-packages', getOption('repos')))
 })
+
 ## ==================== 读取R程序包 ===============================
 ## https://github.com/JanMarvin/nlsur
 ## https://zhuanlan.zhihu.com/p/25868387
@@ -253,5 +254,4 @@ if (!require('rprofile')) {
 			 base::message('.Rprofile error: ', 
 						   base::conditionMessage(ex)))
 	}
-
 
