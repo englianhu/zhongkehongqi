@@ -843,6 +843,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 - [历史微课 - 商鞅变法](https://www.bilibili.com/video/BV1Yt411K7UE)
 - [「沧浪」秦国变法背景的冷知识](https://www.bilibili.com/video/BV1wK411Y7Xi)
 - [哈佛教授谈中国古代商鞅变法，比某些中国人还要了解](https://www.bilibili.com/video/BV13441177ND)
+- **风水学之商鞅变法**：易经、算卜、天文历法、夜观星象（天文历法、孔明借东风）、风水学（地点与风水、统筹法、商鞅变法与咸阳城、过年放鞭炮与蕲年宫、垓下之战与四面楚歌、赤壁之战与孔明借东风、殡涓马陵之战、干支轮回与王翦圆万大军灭楚）。
 
 **天下回教诸藩的祖国沙地阿拉伯麦加**
 
@@ -960,6 +961,7 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 - [「沧浪」秦国怎样提升军队战斗力](https://www.bilibili.com/video/BV1Kx42117rj)
     - [「知乎」MIDAS：混频数据回归](https://zhuanlan.zhihu.com/p/343307253)
     - [MIDAS：混频数据回归](https://www.lianxh.cn/news/8ab193e6f04cc.html)
+    - 易经、算卜、天文历法、夜观星象（天文历法、孔明借东风）、风水学（地点与风水、统筹法、商鞅变法与咸阳城、过年放鞭炮与蕲年宫、垓下之战与四面楚歌、赤壁之战与孔明借东风、殡涓马陵之战、干支轮回与王翦圆万大军灭楚）。
 
 #### 赵云
 
@@ -2457,6 +2459,8 @@ cat('天干：', 天干, '\n地支：', 地支, '\n干支：', 干支, '\n')
 ## 前瞻科研
 
 ![[**近期招聘一览表:**<span style='color:#3C5C; background-color:black;'>*全网Quant都在看!</span>](https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs)](诸子百家考工记/量化投资与机器学习.png){width=400}
+
+![*计数/机数学系、数术系、物理学系、天文学系、统筹法天文历法风水学、易经道教徒算卜*](林艳迎（课外家庭日语班女同学）/计量经济学系学霸.png){width=400}
 
 - [我也开始玩linux Ubuntu了，请问该怎么开始玩。。](https://d.cosx.org/d/110028-110028)
 - [「元宇宙」你的职业在古代叫什么？](https://www.facebook.com/scibrokes/posts/pfbid0tEPaMb4BXzVeXjvnaWpvobWBk7DrK7o4v9S9fgRi6io8KGoZXXdqJTY4KB2UZPKcl)

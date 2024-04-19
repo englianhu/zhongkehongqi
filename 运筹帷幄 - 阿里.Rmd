@@ -1,6 +1,6 @@
 ---
 title: "<img src='诸子百家考工记/大秦赋 - 时空转移春秋战国（中科红旗中国妞儿）.png' height='240'>"
-subtitle: "[赢家黄氏江夏堂：<span style='color:#9B0202; background-color:black;'>鬼谷传奇</span> - 系统工程学统计模型 <span style='color:#4E79A7'>**统筹法（乐发 / 阿里报告）**</span>](https://github.com/englianhu/RedFlag-Linux)"
+subtitle: "[赢家黄氏江夏堂：<span style='color:#9B0202; background-color:black;'>鬼谷传奇</span> - 系统工程学统计模型 <span style='color:#4E79A7'>**统筹法（乐发 / 阿里报告）之产品与户籍管理**</span>](https://github.com/englianhu/RedFlag-Linux)"
 author: "道家笔者：[<ruby>赢<rp>(</rp><rt>yíng</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp>黄<rp>(</rp><rt>huáng</rt><rp>)</rp>氏<rp>(</rp><rt>shì</rt><rp>)</rp>江<rp>(</rp><rt>jiānɡ</rt><rp>)</rp>夏<rp>(</rp><rt>xià</rt><rp>)</rp>堂<rp>(</rp><rt>táng</rt><rp>)</rp></ruby> ®γσ, ξηg Lιαη Ημ，<ruby>黄<rp>(</rp><rt>huáng</rt><rp>)</rp>联<rp>(</rp><rt>lián</rt><rp>)</rp>富<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>（<ruby>雷<rp>(</rp><rt>léi</rt><rp>)</rp>欧<rp>(</rp><rt>ōu</rt><rp>)</rp></ruby>∪ <ruby>瑞<rp>(</rp><rt>ruì</rt><rp>)</rp>欧<rp>(</rp><rt>ōu</rt><rp>)</rp></ruby>）](https://englianhu.wordpress.com.com) ![](诸子百家考工记/大秦赋 - 北京大学.png){height=14}![](诸子百家考工记/赢家ξng黄氏江夏堂 - 量化对冲（中）.png){height=14}®"
 date: "`r lubridate::today('Asia/Shanghai')`"
 output:
@@ -1807,6 +1807,8 @@ cat('天干：', 天干, '\n地支：', 地支, '\n干支：', 干支, '\n')
 ## 前瞻科研
 
 ![[**近期招聘一览表:**<span style='color:#3C5C; background-color:black;'>*全网Quant都在看!</span>](https://wemp.app/posts/31dffe83-68af-4e3f-a1f7-c49baf9a24cb?fbclid=IwAR1x3DOjThsEKG0CHVghFnIPAAcraM8kimXa_G9-xG070CiLDyXWj6_6Izs)](诸子百家考工记/量化投资与机器学习.png){width=400}
+
+![*计数/机数学系、数术系、物理学系、天文学系、统筹法天文历法风水学、易经道教徒算卜*](林艳迎（课外家庭日语班女同学）/计量经济学系学霸.png){width=400}
 
 ```{r 选项设置, echo = FALSE}
 ## Set options back to original options
