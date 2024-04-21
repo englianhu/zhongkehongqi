@@ -433,7 +433,7 @@ conflicts_prefer(data.table::between, .quiet = TRUE)
 conflicts_prefer(data.table::set, .quiet = TRUE)
 conflicts_prefer(data.table::`:=`, .quiet = TRUE)
 conflicts_prefer(hms::hms, .quiet = TRUE)
-conflicts_prefer(fabletools::accuracy, .quiet = TRUE)
+conflicts_prefer(forecast::accuracy, .quiet = TRUE)
 conflicts_prefer(base::load, .quiet = TRUE)
 conflicts_prefer(base::merge, .quiet = TRUE)
 
@@ -444,7 +444,7 @@ conflicts_prefer(base::merge, .quiet = TRUE)
   'quantmod', 'tidyquant', 'tibbletime', 'timetk', 'plyr', 'dplyr', 
   'cnum', 'arabic2kansuji', 'tsibble', 'TSA', #'Rfast', 'Rfast2', 
   'dbplyr', 'magrittr', 'sarima', 'tidyverse', 'memoise', 'htmltools', 
-  'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'magrittr', 
+  'formattable', 'dtplyr', 'zoo', 'forecast', 'seasonal', 'tidymodels', 
   'seasonalview', 'rjson', 'rugarch', 'rmgarch', 'mfGARCH', 'feather', 
   'sparklyr', 'jcolors', 'microbenchmark', 'dendextend', 'vembedr', 
   'lhmetools', 'gtools', 'stringi', 'pacman', 'profmem', 'ggthemes', 
