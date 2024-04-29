@@ -884,6 +884,16 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
     - [有了人工智能，从此程序员只写注释，不写代码？| 手把手安装自动写代码人工智能——Code Whisperer](https://www.youtube.com/watch?v=TIpRA6iwNus)
     - [Ansible vs Puppet vs Chef – 2021 配置管理工具比较](https://www.incredibuild.cn/blog/ansible-vs-puppet-vs-chef-2021-peizhiguanligongjubijiao)
     - [「博客园」企业级自动化运维工具——puppet详解](https://www.cnblogs.com/along21/p/10369858.html)
+- 借鉴MIDASR混合抽样计数/机数模型和谷歌量子电脑服务器管理自动化Puppet、QQ号在十多年前终身制、微软操作系统有设备随机网协地址（IP地址）和一般上网随机网协地址，在量子电脑的服务器数据库中
+   - [内核中`dump_stack`的实现原理（一）——栈回溯](https://www.cnblogs.com/pengdonglin137/p/11109427.html)
+   - [「知乎」MIDAS：混频数据回归](https://zhuanlan.zhihu.com/p/343307253)
+   - [MIDAS：混频数据回归](https://www.lianxh.cn/news/8ab193e6f04cc.html)
+
+![](诸子百家考工记/对数图.png){width=400}
+
+- 史无前例，自然对数进制大秦赋操作系统与目前市场上的二进制操作系统的区别。
+    - 量化进程论，比方说当进程的数量在一纳秒可以同步运行的数量一样，速度就比目前市场上的所有电子仪器快许多。
+    - 配合统筹法、投资组合概念、网络攻防战上占上风，可以让赢家黄氏江夏堂联富愚生的家族黄种人大秦赋操作系统提速，史无前例超越目前天下所有电子仪器（二进制）的速度。
 
 ### 墨家
 
