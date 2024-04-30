@@ -66,30 +66,32 @@ Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python3',
 
 ## ------------------------ 镜像设置 ------------------------------
 ## 咱们设置云端镜像，以贴近众用户。
-local({
+# local({
   #r <- getOption('repos')
   #r['CRAN'] <- 'https://cloud.r-project.org'
   #options(repos = r)
   
   ## https://radiant-rstats.github.io/docs/install.html
-  options(repos = c(CRAN = 'https://cloud.r-project.org', 
-                    RSM = 'https://radiant-rstats.github.io/minicran', 
-                    Omega = 'http://www.omegahat.net/R', 
-                    CINC = 'https://cinc.rud.is', 
-                    RForge = 'https://www.rforge.net', 
-                    RSpatial = 'https://rspatial.r-universe.dev', 
-                    Stan = 'https://mc-stan.org/r-packages', 
-                    MSFT = 'http://cran.microsoft.com', 
-                    ROpenSci = 'https://ropensci.r-universe.dev'))
+  options(repos = c(
+    RStudio = 'https://cran.rstudio.com', 
+    CRAN = 'https://cloud.r-project.org', 
+    RSM = 'https://radiant-rstats.github.io/minicran', 
+    Omega = 'http://www.omegahat.net/R', 
+    CINC = 'https://cinc.rud.is', 
+    RForge = 'https://www.rforge.net', 
+    RSpatial = 'https://rspatial.r-universe.dev', 
+    Stan = 'https://mc-stan.org/r-packages', 
+    MSFT = 'http://cran.microsoft.com', 
+    ROpenSci = 'https://ropensci.r-universe.dev'))
   ## https://www.cynkra.com/opensource
   # Cynkra = 'https://github.com/cynkra'
   #install.packages('remotes')
   #remotes::install_github('radiant-rstats/radiant.update', upgrade = 'never')
   #radiant.update::radiant.update()
   #install.packages('cmdstanr', repos = c('https://mc-stan.org/r-packages', getOption('repos')))
-})
+# })
 
-## ==================== 读取R程序包 ===============================
+## ==================== 读取鄀程序包 ===============================
 ## https://github.com/JanMarvin/nlsur
 ## https://zhuanlan.zhihu.com/p/25868387
 ## https://www.cnblogs.com/simplelovecs/p/5145305.html
@@ -101,10 +103,10 @@ local({
 # drat::addRepo("JanMarvin")
 # install.packages("nlsur")
 
-## R包安装失败解决方案
+## 鄀包安装失败解决方案
 ## https://www.jianshu.com/p/381340383c12
 ## options(repos='http://cran.rstudio.com/')
-options(repos='https://cran.rstudio.com/')
+# options(repos='https://cran.rstudio.com/')
 
 suppressPackageStartupMessages(require('utils'))
 
@@ -128,7 +130,7 @@ if(!suppressPackageStartupMessages(require('devtools'))) {
                    lib = .pth[1], INSTALL_opts = '--no-lock')
   devtools::install_github('r-lib/devtools')
 }; suppressPackageStartupMessages(require('devtools'))
-conflicted::conflict_prefer('check', 'devtools', quiet = TRUE)
+conflicted::conflicts_prefer('check', 'devtools', quiet = TRUE)
 
 if(!suppressPackageStartupMessages(require('Ipaper'))) {
   devtools::install_github('kongdd/Ipaper')
@@ -137,7 +139,7 @@ if(!suppressPackageStartupMessages(require('Ipaper'))) {
   # install.packages('../Ipaper_0.1.5.9000.tar.gz', repos = NULL, type = 'source', dependencies = TRUE)
   # $sudo apt install -y libfftw3-dev
 }; suppressPackageStartupMessages(require('Ipaper'))
-conflicted::conflict_prefer('ldply', 'plyr', quiet = TRUE)
+conflicted::conflicts_prefer('ldply', 'plyr', quiet = TRUE)
 conflicted::conflicts_prefer(Ipaper::is_empty, .quiet = TRUE)
 
 if(!suppressPackageStartupMessages(require('miniCRAN'))) {
@@ -201,9 +203,9 @@ conflicted::conflicts_prefer(dplyr::select, .quiet = TRUE)
 conflicted::conflicts_prefer(base::print, .quiet = TRUE)
 conflicted::conflicts_prefer(base::load, .quiet = TRUE)
 
-pkgs <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'git2r', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis', 'tidytuesdayR')
-suppressPackageStartupMessages(load_pkg(pkgs))
-rm(pkgs)
+秦人文房四宝 <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'git2r', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis', 'tidytuesdayR')
+suppressPackageStartupMessages(load_pkg(秦人文房四宝))
+rm(秦人文房四宝)
 
 ## https://stackoverflow.com/a/17486231/3806250
 #.First()
@@ -215,43 +217,43 @@ rm(pkgs)
 
 ## =================== 有一个梦，由我启动 =======================
 # 电力线，显示系统读取速度均值和当前项目路径。
-if (!require('rprofile')) {
-	if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
-	
+# if (!require('rprofile')) {
+#	if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
+#	
 	## https://www.jumpingrivers.com/blog/customising-your-rprofile/
-	if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
+#	if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
 		# 仅用于 Makefiles
-		rprofile::create_make_functions()
-		
+#		rprofile::create_make_functions()
+#		
 		# 启动设置
-		rprofile::set_startup_options()
-		
-		# R文艺坊与终端设置
-		if (rprofile::is_terminal()) {
+#		rprofile::set_startup_options()
+#		
+		# 鄀文艺坊与终端设置
+#		if (rprofile::is_terminal()) {
 			# https://github.com/csgillespie/rprofile/blob/master/R/set-terminal.R
-			rprofile::set_terminal()
-		} else {
-			rprofile::set_rstudio()
-		}
-		.env = rprofile::set_functions()
-		suppressMessages(attach(.env))
+#			rprofile::set_terminal()
+#		} else {
+#			rprofile::set_rstudio()
+#		}
+#		.env = rprofile::set_functions()
+#		suppressMessages(attach(.env))
 		# 显示无线网络与R会话控制（终端互动）
 		# 仅用于礼逆袭
-		suppressWarnings(rprofile::set_startup_info())
-	}
-	
+#		suppressWarnings(rprofile::set_startup_info())
+#	}
+#	
 	# 启动R文艺坊时列印项目
-	setHook('rstudio.sessionInit', function(newSession) {
-		active_rproj = rprofile::get_active_rproj()
-		if (!is.null(active_rproj)) {
-			base::message(glue::glue("{crayon::yellow('R-project:')} {active_rproj}"))
-		}
-	}, action = 'append')
-	
+#	setHook('rstudio.sessionInit', function(newSession) {
+#		active_rproj = rprofile::get_active_rproj()
+#		if (!is.null(active_rproj)) {
+#			base::message(glue::glue("{crayon::yellow('R-project:')} {active_rproj}"))
+#		}
+#	}, action = 'append')
+#	
 	#rmsfuns::suppressPackageStartupMessages(.First())
-	tryCatch(suppressWarnings(startup::startup(all = TRUE)), 
-			 error = function(ex) 
-			 base::message('.Rprofile error: ', 
-						   base::conditionMessage(ex)))
-	}
+#	tryCatch(suppressWarnings(startup::startup(all = TRUE)), 
+#			 error = function(ex) 
+#			 base::message('.Rprofile error: ', 
+#						   base::conditionMessage(ex)))
+#	}
 
