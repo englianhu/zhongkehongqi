@@ -12,7 +12,7 @@ output:
       collapsed: yes
       smooth_scroll: yes
     code_folding: hide
-    css: CSSBackgrounds.css
+    css: 秦谏典范与楷模.css
 format: revealjs
 ---
 
