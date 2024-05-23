@@ -3,6 +3,13 @@
 	url = git@github.com:englianhu/cnum.git
 
 [submodule "礼逆袭应用仓库/红旗音乐/TongJi"]
-	path = TongJi
+	path = 礼逆袭应用仓库/红旗音乐/TongJi
 	url = git@github.com:englianhu/TongJi.git
 
+[submodule "礼逆袭应用仓库/xiaozhuan"]
+	path = 礼逆袭应用仓库/xiaozhuan
+	url = git@github.com:englianhu/xiaozhuan.git
+
+[submodule "礼逆袭应用仓库/pinyin-pro"]
+	path = 礼逆袭应用仓库/pinyin-pro
+	url = git@github.com:englianhu/pinyin-pro.git
