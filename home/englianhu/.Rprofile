@@ -1,8 +1,8 @@
 #source("renv/activate.R")
-##						Emacs编译器通过 -*- R -*-确保将达比安/德比安上的R语言软件
-## 中的 Rprofile.site 文件清空。
+## Emacs编译器通过R鄀计数/机数编程语言，确保将达比安/德比安上的R语言软件
+## 中的Rprofile.site文件清空。
 ##
-## 智慧产权与版权 © 2008年 - 2018年 迪克·埃德尔布鲁特 Dirk Eddelbuettel 和 GPL'ed
+## 智慧产权与版权 ©二零零八年至二零一八年 迪克·埃德尔布鲁特Dirk Eddelbuettel和GPL'ed
 ##
 ## 查阅 help(Startup) 汇总上奏至 ~/.Rprofile 与 Rprofile.site
 
@@ -16,7 +16,7 @@
 # .Last <- function()  cat("\n   Goodbye!\n\n")
 
 ## ======================== 微观编译器 =================================
-## Micro（微观编译器） - 新式终端编译器
+## Micro（微观编译器）新式终端编译器
 ## https://www.tecmint.com/micro-linuxtext-editor-with-syntax-highlighting/
 
 ## ======================= 蜀道设置 ====================================
@@ -73,16 +73,16 @@ Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python3',
   
   ## https://radiant-rstats.github.io/docs/install.html
   options(repos = c(
-    RStudio = 'https://cran.rstudio.com', 
-    CRAN = 'https://cloud.r-project.org', 
-    RSM = 'https://radiant-rstats.github.io/minicran', 
-    Omega = 'http://www.omegahat.net/R', 
-    CINC = 'https://cinc.rud.is', 
-    RForge = 'https://www.rforge.net', 
-    RSpatial = 'https://rspatial.r-universe.dev', 
-    Stan = 'https://mc-stan.org/r-packages', 
-    MSFT = 'http://cran.microsoft.com', 
-    ROpenSci = 'https://ropensci.r-universe.dev'))
+	  RStudio = 'https://cran.rstudio.com', 
+	  CRAN = 'https://cloud.r-project.org', 
+	  RSM = 'https://radiant-rstats.github.io/minicran', 
+	  Omega = 'http://www.omegahat.net/R', 
+	  CINC = 'https://cinc.rud.is', 
+	  RForge = 'https://www.rforge.net', 
+	  RSpatial = 'https://rspatial.r-universe.dev', 
+	  Stan = 'https://mc-stan.org/r-packages', 
+	  MSFT = 'http://cran.microsoft.com', 
+	  ROpenSci = 'https://ropensci.r-universe.dev'))
   ## https://www.cynkra.com/opensource
   # Cynkra = 'https://github.com/cynkra'
   #install.packages('remotes')
@@ -110,85 +110,100 @@ Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python3',
 
 suppressPackageStartupMessages(require('utils'))
 
-if(!suppressPackageStartupMessages(require('BBmisc'))) {
+if (!suppressPackageStartupMessages(require('BBmisc'))) {
   install.packages('BBmisc', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
 }; suppressPackageStartupMessages(require('BBmisc'))
 
-if(!suppressPackageStartupMessages(require('rmsfuns'))) {
-  install.packages('rmsfuns', dependencies = TRUE, 
-                   lib = .pth[1], INSTALL_opts = '--no-lock')
+if (!suppressPackageStartupMessages(require('rmsfuns'))) {
+   install.packages('rmsfuns', dependencies = TRUE, 
+                    lib = .pth[1], INSTALL_opts = '--no-lock')
 }; suppressPackageStartupMessages(require('rmsfuns'))
 
-if(!suppressPackageStartupMessages(require('drat'))) {
+if (!suppressPackageStartupMessages(require('drat'))) {
   install.packages('drat', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
 }; suppressPackageStartupMessages(require('drat'))
 
-if(!suppressPackageStartupMessages(require('devtools'))) {
+if (!suppressPackageStartupMessages(require('rstan'))) {
+  install.packages('rstan', repos = c(
+                   'https://mc-stan.org/r-packages', 
+                   dependencies = TRUE, lib = .pth[1], 
+                   INSTALL_opts = '--no-lock', 
+                   getOption('repos')))
+}; suppressPackageStartupMessages(require('rstan'))
+
+if (!suppressPackageStartupMessages(require('devtools'))) {
   install.packages('devtools', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
   devtools::install_github('r-lib/devtools')
 }; suppressPackageStartupMessages(require('devtools'))
-conflicted::conflicts_prefer('check', 'devtools', quiet = TRUE)
+conflicted::conflicts_prefer(devtools::check, .quiet = TRUE)
 
-if(!suppressPackageStartupMessages(require('Ipaper'))) {
+if (!suppressPackageStartupMessages(require('Ipaper'))) {
   devtools::install_github('kongdd/Ipaper')
   #devtools::install_git('https://gitee.com/adv-r/Ipaper')
   # or from gz file
   # install.packages('../Ipaper_0.1.5.9000.tar.gz', repos = NULL, type = 'source', dependencies = TRUE)
   # $sudo apt install -y libfftw3-dev
 }; suppressPackageStartupMessages(require('Ipaper'))
-conflicted::conflicts_prefer('ldply', 'plyr', quiet = TRUE)
+conflicted::conflicts_prefer(plyr::ldply, .quiet = TRUE)
 conflicted::conflicts_prefer(Ipaper::is_empty, .quiet = TRUE)
 
-if(!suppressPackageStartupMessages(require('miniCRAN'))) {
+if (!suppressPackageStartupMessages(require('miniCRAN'))) {
   ## https://andrie.github.io/miniCRAN/articles/miniCRAN-introduction.html
   devtools::install_github('andrie/miniCRAN')
 }; suppressPackageStartupMessages(require('miniCRAN'))
 
-if(!suppressPackageStartupMessages(require('rhub'))) {
+if (!suppressPackageStartupMessages(require('rhub'))) {
   ## https://github.com/r-hub/rhub
   remotes::install_github('r-hub/rhub')
 }; suppressPackageStartupMessages(require('rhub'))
 
-if(!suppressPackageStartupMessages(require('startup'))) {
+if (!require('runr')) devtools::install_github('yihui/runr')
+suppressPackageStartupMessages(require('runr'))
+
+if (!suppressPackageStartupMessages(require('startup'))) {
   ## https://github.com/HenrikBengtsson/startup
   remotes::install_github('HenrikBengtsson/startup', ref = 'develop')
 }; suppressPackageStartupMessages(require('startup'))
 
-if(!suppressPackageStartupMessages(require('Rdym'))) {
+if (!suppressPackageStartupMessages(require('Rdym'))) {
   devtools::install_github('wrathematics/Rdym')
 }; suppressPackageStartupMessages(require('Rdym'))
 
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
-if(!suppressPackageStartupMessages(require('rprofile'))) {
+if (!suppressPackageStartupMessages(require('rprofile'))) {
   remotes::install_github('csgillespie/rprofile')
 }; suppressPackageStartupMessages(require('rprofile'))
 
-if(!suppressPackageStartupMessages(require('prompt'))) {
+if (!suppressPackageStartupMessages(require('prompt'))) {
   # Used for nice prompts
   remotes::install_github('gaborcsardi/prompt')
 }; suppressPackageStartupMessages(require('prompt'))
 
-if(!suppressPackageStartupMessages(require('colorout'))) {
+if (!suppressPackageStartupMessages(require('colorout'))) {
   # Used for nice colours in the terminal; not for Windows
   remotes::install_github('jalvesaq/colorout')
 }; suppressPackageStartupMessages(require('colorout'))
 
-if(!suppressPackageStartupMessages(require('tidyverse'))) {
+if (!suppressPackageStartupMessages(require('tidyverse'))) {
   devtools::install_github('tidyverse/tidyverse')
 }; suppressPackageStartupMessages(require('tidyverse'))
 
-if(!suppressPackageStartupMessages(require('lubridate'))) {
+if (!suppressPackageStartupMessages(require('lubridate'))) {
   devtools::install_github('tidyverse/lubridate')
 }; suppressPackageStartupMessages(require('lubridate'))
 
-if(!suppressPackageStartupMessages(require('prettycode'))) {
+if (!suppressPackageStartupMessages(require('prettycode'))) {
   devtools::install_github('https://github.com/r-lib/prettycode')
 }; suppressPackageStartupMessages(require('prettycode'))
 
-if(!suppressPackageStartupMessages(require('openxlsx2'))) {
+if (!suppressPackageStartupMessages(require('rdoc'))) {
+  devtools::install_github("mdequeljoe/rdoc")
+}; suppressPackageStartupMessages(require('rdoc'))
+
+if (!suppressPackageStartupMessages(require('openxlsx2'))) {
   remotes::install_github('JanMarvin/openxlsx2')
 }; suppressPackageStartupMessages(require('openxlsx2'))
 
@@ -203,57 +218,60 @@ conflicted::conflicts_prefer(dplyr::select, .quiet = TRUE)
 conflicted::conflicts_prefer(base::print, .quiet = TRUE)
 conflicted::conflicts_prefer(base::load, .quiet = TRUE)
 
-秦人文房四宝 <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'git2r', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis', 'tidytuesdayR')
-suppressPackageStartupMessages(load_pkg(秦人文房四宝))
-rm(秦人文房四宝)
+文房四宝 <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'git2r', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis', 'tidytuesdayR')
+## suppressPackageStartupMessages(load_pkg(文房四宝))
+suppressAll(suppressPackageStartupMessages(lib(文房四宝)))
+rm(文房四宝)
 
 ## https://stackoverflow.com/a/17486231/3806250
 #.First()
-.First <- function() {
-  Rdym::RdymEnable()
-  #suppressPackageStartupMessages(startup::install(path = '/home/englianhu'))
-  #suppressPackageStartupMessages(startup::startup(all = TRUE))
-}
+# 
+# .First <- function() {
+  # Rdym::RdymEnable()
+  # suppressPackageStartupMessages(startup::install(path = '/home/englianhu'))
+  # suppressPackageStartupMessages(startup::startup(all = TRUE))
+# }
 
 ## =================== 有一个梦，由我启动 =======================
-# 电力线，显示系统读取速度均值和当前项目路径。
-# if (!require('rprofile')) {
-#	if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
-#	
+## 电力线，显示系统读取速度均值和当前项目路径。
+## if (!require('rprofile')) {
+## 	if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
+## 	
 	## https://www.jumpingrivers.com/blog/customising-your-rprofile/
-#	if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
+## 	if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
 		# 仅用于 Makefiles
-#		rprofile::create_make_functions()
-#		
+## 		rprofile::create_make_functions()
+## 		
 		# 启动设置
-#		rprofile::set_startup_options()
-#		
-		# 鄀文艺坊与终端设置
-#		if (rprofile::is_terminal()) {
-			# https://github.com/csgillespie/rprofile/blob/master/R/set-terminal.R
-#			rprofile::set_terminal()
-#		} else {
-#			rprofile::set_rstudio()
-#		}
-#		.env = rprofile::set_functions()
-#		suppressMessages(attach(.env))
+## 		rprofile::set_startup_options()
+## 		
+		# R文艺坊与终端设置
+## 		if (rprofile::is_terminal()) {
+ 			# https://github.com/csgillespie/rprofile/blob/master/R/set-terminal.R
+## 			rprofile::set_terminal()
+## 		} else {
+## 			rprofile::set_rstudio()
+## 		}
+## 		.env = rprofile::set_functions()
+## 		suppressMessages(attach(.env))
 		# 显示无线网络与R会话控制（终端互动）
 		# 仅用于礼逆袭
-#		suppressWarnings(rprofile::set_startup_info())
-#	}
-#	
+## 		suppressWarnings(rprofile::set_startup_info())
+## 	}
+## 	
 	# 启动R文艺坊时列印项目
-#	setHook('rstudio.sessionInit', function(newSession) {
-#		active_rproj = rprofile::get_active_rproj()
-#		if (!is.null(active_rproj)) {
-#			base::message(glue::glue("{crayon::yellow('R-project:')} {active_rproj}"))
-#		}
-#	}, action = 'append')
-#	
+## 	setHook('rstudio.sessionInit', function(newSession) {
+## 		active_rproj = rprofile::get_active_rproj()
+## 		if (!is.null(active_rproj)) {
+## 			base::message(glue::glue("{crayon::yellow('R-project:')} {active_rproj}"))
+## 		}
+## 	}, action = 'append')
+## 	
 	#rmsfuns::suppressPackageStartupMessages(.First())
-#	tryCatch(suppressWarnings(startup::startup(all = TRUE)), 
-#			 error = function(ex) 
-#			 base::message('.Rprofile error: ', 
-#						   base::conditionMessage(ex)))
-#	}
+## 	tryCatch(suppressWarnings(startup::startup(all = TRUE)), 
+## 			 error = function(ex) 
+## 			 base::message('.Rprofile error: ', 
+## 						   base::conditionMessage(ex)))
+## 	}
+
 
