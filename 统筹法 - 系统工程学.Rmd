@@ -632,8 +632,6 @@ if (!dir.exists(.蜀道仓库))  dir.create(.蜀道仓库)
 - **吕不韦**：改变天下学术尤其是高频量化对冲运筹学（包括复古中国算筹）、高频量化对冲、金融与务农中药中医杏林、娱乐圈（包括复古中国古代习俗文化宗教语言）、广告与产品代言；习俗文化宗教语言等世纪大革命，一劳永逸。
 - **李斯**：改变天下学术尤其是文学（文言文、古文、中国历史习俗文化宗教语言等），研发咱们中华秦国操作系统、电子仪器、科技软件、科技产品来取代天下所有西方电子产品与习俗文化宗教语言等；以电子仪器与操作系统记载并进化所有习俗文化宗教语言法律等世纪大革命并且直到一统天下，一劳永逸。
 
-- [春秋战国时期，各诸侯国是怎样实施变法的？](https://m.sohu.com/a/349003743_120248579/?pvid=000115_3w_a)
-- [战国七雄变法，为什么只有秦国笑到最后？](https://www.thepaper.cn/newsDetail_forward_26484209)
 - [从莫斯科公国，到沙俄再到俄罗斯帝国，俄国从东方掠走六百万万土地](https://view.inews.qq.com/k/20230418A03I6U00)
 - [解读](https://m.163.com/dy/article/HA2BAIEA05522ZFB.html)
 
@@ -858,6 +856,8 @@ faster than C/C++](https://www.cfd-online.com/Forums/main/10885-fortran-90-faste
 - [「沧浪」秦国变法背景的冷知识](https://www.bilibili.com/video/BV1wK411Y7Xi)
 - [哈佛教授谈中国古代商鞅变法，比某些中国人还要了解](https://www.bilibili.com/video/BV13441177ND)
 - **风水学之商鞅变法**：易经、算卜、天文历法、夜观星象（天文历法、孔明借东风）、风水学（地点与风水、统筹法、商鞅变法与咸阳城、过年放鞭炮与蕲年宫、垓下之战与四面楚歌、赤壁之战与孔明借东风、殡涓马陵之战、干支轮回与王翦圆万大军灭楚）。
+- [春秋战国时期，各诸侯国是怎样实施变法的？](https://m.sohu.com/a/349003743_120248579/?pvid=000115_3w_a)
+- [战国七雄变法，为什么只有秦国笑到最后？](https://www.thepaper.cn/newsDetail_forward_26484209)
 
 **天下回教诸藩的祖国沙地阿拉伯麦加**
 
@@ -1016,6 +1016,14 @@ faster than C/C++](https://www.cfd-online.com/Forums/main/10885-fortran-90-faste
 
 ### 兵家
 
+#### 秦统天下
+
+
+
+*出处：[「油管」]公元前三百卌年后，秦国经历了什么？(https://youtu.be/lPF4sYfXkUs)*
+
+
+
 #### 司马错
 
 - 愚生赢家黄氏江夏堂联富（二零零八年暨二零一二年在西施康工作时，经过[佳丽论坛跑龙套当业余演员，当时YY姐是中介负责人](https://c.cari.com.my/forum.php?mod=viewthread&tid=1061770&page=16#pid38938269)）以目前春秋战国（七大洲五大洋）天下局势，将司马错、白起和王剪列为秦国军事三杰，平夷攻赵灭楚。秦灭六洲，一统天下；莫忘初衷，方得始终。
@@ -1046,7 +1054,7 @@ faster than C/C++](https://www.cfd-online.com/Forums/main/10885-fortran-90-faste
     - [MIDAS：混频数据回归](https://www.lianxh.cn/news/8ab193e6f04cc.html)
     - 易经、算卜、天文历法、夜观星象（天文历法、孔明借东风）、风水学（地点与风水、统筹法、商鞅变法与咸阳城、过年放鞭炮与蕲年宫、垓下之战与四面楚歌、赤壁之战与孔明借东风、殡涓马陵之战、干支轮回与王翦圆万大军灭楚）。
 
-#### 赵云
+#### 赵云/赵子龙
 
 <iframe width="400" height="225" src="https://www.youtube.com/embed/5uysBWFXex8" title="《成都》趙雷（成都街景）分別總是在九月♫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -1069,7 +1077,7 @@ faster than C/C++](https://www.cfd-online.com/Forums/main/10885-fortran-90-faste
 
 #### 李牧
 
-#### 廖化
+#### 廖化/廖元俭
 
 **「明治维新论」民智Ming Tee国民华文小学五六年级两年的英文课廖顺莱教师[^20]，明朝名将史可法。**
 
@@ -1085,6 +1093,8 @@ _西施康吏部副总裁廖雷娜颁发**服务业入学培训营奖状**_
 
 - 中国四大名著中的「三国演义」乃蜀国陈寿著作。**廖化**本名淳，**字元俭**、孔明好友**徐庶，字元直**、东吴孙太祖孙权字仲谋、荆州牧刘表（字景升）、益州牧刘焉（字君郎）和公子刘璋（字季玉）、明太祖**朱元璋**本名重八（天干地支，辛亥革命）、崇祯朱由检。
 - 小学在民智国民华文学校修读时期，由于咱们民智国民华校学生的整体学术总分比不上附近的国民华校没有在县内名列三甲，然后陈仙凤女校长就特地请退休人士吴荣兴老师重返校园任教，精通与熟悉中国历史尤其是春秋战国与成语典故的吴荣兴中文老师教导过：“咱们马来西亚中央山脉叫大汉山，后汉三国时期有句名言叫「蜀中无大将，廖化作先锋。」”。
+
+#### 明智光秀
 
 ## 论文简介
 
