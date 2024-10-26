@@ -4,6 +4,7 @@ sudo apt install *scim* *gcin* *hime* *fcitx* *im*panel* -y
 
 ##授权修改输入法的皮肤文件夹「主题文件夹」内容包括子子孙孙文件夹。
 sudo chmod 777 -R /usr/share/fcitx-qimpanel/skin/
+sudo chmod 777 -R /usr/share/fcitx/skin/
 
 ##建立个红旗礼逆袭主题文件夹
 sudo mkdir /usr/share/fcitx-qimpanel/skin/红旗输入法
