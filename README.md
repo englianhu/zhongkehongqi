@@ -98,6 +98,7 @@ https://gitee.com/eglianhu
 - [码农家园](https://www.codenong.com)
 - [中文马克思主义文库](https://www.marxists.org/chinese/index.html)
 - [中文马克思主义文·库参考图书·左翼文化](https://www.marxists.org/chinese/reference-books/index-leftwingculture.htm)
+- [中國經濟史論罎 ](http://economy.guoxue.com/)
 - https://m.sohu.com/n/223923280
 - https://www.newera.edu.my/competition/hua_lo_geng/ch/passyear.php
 - https://m.sgss8.net/tpdq/33842394
