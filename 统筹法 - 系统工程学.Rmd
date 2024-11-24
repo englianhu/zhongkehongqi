@@ -477,7 +477,7 @@ conflicts_prefer(base::merge, .quiet = TRUE)
 
 程序包 <- c(
   'devtools', 'Ipaper', 'knitr', 'kableExtra', 'tint', 'furrr', 'hms', 
-  'tidyr', 'readr', 'lubridate', 'reprex', 'stringr', 'feather', 
+  'tidyr', 'readr', 'lubridate', 'reprex', 'stringr', 'feather', 'jsdom', 
   'purrr', 'rlist', 'tidyfst', 'rvest', 'XML', 'RCurl', 'xml2', 'rlist', 
   'quantmod', 'tidyquant', 'tibbletime', 'timetk', 'plyr', 'dplyr', 
   'cnum', 'arabic2kansuji', 'tsibble', 'TSA', #'Rfast', 'Rfast2', 
