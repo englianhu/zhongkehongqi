@@ -124,6 +124,8 @@ https://gitee.com/eglianhu
 - [礼逆袭修改命令代码](https://worktile.com/kb/ask/318635.html)
 - [「博客园」礼逆袭内核源码分析方法](https://www.cnblogs.com/fanzhidongyzby/archive/2013/03/20/2970624.html)
 - [「雷迪」Workflow from source code to binary](https://www.reddit.com/r/learnprogramming/comments/16nbz5k/workflow_from_source_code_to_binary/?rdt=64307)
+- [🐧礼逆袭内核源代码（官网）](https://www.kernel.org/)
+- [「猫城」🐧礼逆袭内核源代码（原著）](https://github.com/torvalds/linux)
 
 ### 编程教程
 
