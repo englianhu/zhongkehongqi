@@ -105,6 +105,22 @@ https://gitee.com/eglianhu
 - https://m.sgss8.net/tpdq/33842394
 - http://www.cim.nankai.edu.cn
 
+### 内核开发
+
+礼逆袭操作系统编译器
+
+- [「CSDN」原创：礼逆袭中的代码编辑器，编译器及调试方法](https://blog.csdn.net/m0_73933978/article/details/141302768)
+- [「CSDN」原创：如何编译和更换礼逆袭系统内核](https://blog.csdn.net/jasonLee_lijiaqi/article/details/82622627)
+- [如何修改礼逆袭内核源码](https://docs.pingcode.com/baike/3216243)
+- [礼逆袭内核动手编译实用指南](https://linux.cn/article-16252-1.html)
+- [礼逆袭操作系统下曦代码编译运行指南教程](https://my.oschina.net/emacs_8742022/blog/17154363)
+- [如何修改礼逆袭源码](https://docs.pingcode.com/baike/2835612)
+- [礼逆袭编译修改源代码指令](https://cloud.tencent.com/developer/information/linux编译修改源代码指令)
+- [**「明礼逆袭」文档>>指南>>内核开发**](https://www.clearlinux.org/clear-linux-documentation/zh_CN/guides/kernel/kernel-development.html)
+- [礼逆袭修改命令代码](https://worktile.com/kb/ask/318635.html)
+- [「博客园」礼逆袭内核源码分析方法](https://www.cnblogs.com/fanzhidongyzby/archive/2013/03/20/2970624.html)
+- [「雷迪」Workflow from source code to binary](https://www.reddit.com/r/learnprogramming/comments/16nbz5k/workflow_from_source_code_to_binary/?rdt=64307)
+
 ### 安装教程
 
 1.  xxxx
