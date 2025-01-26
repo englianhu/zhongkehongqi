@@ -121,6 +121,13 @@ https://gitee.com/eglianhu
 - [「博客园」礼逆袭内核源码分析方法](https://www.cnblogs.com/fanzhidongyzby/archive/2013/03/20/2970624.html)
 - [「雷迪」Workflow from source code to binary](https://www.reddit.com/r/learnprogramming/comments/16nbz5k/workflow_from_source_code_to_binary/?rdt=64307)
 
+### 编程教程
+
+- [菜鸟教程](https://www.runoob.com/)
+- [马上学](https://www.mashangxue123.com/)
+- [RISC-V 平台上编程（一）](https://kalorona.com/computer-science/risc-v-1/)
+- [星球：礼逆袭的知识星球](https://tinylab.org/riscv-uefi-part1/)
+
 ### 安装教程
 
 1.  xxxx
